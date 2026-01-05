@@ -9,11 +9,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.messinaround.block.LooseDirtSlabBlock;
-import net.mcreator.messinaround.block.LooseDirtBlockBlock;
-import net.mcreator.messinaround.block.GeneratorBlock;
-import net.mcreator.messinaround.block.AxlePoweredBlock;
-import net.mcreator.messinaround.block.AxleBlock;
+import net.mcreator.messinaround.block.*;
 import net.mcreator.messinaround.MessinaroundMod;
 
 import java.util.function.Function;
@@ -25,12 +21,26 @@ public class MessinaroundModBlocks {
 	public static final DeferredBlock<Block> AXLE;
 	public static final DeferredBlock<Block> AXLE_POWERED;
 	public static final DeferredBlock<Block> GENERATOR;
+	public static final DeferredBlock<Block> BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> BREAKING_STAGE_3;
+	public static final DeferredBlock<Block> BREAKING_STAGE_4;
+	public static final DeferredBlock<Block> BREAKING_STAGE_5;
+	public static final DeferredBlock<Block> BREAKING_STAGE_6;
+	public static final DeferredBlock<Block> BREAKING_STAGE_7;
 	static {
 		LOOSE_DIRT_SLAB = register("loose_dirt_slab", LooseDirtSlabBlock::new);
 		LOOSE_DIRT_BLOCK = register("loose_dirt_block", LooseDirtBlockBlock::new);
 		AXLE = register("axle", AxleBlock::new);
 		AXLE_POWERED = register("axle_powered", AxlePoweredBlock::new);
 		GENERATOR = register("generator", GeneratorBlock::new);
+		BREAKING_STAGE_1 = register("breaking_stage_1", BreakingStage1Block::new);
+		BREAKING_STAGE_2 = register("breaking_stage_2", BreakingStage2Block::new);
+		BREAKING_STAGE_3 = register("breaking_stage_3", BreakingStage3Block::new);
+		BREAKING_STAGE_4 = register("breaking_stage_4", BreakingStage4Block::new);
+		BREAKING_STAGE_5 = register("breaking_stage_5", BreakingStage5Block::new);
+		BREAKING_STAGE_6 = register("breaking_stage_6", BreakingStage6Block::new);
+		BREAKING_STAGE_7 = register("breaking_stage_7", BreakingStage7Block::new);
 	}
 
 	// Start of user code block custom blocks

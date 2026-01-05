@@ -30,6 +30,14 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> BONE_KNIFE;
 	public static final DeferredItem<Item> AXLE_POWERED;
 	public static final DeferredItem<Item> GENERATOR;
+	public static final DeferredItem<Item> BREAKING_STAGE_1;
+	public static final DeferredItem<Item> BREAKING_STAGE_2;
+	public static final DeferredItem<Item> BREAKING_STAGE_3;
+	public static final DeferredItem<Item> BREAKING_STAGE_4;
+	public static final DeferredItem<Item> BREAKING_STAGE_5;
+	public static final DeferredItem<Item> BREAKING_STAGE_6;
+	public static final DeferredItem<Item> BREAKING_STAGE_7;
+	public static final DeferredItem<Item> GRASS_FABRIC;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -43,6 +51,14 @@ public class MessinaroundModItems {
 		BONE_KNIFE = register("bone_knife", BoneKnifeItem::new);
 		AXLE_POWERED = block(MessinaroundModBlocks.AXLE_POWERED, new Item.Properties().stacksTo(16));
 		GENERATOR = block(MessinaroundModBlocks.GENERATOR);
+		BREAKING_STAGE_1 = block(MessinaroundModBlocks.BREAKING_STAGE_1);
+		BREAKING_STAGE_2 = block(MessinaroundModBlocks.BREAKING_STAGE_2);
+		BREAKING_STAGE_3 = block(MessinaroundModBlocks.BREAKING_STAGE_3);
+		BREAKING_STAGE_4 = block(MessinaroundModBlocks.BREAKING_STAGE_4);
+		BREAKING_STAGE_5 = block(MessinaroundModBlocks.BREAKING_STAGE_5);
+		BREAKING_STAGE_6 = block(MessinaroundModBlocks.BREAKING_STAGE_6);
+		BREAKING_STAGE_7 = block(MessinaroundModBlocks.BREAKING_STAGE_7);
+		GRASS_FABRIC = register("grass_fabric", GrassFabricItem::new);
 	}
 
 	// Start of user code block custom items

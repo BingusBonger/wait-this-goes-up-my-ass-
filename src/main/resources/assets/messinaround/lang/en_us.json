@@ -14,5 +14,17 @@
   "item.messinaround.pointy_stick": "Pointy Stick",
   "item.messinaround.bone_knife": "Bone Knife",
   "item.messinaround.axle_powered": "Axle Powered",
-  "item.messinaround.generator": "Generator"
+  "item.messinaround.generator": "Generator",
+  "item.messinaround.breaking_stage_1": "Breaking Stage 1",
+  "item.messinaround.breaking_stage_2": "Breaking Stage 1",
+  "item.messinaround.breaking_stage_3": "Breaking Stage 1",
+  "item.messinaround.breaking_stage_4": "Breaking Stage 1",
+  "item.messinaround.breaking_stage_5": "Breaking Stage 1",
+  "item.messinaround.breaking_stage_6": "Breaking Stage 1",
+  "item.messinaround.breaking_stage_7": "Breaking Stage 1",
+  "advancements.what_the_hellyante_is_this.descr": "exsist",
+  "advancements.what_the_hellyante_is_this.title": "What The Hellyante Is This",
+  "advancements.here_we_go_again.title": "Ahh S@#!",
+  "advancements.here_we_go_again.descr": "Here we go Again",
+  "item.messinaround.grass_fabric": "Grass Fabric"
 }

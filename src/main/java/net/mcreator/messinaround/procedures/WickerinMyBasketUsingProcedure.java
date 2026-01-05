@@ -1,13 +1,14 @@
 package net.mcreator.messinaround.procedures;
 
 import net.minecraft.world.item.component.CustomData;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.core.component.DataComponents;
+
+import net.mcreator.messinaround.init.MessinaroundModItems;
 
 public class WickerinMyBasketUsingProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
@@ -26,7 +27,7 @@ public class WickerinMyBasketUsingProcedure {
 			if (itemstack.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr("used", false)) {
 				if (itemstack.getDamageValue() <= 1) {
 					if (entity instanceof LivingEntity _entity) {
-						ItemStack _setstack17 = new ItemStack(Items.STICK).copy();
+						ItemStack _setstack17 = new ItemStack(MessinaroundModItems.GRASS_FABRIC.get()).copy();
 						_setstack17.setCount(1);
 						_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack17);
 						if (_entity instanceof Player _player)

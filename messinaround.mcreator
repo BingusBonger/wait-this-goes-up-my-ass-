@@ -565,6 +565,163 @@
           "src/main/java/net/mcreator/messinaround/procedures/GeneratorBlockDestroyedByPlayerProcedure.java"
         ]
       }
+    },
+    {
+      "name": "BreakingStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaking_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage1Block.java"
+        ]
+      }
+    },
+    {
+      "name": "BreakingStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaking_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage2Block.java",
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/breaking_stage_2.json"
+        ]
+      }
+    },
+    {
+      "name": "BreakingStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaking_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage3Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/items/breaking_stage_3.json"
+        ]
+      }
+    },
+    {
+      "name": "BreakingStage4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaking_stage_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage4Block.java",
+          "src/main/resources/assets/messinaround/items/breaking_stage_4.json",
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_4.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_4.json",
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_4.json",
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_4.json"
+        ]
+      }
+    },
+    {
+      "name": "BreakingStage5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaking_stage_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_5.json",
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_5.json",
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage5Block.java",
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_5.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_5.json",
+          "src/main/resources/assets/messinaround/items/breaking_stage_5.json"
+        ]
+      }
+    },
+    {
+      "name": "BreakingStage6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaking_stage_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_6.json",
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_6.json",
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_6.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_6.json",
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage6Block.java",
+          "src/main/resources/assets/messinaround/items/breaking_stage_6.json"
+        ]
+      }
+    },
+    {
+      "name": "BreakingStage7",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaking_stage_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage7Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_7.json",
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_7.json",
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_7.json",
+          "src/main/resources/assets/messinaround/items/breaking_stage_7.json",
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_7.json"
+        ]
+      }
+    },
+    {
+      "name": "WhatTheHellyanteIsThis",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what_the_hellyante_is_this",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/what_the_hellyante_is_this.json"
+        ]
+      }
+    },
+    {
+      "name": "HereWeGoAgain",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "here_we_go_again",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/here_we_go_again.json"
+        ]
+      }
+    },
+    {
+      "name": "GrassFabric",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_fabric",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/GrassFabricItem.java",
+          "src/main/resources/assets/messinaround/items/grass_fabric.json",
+          "src/main/resources/assets/messinaround/models/item/grass_fabric.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -629,19 +786,31 @@
       "item.messinaround.pointy_stick": "Pointy Stick",
       "item.messinaround.bone_knife": "Bone Knife",
       "item.messinaround.axle_powered": "Axle Powered",
-      "item.messinaround.generator": "Generator"
+      "item.messinaround.generator": "Generator",
+      "item.messinaround.breaking_stage_1": "Breaking Stage 1",
+      "item.messinaround.breaking_stage_2": "Breaking Stage 1",
+      "item.messinaround.breaking_stage_3": "Breaking Stage 1",
+      "item.messinaround.breaking_stage_4": "Breaking Stage 1",
+      "item.messinaround.breaking_stage_5": "Breaking Stage 1",
+      "item.messinaround.breaking_stage_6": "Breaking Stage 1",
+      "item.messinaround.breaking_stage_7": "Breaking Stage 1",
+      "advancements.what_the_hellyante_is_this.descr": "exsist",
+      "advancements.what_the_hellyante_is_this.title": "What The Hellyante Is This",
+      "advancements.here_we_go_again.title": "Ahh S@#!",
+      "advancements.here_we_go_again.descr": "Here we go Again",
+      "item.messinaround.grass_fabric": "Grass Fabric"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
     ]
   },
   "foldersRoot": {

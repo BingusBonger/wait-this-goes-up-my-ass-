@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "messinaround:dirt_pile"
+    },
+    "title": {
+      "translate": "advancements.what_the_hellyante_is_this.title"
+    },
+    "description": {
+      "translate": "advancements.what_the_hellyante_is_this.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "what_the_hellyante_is_this_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "minecraft:story/root"
+}
