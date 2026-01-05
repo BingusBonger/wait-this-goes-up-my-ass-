@@ -94,5 +94,26 @@ public class PlayerDebuffsProcedure {
 				_entity.getAttribute(Attributes.BLOCK_BREAK_SPEED).removeModifier(ResourceLocation.parse("messinaround:superhunger_debuff_mine"));
 			}
 		}
+		if (hungerDebuffed) {
+			if (entity instanceof LivingEntity _entity) {
+				AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("messinaround:hunger_debuff_reach_block"), (-0.2), AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL);
+				if (!_entity.getAttribute(Attributes.BLOCK_INTERACTION_RANGE).hasModifier(modifier.id())) {
+					_entity.getAttribute(Attributes.BLOCK_INTERACTION_RANGE).addPermanentModifier(modifier);
+				}
+			}
+			if (entity instanceof LivingEntity _entity) {
+				AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("messinaround:hunger_debuff_reach_entity"), (-0.2), AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL);
+				if (!_entity.getAttribute(Attributes.ENTITY_INTERACTION_RANGE).hasModifier(modifier.id())) {
+					_entity.getAttribute(Attributes.ENTITY_INTERACTION_RANGE).addPermanentModifier(modifier);
+				}
+			}
+		} else {
+			if (entity instanceof LivingEntity _entity) {
+				_entity.getAttribute(Attributes.BLOCK_INTERACTION_RANGE).removeModifier(ResourceLocation.parse("messinaround:hunger_debuff_reach_block"));
+			}
+			if (entity instanceof LivingEntity _entity) {
+				_entity.getAttribute(Attributes.ENTITY_INTERACTION_RANGE).removeModifier(ResourceLocation.parse("messinaround:hunger_debuff_reach_entity"));
+			}
+		}
 	}
 }

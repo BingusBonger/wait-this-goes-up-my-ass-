@@ -882,6 +882,40 @@
           "src/main/resources/assets/messinaround/models/item/cherry_bark.json"
         ]
       }
+    },
+    {
+      "name": "BoneKnifeChiseling",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_knife_chiseling",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/BoneKnifeChiselingProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -961,6 +995,16 @@
       "CUSTOM:AcaciaBark",
       "CUSTOM:BirchBark",
       "CUSTOM:CherryBark"
+    ],
+    "BLOCKS:mod:chiselsurfaces": [
+      "Blocks.STONE#0",
+      "Blocks.STONE#1",
+      "Blocks.STONE#3",
+      "Blocks.STONE#5",
+      "Blocks.DRIPSTONE_BLOCK",
+      "Blocks.COBBLESTONE",
+      "Blocks.SANDSTONE#0",
+      "Blocks.RED_SANDSTONE#0"
     ]
   },
   "tab_element_order": {},
