@@ -135,6 +135,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "GeneratorBlockDestroyedByPlayer"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

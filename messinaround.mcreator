@@ -287,9 +287,9 @@
       "registry_name": "wickerin_my_basket",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/wickerin_my_basket.json",
+          "src/main/java/net/mcreator/messinaround/item/WickerinMyBasketItem.java",
           "src/main/resources/assets/messinaround/items/wickerin_my_basket.json",
-          "src/main/java/net/mcreator/messinaround/item/WickerinMyBasketItem.java"
+          "src/main/resources/assets/messinaround/models/item/wickerin_my_basket.json"
         ]
       }
     },
@@ -533,6 +533,36 @@
         ],
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/AxleNeighbourBlockChangesProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GeneratorBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generator_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/GeneratorBlockDestroyedByPlayerProcedure.java"
         ]
       }
     }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "messinaround:item/gaydon_sword"
+    "layer0": "messinaround:item/weaving_bundle"
   }
 }
