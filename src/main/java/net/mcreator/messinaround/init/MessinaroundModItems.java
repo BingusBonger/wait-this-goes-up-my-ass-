@@ -11,11 +11,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.messinaround.item.WickerinMyBasketItem;
-import net.mcreator.messinaround.item.SharpRockItem;
-import net.mcreator.messinaround.item.RockItem;
-import net.mcreator.messinaround.item.PileOfRocksItem;
-import net.mcreator.messinaround.item.DirtPileItem;
+import net.mcreator.messinaround.item.*;
 import net.mcreator.messinaround.MessinaroundMod;
 
 import java.util.function.Function;
@@ -30,6 +26,8 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> ROCK;
 	public static final DeferredItem<Item> PILE_OF_ROCKS;
 	public static final DeferredItem<Item> WICKERIN_MY_BASKET;
+	public static final DeferredItem<Item> BONE_KNIFE;
+	public static final DeferredItem<Item> POINTY_STICK;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -39,6 +37,8 @@ public class MessinaroundModItems {
 		ROCK = register("rock", RockItem::new);
 		PILE_OF_ROCKS = register("pile_of_rocks", PileOfRocksItem::new);
 		WICKERIN_MY_BASKET = register("wickerin_my_basket", WickerinMyBasketItem::new);
+		BONE_KNIFE = register("bone_knife", BoneKnifeItem::new);
+		POINTY_STICK = register("pointy_stick", PointyStickItem::new);
 	}
 
 	// Start of user code block custom items
