@@ -23,14 +23,14 @@ public class MessinaroundModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> JUS_MESSIN_AROUND_TAB = REGISTRY.register("jus_messin_around_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.messinaround.jus_messin_around_tab")).icon(() -> new ItemStack(MessinaroundModItems.ROCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MessinaroundModItems.WICKERIN_MY_BASKET.get());
+				tabData.accept(MessinaroundModItems.POINTY_STICK.get());
+				tabData.accept(MessinaroundModItems.BONE_KNIFE.get());
 			}).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(MessinaroundModItems.SHARP_ROCK.get());
-			tabData.accept(MessinaroundModItems.POINTY_STICK.get());
-			tabData.accept(MessinaroundModItems.BONE_KNIFE.get());
 		}
 	}
 }

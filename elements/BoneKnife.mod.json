@@ -15,7 +15,7 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:JusMessinAroundTab"
       }
     ],
     "efficiency": 0.0,
@@ -31,6 +31,9 @@
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": true,
-    "damageOnCrafting": true
+    "damageOnCrafting": true,
+    "onCrafted": {
+      "name": "PrimToolsCrafted"
+    }
   }
 }

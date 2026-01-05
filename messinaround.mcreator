@@ -389,6 +389,36 @@
           "src/main/resources/data/messinaround/advancement/recipes/stick_to_pointy_stick.json"
         ]
       }
+    },
+    {
+      "name": "PrimToolsCrafted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prim_tools_crafted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/PrimToolsCraftedProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
