@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "messinaround:blocks/bonger",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "messinaround:bonger"
+        }
+      ]
+    }
+  ]
+}
