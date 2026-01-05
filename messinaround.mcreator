@@ -204,8 +204,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/models/item/rock.json",
-          "src/main/java/net/mcreator/messinaround/item/RockItem.java",
-          "src/main/resources/assets/messinaround/items/rock.json"
+          "src/main/resources/assets/messinaround/items/rock.json",
+          "src/main/java/net/mcreator/messinaround/item/RockItem.java"
         ]
       }
     },
@@ -357,8 +357,8 @@
       "registry_name": "pointy_stick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/pointy_stick.json",
           "src/main/resources/assets/messinaround/items/pointy_stick.json",
+          "src/main/resources/assets/messinaround/models/item/pointy_stick.json",
           "src/main/java/net/mcreator/messinaround/item/PointyStickItem.java"
         ]
       }
@@ -371,8 +371,8 @@
       "registry_name": "bone_knife",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/BoneKnifeItem.java",
           "src/main/resources/assets/messinaround/models/item/bone_knife.json",
+          "src/main/java/net/mcreator/messinaround/item/BoneKnifeItem.java",
           "src/main/resources/assets/messinaround/items/bone_knife.json"
         ]
       }
@@ -504,12 +504,12 @@
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
