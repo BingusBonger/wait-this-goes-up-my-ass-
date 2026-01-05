@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "messinaround:oak_bark",
+    "messinaround:pale_oak_bark",
+    "messinaround:birch_bark",
+    "messinaround:jungle_bark",
+    "messinaround:cherry_bark",
+    "messinaround:spruce_bark",
+    "messinaround:dark_oak_bark",
+    "messinaround:acacia_bark",
+    "messinaround:mangrove_bark"
+  ]
+}

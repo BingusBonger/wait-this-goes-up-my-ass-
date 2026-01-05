@@ -950,6 +950,17 @@
     "ITEMS:mod:can_chip_stone": [
       "CUSTOM:SharpRock",
       "CUSTOM:PointyStick"
+    ],
+    "ITEMS:mod:bark": [
+      "CUSTOM:OakBark",
+      "CUSTOM:SpruceBark",
+      "CUSTOM:DarkOakBark",
+      "CUSTOM:MangroveBark",
+      "CUSTOM:JungleBark",
+      "CUSTOM:PaleOakBark",
+      "CUSTOM:AcaciaBark",
+      "CUSTOM:BirchBark",
+      "CUSTOM:CherryBark"
     ]
   },
   "tab_element_order": {},
