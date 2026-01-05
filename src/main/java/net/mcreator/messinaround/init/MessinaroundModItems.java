@@ -28,6 +28,8 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> WICKERIN_MY_BASKET;
 	public static final DeferredItem<Item> POINTY_STICK;
 	public static final DeferredItem<Item> BONE_KNIFE;
+	public static final DeferredItem<Item> AXLE_POWERED;
+	public static final DeferredItem<Item> GENERATOR;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -39,6 +41,8 @@ public class MessinaroundModItems {
 		WICKERIN_MY_BASKET = register("wickerin_my_basket", WickerinMyBasketItem::new);
 		POINTY_STICK = register("pointy_stick", PointyStickItem::new);
 		BONE_KNIFE = register("bone_knife", BoneKnifeItem::new);
+		AXLE_POWERED = block(MessinaroundModBlocks.AXLE_POWERED, new Item.Properties().stacksTo(16));
+		GENERATOR = block(MessinaroundModBlocks.GENERATOR);
 	}
 
 	// Start of user code block custom items

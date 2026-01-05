@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "messinaround:block/axle_powered",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "messinaround:block/axle_powered"
+    },
+    "axis=z": {
+      "model": "messinaround:block/axle_powered",
+      "x": 90
+    }
+  }
+}

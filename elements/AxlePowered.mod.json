@@ -2,14 +2,14 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "shaft",
+    "texture": "axle",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "shaft:default",
+    "customModelName": "shaft_on:default",
     "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -38,14 +38,8 @@
         "subtract": false
       }
     ],
-    "customProperties": [
-      {
-        "name": "POWERED",
-        "type": "logic",
-        "value": false
-      }
-    ],
-    "name": "Axle",
+    "customProperties": [],
+    "name": "Axle Powered",
     "specialInformation": {
       "fixedValue": []
     },
@@ -54,7 +48,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
-    "maxStackSize": 64,
+    "maxStackSize": 16,
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [],
@@ -88,14 +82,14 @@
     "strippingResult": {
       "value": ""
     },
-    "ignitedByLava": false,
-    "flammability": 0,
+    "ignitedByLava": true,
+    "flammability": 4,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
@@ -141,9 +135,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": {
-      "name": "AxleNeighbourBlockChanges"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

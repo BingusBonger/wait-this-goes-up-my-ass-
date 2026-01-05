@@ -11,6 +11,8 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.messinaround.block.LooseDirtSlabBlock;
 import net.mcreator.messinaround.block.LooseDirtBlockBlock;
+import net.mcreator.messinaround.block.GeneratorBlock;
+import net.mcreator.messinaround.block.AxlePoweredBlock;
 import net.mcreator.messinaround.block.AxleBlock;
 import net.mcreator.messinaround.MessinaroundMod;
 
@@ -21,10 +23,14 @@ public class MessinaroundModBlocks {
 	public static final DeferredBlock<Block> LOOSE_DIRT_SLAB;
 	public static final DeferredBlock<Block> LOOSE_DIRT_BLOCK;
 	public static final DeferredBlock<Block> AXLE;
+	public static final DeferredBlock<Block> AXLE_POWERED;
+	public static final DeferredBlock<Block> GENERATOR;
 	static {
 		LOOSE_DIRT_SLAB = register("loose_dirt_slab", LooseDirtSlabBlock::new);
 		LOOSE_DIRT_BLOCK = register("loose_dirt_block", LooseDirtBlockBlock::new);
 		AXLE = register("axle", AxleBlock::new);
+		AXLE_POWERED = register("axle_powered", AxlePoweredBlock::new);
+		GENERATOR = register("generator", GeneratorBlock::new);
 	}
 
 	// Start of user code block custom blocks

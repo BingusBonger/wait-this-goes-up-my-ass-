@@ -120,12 +120,12 @@
       "registry_name": "axle",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/models/item/axle.json",
           "src/main/resources/data/messinaround/loot_table/blocks/axle.json",
           "src/main/resources/assets/messinaround/items/axle.json",
-          "src/main/resources/assets/messinaround/blockstates/axle.json",
           "src/main/resources/assets/messinaround/models/block/axle.json",
-          "src/main/resources/assets/messinaround/models/item/axle.json",
-          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java"
+          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java",
+          "src/main/resources/assets/messinaround/blockstates/axle.json"
         ]
       }
     },
@@ -437,6 +437,104 @@
           "src/main/java/net/mcreator/messinaround/procedures/MineSlowerProcedure.java"
         ]
       }
+    },
+    {
+      "name": "AxlePowered",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axle_powered",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/AxlePoweredBlock.java",
+          "src/main/resources/assets/messinaround/models/block/axle_powered.json",
+          "src/main/resources/assets/messinaround/models/item/axle_powered.json",
+          "src/main/resources/assets/messinaround/blockstates/axle_powered.json",
+          "src/main/resources/assets/messinaround/items/axle_powered.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/axle_powered.json"
+        ]
+      }
+    },
+    {
+      "name": "Generator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/generator.json",
+          "src/main/resources/assets/messinaround/items/generator.json",
+          "src/main/resources/assets/messinaround/blockstates/generator.json",
+          "src/main/resources/assets/messinaround/models/item/generator.json",
+          "src/main/resources/assets/messinaround/models/block/generator.json",
+          "src/main/java/net/mcreator/messinaround/block/GeneratorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AxlePowerCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axle_power_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "placedagainst",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/AxlePowerCheckProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AxleNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axle_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/AxleNeighbourBlockChangesProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -447,6 +545,8 @@
       "~CUSTOM:LooseDirtSlab"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Generator",
+      "~CUSTOM:AxlePowered",
       "~CUSTOM:Axle"
     ],
     "ITEMS:minecraft:pickaxes": [
@@ -497,19 +597,21 @@
       "item_group.messinaround.jus_messin_around_tab": "Jus Messin Around Tab",
       "item.messinaround.wickerin_my_basket": "Wickerin My Basket",
       "item.messinaround.pointy_stick": "Pointy Stick",
-      "item.messinaround.bone_knife": "Bone Knife"
+      "item.messinaround.bone_knife": "Bone Knife",
+      "item.messinaround.axle_powered": "Axle Powered",
+      "item.messinaround.generator": "Generator"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
     ]
   },
   "foldersRoot": {

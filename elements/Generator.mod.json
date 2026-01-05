@@ -2,15 +2,15 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "shaft",
+    "texture": "minecraft:barrel_top_open",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "shaft:default",
-    "rotationMode": 5,
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -23,29 +23,23 @@
     },
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 6.0,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 6.0,
-        "Mx": 10.0,
+        "mz": 0.0,
+        "Mx": 16.0,
         "My": 16.0,
-        "Mz": 10.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
-    "customProperties": [
-      {
-        "name": "POWERED",
-        "type": "logic",
-        "value": false
-      }
-    ],
-    "name": "Axle",
+    "customProperties": [],
+    "name": "Generator",
     "specialInformation": {
       "fixedValue": []
     },
@@ -69,8 +63,8 @@
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "canRedstoneConnect": true,
+    "lightOpacity": 15,
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
@@ -88,18 +82,18 @@
     "strippingResult": {
       "value": ""
     },
-    "ignitedByLava": false,
-    "flammability": 0,
+    "ignitedByLava": true,
+    "flammability": 4,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "LADDER"
     },
     "breakSound": {
       "value": ""
@@ -141,9 +135,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": {
-      "name": "AxleNeighbourBlockChanges"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

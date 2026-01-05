@@ -1,0 +1,9 @@
+{
+  "parent": "messinaround:custom/shaft_on",
+  "textures": {
+    "all": "messinaround:block/axle",
+    "particle": "messinaround:block/axle",
+    "0": "messinaround:block/axle"
+  },
+  "render_type": "solid"
+}
