@@ -421,11 +421,11 @@
       }
     },
     {
-      "name": "MineSlower",
+      "name": "PlayerDebuffs",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mine_slower",
+      "registry_name": "player_debuffs",
       "metadata": {
         "dependencies": [
           {
@@ -434,7 +434,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/messinaround/procedures/MineSlowerProcedure.java"
+          "src/main/java/net/mcreator/messinaround/procedures/PlayerDebuffsProcedure.java"
         ]
       }
     },
