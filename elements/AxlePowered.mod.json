@@ -51,7 +51,11 @@
     "maxStackSize": 16,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:JusMessinAroundTab"
+      }
+    ],
     "destroyTool": "axe",
     "customDrop": {
       "value": ""

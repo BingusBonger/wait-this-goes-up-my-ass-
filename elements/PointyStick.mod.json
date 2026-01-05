@@ -32,6 +32,27 @@
     "blocksAffected": [
       {
         "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "CUSTOM:BreakingStage1"
+      },
+      {
+        "value": "CUSTOM:BreakingStage2"
+      },
+      {
+        "value": "CUSTOM:BreakingStage3"
+      },
+      {
+        "value": "CUSTOM:BreakingStage4"
+      },
+      {
+        "value": "CUSTOM:BreakingStage5"
+      },
+      {
+        "value": "CUSTOM:BreakingStage6"
+      },
+      {
+        "value": "CUSTOM:BreakingStage7"
       }
     ],
     "stayInGridWhenCrafting": false,

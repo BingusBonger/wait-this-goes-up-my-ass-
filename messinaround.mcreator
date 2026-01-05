@@ -120,12 +120,12 @@
       "registry_name": "axle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/axle.json",
           "src/main/resources/data/messinaround/loot_table/blocks/axle.json",
           "src/main/resources/assets/messinaround/items/axle.json",
+          "src/main/resources/assets/messinaround/blockstates/axle.json",
           "src/main/resources/assets/messinaround/models/block/axle.json",
-          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java",
-          "src/main/resources/assets/messinaround/blockstates/axle.json"
+          "src/main/resources/assets/messinaround/models/item/axle.json",
+          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java"
         ]
       }
     },
@@ -287,9 +287,9 @@
       "registry_name": "wickerin_my_basket",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/WickerinMyBasketItem.java",
+          "src/main/resources/assets/messinaround/models/item/wickerin_my_basket.json",
           "src/main/resources/assets/messinaround/items/wickerin_my_basket.json",
-          "src/main/resources/assets/messinaround/models/item/wickerin_my_basket.json"
+          "src/main/java/net/mcreator/messinaround/item/WickerinMyBasketItem.java"
         ]
       }
     },
@@ -446,12 +446,12 @@
       "registry_name": "axle_powered",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/AxlePoweredBlock.java",
-          "src/main/resources/assets/messinaround/models/block/axle_powered.json",
-          "src/main/resources/assets/messinaround/models/item/axle_powered.json",
           "src/main/resources/assets/messinaround/blockstates/axle_powered.json",
+          "src/main/java/net/mcreator/messinaround/block/AxlePoweredBlock.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/axle_powered.json",
           "src/main/resources/assets/messinaround/items/axle_powered.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/axle_powered.json"
+          "src/main/resources/assets/messinaround/models/block/axle_powered.json",
+          "src/main/resources/assets/messinaround/models/item/axle_powered.json"
         ]
       }
     },
@@ -466,8 +466,8 @@
           "src/main/resources/data/messinaround/loot_table/blocks/generator.json",
           "src/main/resources/assets/messinaround/items/generator.json",
           "src/main/resources/assets/messinaround/blockstates/generator.json",
-          "src/main/resources/assets/messinaround/models/item/generator.json",
           "src/main/resources/assets/messinaround/models/block/generator.json",
+          "src/main/resources/assets/messinaround/models/item/generator.json",
           "src/main/java/net/mcreator/messinaround/block/GeneratorBlock.java"
         ]
       }

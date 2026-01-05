@@ -50,25 +50,12 @@ public class StoneBreakingDownProcedure {
 		Direction sideBroken = Direction.NORTH;
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("messinaround:stone_breaking_stages")))
 				&& !((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.PICKAXES))) {
+			if (event instanceof ICancellableEvent _cancellable) {
+				_cancellable.setCanceled(true);
+			}
 			if (!((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == MessinaroundModBlocks.BREAKING_STAGE_7.get())) {
-				if (event instanceof ICancellableEvent _cancellable) {
-					_cancellable.setCanceled(true);
-				}
 				if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.STONE) {
-					{
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockState _bs = MessinaroundModBlocks.BREAKING_STAGE_1.get().defaultBlockState();
-						BlockState _bso = world.getBlockState(_bp);
-						for (Property<?> _propertyOld : _bso.getProperties()) {
-							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
-							if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
-								try {
-									_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
-								} catch (Exception e) {
-								}
-						}
-						world.setBlock(_bp, _bs, 3);
-					}
+					world.setBlock(BlockPos.containing(x, y, z), MessinaroundModBlocks.BREAKING_STAGE_1.get().defaultBlockState(), 3);
 				} else {
 					blockName = BuiltInRegistries.BLOCK.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 					blockName = blockName.replaceAll("6", "7");
@@ -77,20 +64,7 @@ public class StoneBreakingDownProcedure {
 					blockName = blockName.replaceAll("3", "4");
 					blockName = blockName.replaceAll("2", "3");
 					blockName = blockName.replaceAll("1", "2");
-					{
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockState _bs = BuiltInRegistries.BLOCK.getValue(ResourceLocation.parse((blockName).toLowerCase(java.util.Locale.ENGLISH))).defaultBlockState();
-						BlockState _bso = world.getBlockState(_bp);
-						for (Property<?> _propertyOld : _bso.getProperties()) {
-							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
-							if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
-								try {
-									_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
-								} catch (Exception e) {
-								}
-						}
-						world.setBlock(_bp, _bs, 3);
-					}
+					world.setBlock(BlockPos.containing(x, y, z), BuiltInRegistries.BLOCK.getValue(ResourceLocation.parse((blockName).toLowerCase(java.util.Locale.ENGLISH))).defaultBlockState(), 3);
 				}
 				sideBroken = entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(5)), ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, entity)).getDirection();
 				if (world instanceof Level _level) {
