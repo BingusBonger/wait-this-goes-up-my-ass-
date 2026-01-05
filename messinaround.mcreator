@@ -9,9 +9,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/models/block/loose_dirt_slab.json",
-          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
           "src/main/java/net/mcreator/messinaround/block/LooseDirtSlabBlock.java",
           "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
           "src/main/resources/assets/messinaround/blockstates/loose_dirt_slab.json",
           "src/main/resources/assets/messinaround/models/item/loose_dirt_slab.json"
         ]
@@ -59,12 +59,12 @@
       "registry_name": "loose_dirt_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java",
+          "src/main/resources/assets/messinaround/models/block/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/items/loose_dirt_block.json",
           "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_block.json",
-          "src/main/resources/assets/messinaround/models/block/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/models/item/loose_dirt_block.json",
-          "src/main/resources/assets/messinaround/blockstates/loose_dirt_block.json"
+          "src/main/resources/assets/messinaround/blockstates/loose_dirt_block.json",
+          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java"
         ]
       }
     },
@@ -106,8 +106,8 @@
       "registry_name": "dirt_pile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/DirtPileItem.java",
           "src/main/resources/assets/messinaround/models/item/dirt_pile.json",
+          "src/main/java/net/mcreator/messinaround/item/DirtPileItem.java",
           "src/main/resources/assets/messinaround/items/dirt_pile.json"
         ]
       }
@@ -120,12 +120,12 @@
       "registry_name": "axle",
       "metadata": {
         "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/axle.json",
           "src/main/resources/assets/messinaround/items/axle.json",
-          "src/main/resources/assets/messinaround/models/block/axle.json",
-          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java",
-          "src/main/resources/assets/messinaround/models/item/axle.json",
           "src/main/resources/assets/messinaround/blockstates/axle.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/axle.json"
+          "src/main/resources/assets/messinaround/models/block/axle.json",
+          "src/main/resources/assets/messinaround/models/item/axle.json",
+          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java"
         ]
       }
     },
@@ -163,8 +163,8 @@
       "registry_name": "dirt_piles_from_loose_dirt_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_slab.json",
-          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_slab.json"
+          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_slab.json",
+          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_slab.json"
         ]
       }
     },
@@ -176,8 +176,8 @@
       "registry_name": "dirt_piles_from_loose_dirt_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_block.json",
-          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_block.json"
+          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_block.json",
+          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_block.json"
         ]
       }
     },
@@ -189,8 +189,8 @@
       "registry_name": "sharp_rock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/SharpRockItem.java",
           "src/main/resources/assets/messinaround/models/item/sharp_rock.json",
+          "src/main/java/net/mcreator/messinaround/item/SharpRockItem.java",
           "src/main/resources/assets/messinaround/items/sharp_rock.json"
         ]
       }
@@ -204,8 +204,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/models/item/rock.json",
-          "src/main/java/net/mcreator/messinaround/item/RockItem.java",
-          "src/main/resources/assets/messinaround/items/rock.json"
+          "src/main/resources/assets/messinaround/items/rock.json",
+          "src/main/java/net/mcreator/messinaround/item/RockItem.java"
         ]
       }
     },
@@ -217,9 +217,9 @@
       "registry_name": "pile_of_rocks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/pile_of_rocks.json",
           "src/main/java/net/mcreator/messinaround/item/PileOfRocksItem.java",
-          "src/main/resources/assets/messinaround/models/item/pile_of_rocks.json"
+          "src/main/resources/assets/messinaround/models/item/pile_of_rocks.json",
+          "src/main/resources/assets/messinaround/items/pile_of_rocks.json"
         ]
       }
     },
@@ -268,42 +268,6 @@
           "src/main/java/net/mcreator/messinaround/procedures/TreeDeBarkingProcedure.java"
         ]
       }
-    },
-    {
-      "name": "BlinginMyBong",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blingin_my_bong",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/messinaround/block/BlinginMyBongBlock.java",
-          "src/main/resources/assets/messinaround/items/blingin_my_bong.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/blingin_my_bong.json",
-          "src/main/resources/assets/messinaround/models/block/blingin_my_bong.json",
-          "src/main/resources/assets/messinaround/models/item/blingin_my_bong.json",
-          "src/main/resources/assets/messinaround/blockstates/blingin_my_bong.json"
-        ]
-      }
-    },
-    {
-      "name": "Bonger",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonger",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/messinaround/models/block/bonger_outer.json",
-          "src/main/java/net/mcreator/messinaround/block/BongerBlock.java",
-          "src/main/resources/assets/messinaround/items/bonger.json",
-          "src/main/resources/assets/messinaround/models/block/bonger.json",
-          "src/main/resources/assets/messinaround/models/block/bonger_inner.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/bonger.json",
-          "src/main/resources/assets/messinaround/models/item/bonger.json",
-          "src/main/resources/assets/messinaround/blockstates/bonger.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -327,9 +291,6 @@
     ],
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:PileOfRocks"
-    ],
-    "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:Bonger"
     ]
   },
   "tab_element_order": {},
@@ -351,12 +312,12 @@
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
