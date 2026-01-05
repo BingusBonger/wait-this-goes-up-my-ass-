@@ -268,6 +268,23 @@
           "src/main/java/net/mcreator/messinaround/procedures/TreeDeBarkingProcedure.java"
         ]
       }
+    },
+    {
+      "name": "BlinginMyBong",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blingin_my_bong",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/BlinginMyBongBlock.java",
+          "src/main/resources/assets/messinaround/items/blingin_my_bong.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/blingin_my_bong.json",
+          "src/main/resources/assets/messinaround/models/block/blingin_my_bong.json",
+          "src/main/resources/assets/messinaround/models/item/blingin_my_bong.json",
+          "src/main/resources/assets/messinaround/blockstates/blingin_my_bong.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -305,19 +322,20 @@
       "item.messinaround.axle": "Axle",
       "item.messinaround.sharp_rock": "Sharp Rock",
       "item.messinaround.rock": "Rock",
-      "item.messinaround.pile_of_rocks": "Pile Of Rocks"
+      "item.messinaround.pile_of_rocks": "Pile Of Rocks",
+      "item.messinaround.blingin_my_bong": "Blingin My Bong"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
