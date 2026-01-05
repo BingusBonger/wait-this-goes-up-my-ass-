@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "messinaround:dirt_pile",
+    "messinaround:dirt_pile",
+    "messinaround:dirt_pile",
+    "messinaround:dirt_pile"
+  ],
+  "result": {
+    "id": "messinaround:loose_dirt_slab",
+    "count": 1
+  }
+}

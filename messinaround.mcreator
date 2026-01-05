@@ -1,0 +1,344 @@
+{
+  "mod_elements": [
+    {
+      "name": "LooseDirtSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loose_dirt_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/block/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
+          "src/main/java/net/mcreator/messinaround/block/LooseDirtSlabBlock.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/blockstates/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/models/item/loose_dirt_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "LooseDirtBlockFall",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loose_dirt_block_fall",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/LooseDirtBlockFallProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LooseDirtBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loose_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java",
+          "src/main/resources/assets/messinaround/items/loose_dirt_block.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_block.json",
+          "src/main/resources/assets/messinaround/models/block/loose_dirt_block.json",
+          "src/main/resources/assets/messinaround/models/item/loose_dirt_block.json",
+          "src/main/resources/assets/messinaround/blockstates/loose_dirt_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LooseDirtSlabMerge",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loose_dirt_slab_merge",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/LooseDirtSlabMergeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DirtPile",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_pile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/DirtPileItem.java",
+          "src/main/resources/assets/messinaround/models/item/dirt_pile.json",
+          "src/main/resources/assets/messinaround/items/dirt_pile.json"
+        ]
+      }
+    },
+    {
+      "name": "Axle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/axle.json",
+          "src/main/resources/assets/messinaround/models/block/axle.json",
+          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java",
+          "src/main/resources/assets/messinaround/models/item/axle.json",
+          "src/main/resources/assets/messinaround/blockstates/axle.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/axle.json"
+        ]
+      }
+    },
+    {
+      "name": "LooseDirtSlabFromDirtPiles",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loose_dirt_slab_from_dirt_piles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/loose_dirt_slab_from_dirt_piles.json",
+          "src/main/resources/data/messinaround/recipe/loose_dirt_slab_from_dirt_piles.json"
+        ]
+      }
+    },
+    {
+      "name": "LooseDirtBlockFromLooseDirtSlabs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loose_dirt_block_from_loose_dirt_slabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/loose_dirt_block_from_loose_dirt_slabs.json",
+          "src/main/resources/data/messinaround/advancement/recipes/loose_dirt_block_from_loose_dirt_slabs.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtPilesFromLooseDirtSlab",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_piles_from_loose_dirt_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_slab.json",
+          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtPilesFromLooseDirtBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_piles_from_loose_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_block.json",
+          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SharpRock",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharp_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/SharpRockItem.java",
+          "src/main/resources/assets/messinaround/models/item/sharp_rock.json",
+          "src/main/resources/assets/messinaround/items/sharp_rock.json"
+        ]
+      }
+    },
+    {
+      "name": "Rock",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/rock.json",
+          "src/main/java/net/mcreator/messinaround/item/RockItem.java",
+          "src/main/resources/assets/messinaround/items/rock.json"
+        ]
+      }
+    },
+    {
+      "name": "PileOfRocks",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pile_of_rocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/pile_of_rocks.json",
+          "src/main/java/net/mcreator/messinaround/item/PileOfRocksItem.java",
+          "src/main/resources/assets/messinaround/models/item/pile_of_rocks.json"
+        ]
+      }
+    },
+    {
+      "name": "FlyingRock",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/entity/FlyingRockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "TreeDeBarking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_de_barking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/TreeDeBarkingProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:LooseDirtBlock",
+      "~CUSTOM:LooseDirtSlab"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Axle"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SharpRock"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:SharpRock"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:SharpRock"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:PileOfRocks"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.messinaround.loose_dirt_slab": "Loose Dirt Slab",
+      "block.messinaround.loose_dirt_block": "Loose Dirt Block",
+      "item.messinaround.dirt_pile": "Dirt Pile",
+      "block.messinaround.axle": "Axle",
+      "item.messinaround.loose_dirt_slab": "Loose Dirt Slab",
+      "item.messinaround.loose_dirt_block": "Loose Dirt Block",
+      "item.messinaround.axle": "Axle",
+      "item.messinaround.sharp_rock": "Sharp Rock",
+      "item.messinaround.rock": "Rock",
+      "item.messinaround.pile_of_rocks": "Pile Of Rocks"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "messinaround",
+    "modName": "messinaround",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.messinaround"
+  },
+  "mcreatorVersion": 202500345720
+}

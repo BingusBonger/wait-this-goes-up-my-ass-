@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "messinaround:loose_dirt_slab"
+  },
+  "result": {
+    "id": "messinaround:dirt_pile",
+    "count": 4
+  }
+}

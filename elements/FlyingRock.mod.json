@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Rock"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.stone.break"
+    },
+    "igniteFire": false,
+    "disableGravity": false,
+    "power": 1.0,
+    "damage": 2.0,
+    "knockback": 1,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}
