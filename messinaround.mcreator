@@ -419,6 +419,24 @@
           "src/main/java/net/mcreator/messinaround/procedures/PrimToolsCraftedProcedure.java"
         ]
       }
+    },
+    {
+      "name": "MineSlower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine_slower",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/MineSlowerProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
