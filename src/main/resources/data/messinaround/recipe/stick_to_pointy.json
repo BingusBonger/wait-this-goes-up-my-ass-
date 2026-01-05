@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "messinaround:pointy_stick",
+    "count": 1
+  }
+}
