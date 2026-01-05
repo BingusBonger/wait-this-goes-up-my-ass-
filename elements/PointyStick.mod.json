@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "tool",
   "definition": {
-    "toolType": "Pickaxe",
+    "toolType": "Special",
     "renderType": 0,
     "blockingRenderType": 0,
     "texture": "pointy_stick",
@@ -29,7 +29,11 @@
     "repairItems": [],
     "immuneToFire": false,
     "blockDropsTier": "WOOD",
-    "blocksAffected": [],
+    "blocksAffected": [
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onCrafted": {
