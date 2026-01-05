@@ -268,6 +268,52 @@
           "src/main/java/net/mcreator/messinaround/procedures/TreeDeBarkingProcedure.java"
         ]
       }
+    },
+    {
+      "name": "JusMessinAroundTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jus_messin_around_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WickerinMyBasket",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wickerin_my_basket",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/wickerin_my_basket.json",
+          "src/main/resources/assets/messinaround/items/wickerin_my_basket.json",
+          "src/main/java/net/mcreator/messinaround/item/WickerinMyBasketItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WickerinMyBasketUsing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wickerin_my_basket_using",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/WickerinMyBasketUsingProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -290,6 +336,7 @@
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:WickerinMyBasket",
       "~CUSTOM:PileOfRocks"
     ]
   },
@@ -305,7 +352,9 @@
       "item.messinaround.axle": "Axle",
       "item.messinaround.sharp_rock": "Sharp Rock",
       "item.messinaround.rock": "Rock",
-      "item.messinaround.pile_of_rocks": "Pile Of Rocks"
+      "item.messinaround.pile_of_rocks": "Pile Of Rocks",
+      "item_group.messinaround.jus_messin_around_tab": "Jus Messin Around Tab",
+      "item.messinaround.wickerin_my_basket": "Wickerin My Basket"
     }
   },
   "metadata": {

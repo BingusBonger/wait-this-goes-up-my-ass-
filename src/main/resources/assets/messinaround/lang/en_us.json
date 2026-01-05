@@ -8,5 +8,7 @@
   "item.messinaround.axle": "Axle",
   "item.messinaround.sharp_rock": "Sharp Rock",
   "item.messinaround.rock": "Rock",
-  "item.messinaround.pile_of_rocks": "Pile Of Rocks"
+  "item.messinaround.pile_of_rocks": "Pile Of Rocks",
+  "item_group.messinaround.jus_messin_around_tab": "Jus Messin Around Tab",
+  "item.messinaround.wickerin_my_basket": "Wickerin My Basket"
 }
