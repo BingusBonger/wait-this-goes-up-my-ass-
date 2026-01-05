@@ -376,6 +376,19 @@
           "src/main/resources/assets/messinaround/items/bone_knife.json"
         ]
       }
+    },
+    {
+      "name": "StickToPointyStick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_to_pointy_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/stick_to_pointy_stick.json",
+          "src/main/resources/data/messinaround/advancement/recipes/stick_to_pointy_stick.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
