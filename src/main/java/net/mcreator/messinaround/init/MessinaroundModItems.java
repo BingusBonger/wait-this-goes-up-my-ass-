@@ -38,6 +38,15 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> BREAKING_STAGE_6;
 	public static final DeferredItem<Item> BREAKING_STAGE_7;
 	public static final DeferredItem<Item> GRASS_FABRIC;
+	public static final DeferredItem<Item> OAK_BARK;
+	public static final DeferredItem<Item> SPRUCE_BARK;
+	public static final DeferredItem<Item> DARK_OAK_BARK;
+	public static final DeferredItem<Item> MANGROVE_BARK;
+	public static final DeferredItem<Item> JUNGLE_BARK;
+	public static final DeferredItem<Item> PALE_OAK_BARK;
+	public static final DeferredItem<Item> ACACIA_BARK;
+	public static final DeferredItem<Item> BIRCH_BARK;
+	public static final DeferredItem<Item> CHERRY_BARK;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -59,6 +68,15 @@ public class MessinaroundModItems {
 		BREAKING_STAGE_6 = block(MessinaroundModBlocks.BREAKING_STAGE_6);
 		BREAKING_STAGE_7 = block(MessinaroundModBlocks.BREAKING_STAGE_7);
 		GRASS_FABRIC = register("grass_fabric", GrassFabricItem::new);
+		OAK_BARK = register("oak_bark", OakBarkItem::new);
+		SPRUCE_BARK = register("spruce_bark", SpruceBarkItem::new);
+		DARK_OAK_BARK = register("dark_oak_bark", DarkOakBarkItem::new);
+		MANGROVE_BARK = register("mangrove_bark", MangroveBarkItem::new);
+		JUNGLE_BARK = register("jungle_bark", JungleBarkItem::new);
+		PALE_OAK_BARK = register("pale_oak_bark", PaleOakBarkItem::new);
+		ACACIA_BARK = register("acacia_bark", AcaciaBarkItem::new);
+		BIRCH_BARK = register("birch_bark", BirchBarkItem::new);
+		CHERRY_BARK = register("cherry_bark", CherryBarkItem::new);
 	}
 
 	// Start of user code block custom items

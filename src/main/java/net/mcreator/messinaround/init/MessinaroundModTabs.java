@@ -30,5 +30,14 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModBlocks.AXLE_POWERED.get().asItem());
 				tabData.accept(MessinaroundModBlocks.GENERATOR.get().asItem());
 				tabData.accept(MessinaroundModItems.GRASS_FABRIC.get());
+				tabData.accept(MessinaroundModItems.OAK_BARK.get());
+				tabData.accept(MessinaroundModItems.SPRUCE_BARK.get());
+				tabData.accept(MessinaroundModItems.DARK_OAK_BARK.get());
+				tabData.accept(MessinaroundModItems.MANGROVE_BARK.get());
+				tabData.accept(MessinaroundModItems.JUNGLE_BARK.get());
+				tabData.accept(MessinaroundModItems.PALE_OAK_BARK.get());
+				tabData.accept(MessinaroundModItems.ACACIA_BARK.get());
+				tabData.accept(MessinaroundModItems.BIRCH_BARK.get());
+				tabData.accept(MessinaroundModItems.CHERRY_BARK.get());
 			}).build());
 }

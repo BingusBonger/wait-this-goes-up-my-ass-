@@ -8,12 +8,12 @@
       "registry_name": "loose_dirt_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_slab.json",
           "src/main/resources/assets/messinaround/models/block/loose_dirt_slab.json",
           "src/main/java/net/mcreator/messinaround/block/LooseDirtSlabBlock.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_slab.json",
-          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
-          "src/main/resources/assets/messinaround/blockstates/loose_dirt_slab.json",
-          "src/main/resources/assets/messinaround/models/item/loose_dirt_slab.json"
+          "src/main/resources/assets/messinaround/models/item/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/blockstates/loose_dirt_slab.json"
         ]
       }
     },
@@ -61,10 +61,10 @@
         "files": [
           "src/main/resources/assets/messinaround/models/block/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/items/loose_dirt_block.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/models/item/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/blockstates/loose_dirt_block.json",
-          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java"
+          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_block.json"
         ]
       }
     },
@@ -106,8 +106,8 @@
       "registry_name": "dirt_pile",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/dirt_pile.json",
           "src/main/java/net/mcreator/messinaround/item/DirtPileItem.java",
+          "src/main/resources/assets/messinaround/models/item/dirt_pile.json",
           "src/main/resources/assets/messinaround/items/dirt_pile.json"
         ]
       }
@@ -120,12 +120,12 @@
       "registry_name": "axle",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/models/item/axle.json",
           "src/main/resources/data/messinaround/loot_table/blocks/axle.json",
           "src/main/resources/assets/messinaround/items/axle.json",
-          "src/main/resources/assets/messinaround/blockstates/axle.json",
           "src/main/resources/assets/messinaround/models/block/axle.json",
-          "src/main/resources/assets/messinaround/models/item/axle.json",
-          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java"
+          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java",
+          "src/main/resources/assets/messinaround/blockstates/axle.json"
         ]
       }
     },
@@ -137,8 +137,8 @@
       "registry_name": "loose_dirt_slab_from_dirt_piles",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/advancement/recipes/loose_dirt_slab_from_dirt_piles.json",
-          "src/main/resources/data/messinaround/recipe/loose_dirt_slab_from_dirt_piles.json"
+          "src/main/resources/data/messinaround/recipe/loose_dirt_slab_from_dirt_piles.json",
+          "src/main/resources/data/messinaround/advancement/recipes/loose_dirt_slab_from_dirt_piles.json"
         ]
       }
     },
@@ -163,8 +163,8 @@
       "registry_name": "dirt_piles_from_loose_dirt_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_slab.json",
-          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_slab.json"
+          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_slab.json",
+          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_slab.json"
         ]
       }
     },
@@ -176,8 +176,8 @@
       "registry_name": "dirt_piles_from_loose_dirt_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_block.json",
-          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_block.json"
+          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_block.json",
+          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_block.json"
         ]
       }
     },
@@ -189,8 +189,8 @@
       "registry_name": "sharp_rock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/sharp_rock.json",
           "src/main/java/net/mcreator/messinaround/item/SharpRockItem.java",
+          "src/main/resources/assets/messinaround/models/item/sharp_rock.json",
           "src/main/resources/assets/messinaround/items/sharp_rock.json"
         ]
       }
@@ -204,8 +204,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/models/item/rock.json",
-          "src/main/resources/assets/messinaround/items/rock.json",
-          "src/main/java/net/mcreator/messinaround/item/RockItem.java"
+          "src/main/java/net/mcreator/messinaround/item/RockItem.java",
+          "src/main/resources/assets/messinaround/items/rock.json"
         ]
       }
     },
@@ -217,9 +217,9 @@
       "registry_name": "pile_of_rocks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/items/pile_of_rocks.json",
           "src/main/java/net/mcreator/messinaround/item/PileOfRocksItem.java",
-          "src/main/resources/assets/messinaround/models/item/pile_of_rocks.json",
-          "src/main/resources/assets/messinaround/items/pile_of_rocks.json"
+          "src/main/resources/assets/messinaround/models/item/pile_of_rocks.json"
         ]
       }
     },
@@ -287,9 +287,9 @@
       "registry_name": "wickerin_my_basket",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/wickerin_my_basket.json",
+          "src/main/java/net/mcreator/messinaround/item/WickerinMyBasketItem.java",
           "src/main/resources/assets/messinaround/items/wickerin_my_basket.json",
-          "src/main/java/net/mcreator/messinaround/item/WickerinMyBasketItem.java"
+          "src/main/resources/assets/messinaround/models/item/wickerin_my_basket.json"
         ]
       }
     },
@@ -357,8 +357,8 @@
       "registry_name": "pointy_stick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/pointy_stick.json",
           "src/main/resources/assets/messinaround/models/item/pointy_stick.json",
+          "src/main/resources/assets/messinaround/items/pointy_stick.json",
           "src/main/java/net/mcreator/messinaround/item/PointyStickItem.java"
         ]
       }
@@ -371,8 +371,8 @@
       "registry_name": "bone_knife",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/bone_knife.json",
           "src/main/java/net/mcreator/messinaround/item/BoneKnifeItem.java",
+          "src/main/resources/assets/messinaround/models/item/bone_knife.json",
           "src/main/resources/assets/messinaround/items/bone_knife.json"
         ]
       }
@@ -446,12 +446,12 @@
       "registry_name": "axle_powered",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/axle_powered.json",
           "src/main/java/net/mcreator/messinaround/block/AxlePoweredBlock.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/axle_powered.json",
-          "src/main/resources/assets/messinaround/items/axle_powered.json",
           "src/main/resources/assets/messinaround/models/block/axle_powered.json",
-          "src/main/resources/assets/messinaround/models/item/axle_powered.json"
+          "src/main/resources/assets/messinaround/models/item/axle_powered.json",
+          "src/main/resources/assets/messinaround/blockstates/axle_powered.json",
+          "src/main/resources/assets/messinaround/items/axle_powered.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/axle_powered.json"
         ]
       }
     },
@@ -466,8 +466,8 @@
           "src/main/resources/data/messinaround/loot_table/blocks/generator.json",
           "src/main/resources/assets/messinaround/items/generator.json",
           "src/main/resources/assets/messinaround/blockstates/generator.json",
-          "src/main/resources/assets/messinaround/models/block/generator.json",
           "src/main/resources/assets/messinaround/models/item/generator.json",
+          "src/main/resources/assets/messinaround/models/block/generator.json",
           "src/main/java/net/mcreator/messinaround/block/GeneratorBlock.java"
         ]
       }
@@ -756,6 +756,132 @@
           "src/main/java/net/mcreator/messinaround/procedures/StoneBreakingDownProcedure.java"
         ]
       }
+    },
+    {
+      "name": "OakBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/oak_bark.json",
+          "src/main/java/net/mcreator/messinaround/item/OakBarkItem.java",
+          "src/main/resources/assets/messinaround/models/item/oak_bark.json"
+        ]
+      }
+    },
+    {
+      "name": "SpruceBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/spruce_bark.json",
+          "src/main/java/net/mcreator/messinaround/item/SpruceBarkItem.java",
+          "src/main/resources/assets/messinaround/models/item/spruce_bark.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_bark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/DarkOakBarkItem.java",
+          "src/main/resources/assets/messinaround/models/item/dark_oak_bark.json",
+          "src/main/resources/assets/messinaround/items/dark_oak_bark.json"
+        ]
+      }
+    },
+    {
+      "name": "MangroveBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/mangrove_bark.json",
+          "src/main/java/net/mcreator/messinaround/item/MangroveBarkItem.java",
+          "src/main/resources/assets/messinaround/items/mangrove_bark.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/jungle_bark.json",
+          "src/main/resources/assets/messinaround/items/jungle_bark.json",
+          "src/main/java/net/mcreator/messinaround/item/JungleBarkItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PaleOakBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_oak_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/pale_oak_bark.json",
+          "src/main/resources/assets/messinaround/items/pale_oak_bark.json",
+          "src/main/java/net/mcreator/messinaround/item/PaleOakBarkItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AcaciaBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/acacia_bark.json",
+          "src/main/java/net/mcreator/messinaround/item/AcaciaBarkItem.java",
+          "src/main/resources/assets/messinaround/models/item/acacia_bark.json"
+        ]
+      }
+    },
+    {
+      "name": "BirchBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_bark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/BirchBarkItem.java",
+          "src/main/resources/assets/messinaround/items/birch_bark.json",
+          "src/main/resources/assets/messinaround/models/item/birch_bark.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_bark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/CherryBarkItem.java",
+          "src/main/resources/assets/messinaround/items/cherry_bark.json",
+          "src/main/resources/assets/messinaround/models/item/cherry_bark.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -856,19 +982,28 @@
       "advancements.what_the_hellyante_is_this.title": "What The Hellyante Is This",
       "advancements.here_we_go_again.title": "Ahh S@#!",
       "advancements.here_we_go_again.descr": "Here we go Again",
-      "item.messinaround.grass_fabric": "Grass Fabric"
+      "item.messinaround.grass_fabric": "Grass Fabric",
+      "item.messinaround.oak_bark": "Oak Bark",
+      "item.messinaround.spruce_bark": "Spruce Bark",
+      "item.messinaround.dark_oak_bark": "Dark Oak Bark",
+      "item.messinaround.mangrove_bark": "Mangrove Bark",
+      "item.messinaround.jungle_bark": "Jungle Bark",
+      "item.messinaround.pale_oak_bark": "Pale Oak Bark",
+      "item.messinaround.acacia_bark": "Acacia Bark",
+      "item.messinaround.birch_bark": "Birch Bark",
+      "item.messinaround.cherry_bark": "Cherry Bark"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
     ]
   },
   "foldersRoot": {

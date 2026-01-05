@@ -26,5 +26,14 @@
   "advancements.what_the_hellyante_is_this.title": "What The Hellyante Is This",
   "advancements.here_we_go_again.title": "Ahh S@#!",
   "advancements.here_we_go_again.descr": "Here we go Again",
-  "item.messinaround.grass_fabric": "Grass Fabric"
+  "item.messinaround.grass_fabric": "Grass Fabric",
+  "item.messinaround.oak_bark": "Oak Bark",
+  "item.messinaround.spruce_bark": "Spruce Bark",
+  "item.messinaround.dark_oak_bark": "Dark Oak Bark",
+  "item.messinaround.mangrove_bark": "Mangrove Bark",
+  "item.messinaround.jungle_bark": "Jungle Bark",
+  "item.messinaround.pale_oak_bark": "Pale Oak Bark",
+  "item.messinaround.acacia_bark": "Acacia Bark",
+  "item.messinaround.birch_bark": "Birch Bark",
+  "item.messinaround.cherry_bark": "Cherry Bark"
 }
