@@ -810,6 +810,20 @@
       "CUSTOM:BreakingStage5",
       "CUSTOM:BreakingStage6",
       "CUSTOM:BreakingStage7"
+    ],
+    "BLOCKS:forge:stone_breaking_stages": [
+      "CUSTOM:BreakingStage1",
+      "CUSTOM:BreakingStage2",
+      "CUSTOM:BreakingStage3",
+      "CUSTOM:BreakingStage4",
+      "CUSTOM:BreakingStage5",
+      "CUSTOM:BreakingStage6",
+      "CUSTOM:BreakingStage7",
+      "Blocks.STONE#0"
+    ],
+    "ITEMS:mod:can_chip_stone": [
+      "CUSTOM:SharpRock",
+      "CUSTOM:PointyStick"
     ]
   },
   "tab_element_order": {},
