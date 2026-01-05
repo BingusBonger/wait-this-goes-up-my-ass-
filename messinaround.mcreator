@@ -285,6 +285,25 @@
           "src/main/resources/assets/messinaround/blockstates/blingin_my_bong.json"
         ]
       }
+    },
+    {
+      "name": "Bonger",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/block/bonger_outer.json",
+          "src/main/java/net/mcreator/messinaround/block/BongerBlock.java",
+          "src/main/resources/assets/messinaround/items/bonger.json",
+          "src/main/resources/assets/messinaround/models/block/bonger.json",
+          "src/main/resources/assets/messinaround/models/block/bonger_inner.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/bonger.json",
+          "src/main/resources/assets/messinaround/models/item/bonger.json",
+          "src/main/resources/assets/messinaround/blockstates/bonger.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -308,6 +327,9 @@
     ],
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:PileOfRocks"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Bonger"
     ]
   },
   "tab_element_order": {},
@@ -322,20 +344,19 @@
       "item.messinaround.axle": "Axle",
       "item.messinaround.sharp_rock": "Sharp Rock",
       "item.messinaround.rock": "Rock",
-      "item.messinaround.pile_of_rocks": "Pile Of Rocks",
-      "item.messinaround.blingin_my_bong": "Blingin My Bong"
+      "item.messinaround.pile_of_rocks": "Pile Of Rocks"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
     ]
   },
   "foldersRoot": {

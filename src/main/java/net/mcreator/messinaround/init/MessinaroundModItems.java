@@ -29,6 +29,7 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> ROCK;
 	public static final DeferredItem<Item> PILE_OF_ROCKS;
 	public static final DeferredItem<Item> BLINGIN_MY_BONG;
+	public static final DeferredItem<Item> BONGER;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -38,6 +39,7 @@ public class MessinaroundModItems {
 		ROCK = register("rock", RockItem::new);
 		PILE_OF_ROCKS = register("pile_of_rocks", PileOfRocksItem::new);
 		BLINGIN_MY_BONG = block(MessinaroundModBlocks.BLINGIN_MY_BONG);
+		BONGER = block(MessinaroundModBlocks.BONGER);
 	}
 
 	// Start of user code block custom items
