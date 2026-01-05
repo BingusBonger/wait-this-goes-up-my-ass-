@@ -314,6 +314,40 @@
           "src/main/java/net/mcreator/messinaround/procedures/WickerinMyBasketUsingProcedure.java"
         ]
       }
+    },
+    {
+      "name": "BoneLeatherDrops",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_leather_drops",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/BoneLeatherDropsProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -338,6 +372,22 @@
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:WickerinMyBasket",
       "~CUSTOM:PileOfRocks"
+    ],
+    "ENTITIES:mod:leather_bone_droppers": [
+      "EntityCamel",
+      "EntityCow",
+      "EntityDonkey",
+      "EntityFox",
+      "EntityGoat",
+      "EntityHoglin",
+      "EntityHorse",
+      "EntityLlama",
+      "EntityMooshroom",
+      "EntityMule",
+      "EntityPig",
+      "EntitySheep",
+      "EntitySniffer",
+      "EntityWolf"
     ]
   },
   "tab_element_order": {},
@@ -361,12 +411,12 @@
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
