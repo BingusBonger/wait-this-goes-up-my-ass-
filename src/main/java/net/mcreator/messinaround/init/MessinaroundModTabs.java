@@ -29,6 +29,8 @@ public class MessinaroundModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(MessinaroundModItems.SHARP_ROCK.get());
+			tabData.accept(MessinaroundModItems.POINTY_STICK.get());
+			tabData.accept(MessinaroundModItems.BONE_KNIFE.get());
 		}
 	}
 }

@@ -348,6 +348,34 @@
           "src/main/java/net/mcreator/messinaround/procedures/BoneLeatherDropsProcedure.java"
         ]
       }
+    },
+    {
+      "name": "PointyStick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pointy_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/pointy_stick.json",
+          "src/main/resources/assets/messinaround/items/pointy_stick.json",
+          "src/main/java/net/mcreator/messinaround/item/PointyStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BoneKnife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/BoneKnifeItem.java",
+          "src/main/resources/assets/messinaround/models/item/bone_knife.json",
+          "src/main/resources/assets/messinaround/items/bone_knife.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -361,12 +389,14 @@
       "~CUSTOM:Axle"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:PointyStick",
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:BoneKnife",
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:enchantable/durability": [
@@ -404,19 +434,21 @@
       "item.messinaround.rock": "Rock",
       "item.messinaround.pile_of_rocks": "Pile Of Rocks",
       "item_group.messinaround.jus_messin_around_tab": "Jus Messin Around Tab",
-      "item.messinaround.wickerin_my_basket": "Wickerin My Basket"
+      "item.messinaround.wickerin_my_basket": "Wickerin My Basket",
+      "item.messinaround.pointy_stick": "Pointy Stick",
+      "item.messinaround.bone_knife": "Bone Knife"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
     ]
   },
   "foldersRoot": {
