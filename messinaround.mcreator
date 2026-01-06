@@ -916,6 +916,414 @@
           "src/main/java/net/mcreator/messinaround/procedures/BoneKnifeChiselingProcedure.java"
         ]
       }
+    },
+    {
+      "name": "StrippedOakLogBreakingStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_oak_log_breaking_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage1Block.java",
+          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedOakLogBreakingStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_oak_log_breaking_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage2Block.java",
+          "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_2.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedOakLogBreakingStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_oak_log_breaking_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage3Block.java",
+          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_3.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedDarkOakLogBreakingStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_dark_oak_log_breaking_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage1Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedDarkOakLogBreakingStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_dark_oak_log_breaking_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage2Block.java",
+          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_2.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedDarkOakLogBreakingStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_dark_oak_log_breaking_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage3Block.java",
+          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_3.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedBirchLogBreakingStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_birch_log_breaking_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage1Block.java",
+          "src/main/resources/assets/messinaround/models/item/stripped_birch_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedBirchLogBreakingStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_birch_log_breaking_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/stripped_birch_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage2Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_2.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedBirchLogBreakingStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_birch_log_breaking_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_birch_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage3Block.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedAcaciaLogBreakingStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_acacia_log_breaking_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage1Block.java",
+          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedAcaciaLogBreakingStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_acacia_log_breaking_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage2Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_2.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedAcaciaLogBreakingStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_acacia_log_breaking_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage3Block.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedCherryLogBreakingStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_cherry_log_breaking_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage1Block.java",
+          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedCherryLogBreakingStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_cherry_log_breaking_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage2Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_2.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedCherryLogBreakingStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_cherry_log_breaking_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage3Block.java",
+          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_3.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedJungleLogBreakingStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_jungle_log_breaking_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage1Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedJungleLogBreakingStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_jungle_log_breaking_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage2Block.java",
+          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_2.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedJungleLogBreakingStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_jungle_log_breaking_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage3Block.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedSpruceLogBreakingStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_spruce_log_breaking_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage1Block.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedSpruceLogBreakingStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_spruce_log_breaking_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage2Block.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedSpruceLogBreakingStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_spruce_log_breaking_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage3Block.java",
+          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_3.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedMangroveLogBreakingStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_mangrove_log_breaking_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage1Block.java",
+          "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedMangroveLogBreakingStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_mangrove_log_breaking_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage2Block.java",
+          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_2.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedMangroveLogBreakingStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_mangrove_log_breaking_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage3Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_3.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -926,6 +1334,30 @@
       "~CUSTOM:LooseDirtSlab"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:StrippedMangroveLogBreakingStage3",
+      "~CUSTOM:StrippedMangroveLogBreakingStage2",
+      "~CUSTOM:StrippedMangroveLogBreakingStage1",
+      "~CUSTOM:StrippedSpruceLogBreakingStage3",
+      "~CUSTOM:StrippedSpruceLogBreakingStage2",
+      "~CUSTOM:StrippedSpruceLogBreakingStage1",
+      "~CUSTOM:StrippedJungleLogBreakingStage3",
+      "~CUSTOM:StrippedJungleLogBreakingStage2",
+      "~CUSTOM:StrippedJungleLogBreakingStage1",
+      "~CUSTOM:StrippedCherryLogBreakingStage3",
+      "~CUSTOM:StrippedCherryLogBreakingStage2",
+      "~CUSTOM:StrippedCherryLogBreakingStage1",
+      "~CUSTOM:StrippedAcaciaLogBreakingStage3",
+      "~CUSTOM:StrippedAcaciaLogBreakingStage2",
+      "~CUSTOM:StrippedAcaciaLogBreakingStage1",
+      "~CUSTOM:StrippedBirchLogBreakingStage3",
+      "~CUSTOM:StrippedBirchLogBreakingStage2",
+      "~CUSTOM:StrippedBirchLogBreakingStage1",
+      "~CUSTOM:StrippedDarkOakLogBreakingStage3",
+      "~CUSTOM:StrippedDarkOakLogBreakingStage2",
+      "~CUSTOM:StrippedDarkOakLogBreakingStage1",
+      "~CUSTOM:StrippedOakLogBreakingStage3",
+      "~CUSTOM:StrippedOakLogBreakingStage2",
+      "~CUSTOM:StrippedOakLogBreakingStage1",
       "~CUSTOM:Generator",
       "~CUSTOM:AxlePowered",
       "~CUSTOM:Axle"
@@ -1046,7 +1478,31 @@
       "item.messinaround.pale_oak_bark": "Pale Oak Bark",
       "item.messinaround.acacia_bark": "Acacia Bark",
       "item.messinaround.birch_bark": "Birch Bark",
-      "item.messinaround.cherry_bark": "Cherry Bark"
+      "item.messinaround.cherry_bark": "Cherry Bark",
+      "item.messinaround.stripped_oak_log_breaking_stage_1": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_oak_log_breaking_stage_2": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_oak_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_dark_oak_log_breaking_stage_1": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_dark_oak_log_breaking_stage_2": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_dark_oak_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_birch_log_breaking_stage_1": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_birch_log_breaking_stage_2": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_birch_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_acacia_log_breaking_stage_1": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_acacia_log_breaking_stage_2": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_acacia_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_cherry_log_breaking_stage_1": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_cherry_log_breaking_stage_2": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_cherry_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_jungle_log_breaking_stage_1": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_jungle_log_breaking_stage_2": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_jungle_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_spruce_log_breaking_stage_1": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_spruce_log_breaking_stage_2": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_spruce_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_mangrove_log_breaking_stage_1": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_mangrove_log_breaking_stage_2": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.stripped_mangrove_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1"
     }
   },
   "metadata": {

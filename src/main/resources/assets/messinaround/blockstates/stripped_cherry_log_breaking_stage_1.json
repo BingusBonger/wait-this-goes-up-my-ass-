@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "messinaround:block/stripped_cherry_log_breaking_stage_1",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "messinaround:block/stripped_cherry_log_breaking_stage_1"
+    },
+    "axis=z": {
+      "model": "messinaround:block/stripped_cherry_log_breaking_stage_1",
+      "x": 90
+    }
+  }
+}

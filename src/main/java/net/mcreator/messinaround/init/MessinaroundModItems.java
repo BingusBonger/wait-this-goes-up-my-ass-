@@ -47,6 +47,30 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> ACACIA_BARK;
 	public static final DeferredItem<Item> BIRCH_BARK;
 	public static final DeferredItem<Item> CHERRY_BARK;
+	public static final DeferredItem<Item> STRIPPED_OAK_LOG_BREAKING_STAGE_1;
+	public static final DeferredItem<Item> STRIPPED_OAK_LOG_BREAKING_STAGE_2;
+	public static final DeferredItem<Item> STRIPPED_OAK_LOG_BREAKING_STAGE_3;
+	public static final DeferredItem<Item> STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_1;
+	public static final DeferredItem<Item> STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_2;
+	public static final DeferredItem<Item> STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_3;
+	public static final DeferredItem<Item> STRIPPED_BIRCH_LOG_BREAKING_STAGE_1;
+	public static final DeferredItem<Item> STRIPPED_BIRCH_LOG_BREAKING_STAGE_2;
+	public static final DeferredItem<Item> STRIPPED_BIRCH_LOG_BREAKING_STAGE_3;
+	public static final DeferredItem<Item> STRIPPED_ACACIA_LOG_BREAKING_STAGE_1;
+	public static final DeferredItem<Item> STRIPPED_ACACIA_LOG_BREAKING_STAGE_2;
+	public static final DeferredItem<Item> STRIPPED_ACACIA_LOG_BREAKING_STAGE_3;
+	public static final DeferredItem<Item> STRIPPED_CHERRY_LOG_BREAKING_STAGE_1;
+	public static final DeferredItem<Item> STRIPPED_CHERRY_LOG_BREAKING_STAGE_2;
+	public static final DeferredItem<Item> STRIPPED_CHERRY_LOG_BREAKING_STAGE_3;
+	public static final DeferredItem<Item> STRIPPED_JUNGLE_LOG_BREAKING_STAGE_1;
+	public static final DeferredItem<Item> STRIPPED_JUNGLE_LOG_BREAKING_STAGE_2;
+	public static final DeferredItem<Item> STRIPPED_JUNGLE_LOG_BREAKING_STAGE_3;
+	public static final DeferredItem<Item> STRIPPED_SPRUCE_LOG_BREAKING_STAGE_1;
+	public static final DeferredItem<Item> STRIPPED_SPRUCE_LOG_BREAKING_STAGE_2;
+	public static final DeferredItem<Item> STRIPPED_SPRUCE_LOG_BREAKING_STAGE_3;
+	public static final DeferredItem<Item> STRIPPED_MANGROVE_LOG_BREAKING_STAGE_1;
+	public static final DeferredItem<Item> STRIPPED_MANGROVE_LOG_BREAKING_STAGE_2;
+	public static final DeferredItem<Item> STRIPPED_MANGROVE_LOG_BREAKING_STAGE_3;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -77,6 +101,30 @@ public class MessinaroundModItems {
 		ACACIA_BARK = register("acacia_bark", AcaciaBarkItem::new);
 		BIRCH_BARK = register("birch_bark", BirchBarkItem::new);
 		CHERRY_BARK = register("cherry_bark", CherryBarkItem::new);
+		STRIPPED_OAK_LOG_BREAKING_STAGE_1 = block(MessinaroundModBlocks.STRIPPED_OAK_LOG_BREAKING_STAGE_1);
+		STRIPPED_OAK_LOG_BREAKING_STAGE_2 = block(MessinaroundModBlocks.STRIPPED_OAK_LOG_BREAKING_STAGE_2);
+		STRIPPED_OAK_LOG_BREAKING_STAGE_3 = block(MessinaroundModBlocks.STRIPPED_OAK_LOG_BREAKING_STAGE_3);
+		STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_1 = block(MessinaroundModBlocks.STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_1);
+		STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_2 = block(MessinaroundModBlocks.STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_2);
+		STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_3 = block(MessinaroundModBlocks.STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_3);
+		STRIPPED_BIRCH_LOG_BREAKING_STAGE_1 = block(MessinaroundModBlocks.STRIPPED_BIRCH_LOG_BREAKING_STAGE_1);
+		STRIPPED_BIRCH_LOG_BREAKING_STAGE_2 = block(MessinaroundModBlocks.STRIPPED_BIRCH_LOG_BREAKING_STAGE_2);
+		STRIPPED_BIRCH_LOG_BREAKING_STAGE_3 = block(MessinaroundModBlocks.STRIPPED_BIRCH_LOG_BREAKING_STAGE_3);
+		STRIPPED_ACACIA_LOG_BREAKING_STAGE_1 = block(MessinaroundModBlocks.STRIPPED_ACACIA_LOG_BREAKING_STAGE_1);
+		STRIPPED_ACACIA_LOG_BREAKING_STAGE_2 = block(MessinaroundModBlocks.STRIPPED_ACACIA_LOG_BREAKING_STAGE_2);
+		STRIPPED_ACACIA_LOG_BREAKING_STAGE_3 = block(MessinaroundModBlocks.STRIPPED_ACACIA_LOG_BREAKING_STAGE_3);
+		STRIPPED_CHERRY_LOG_BREAKING_STAGE_1 = block(MessinaroundModBlocks.STRIPPED_CHERRY_LOG_BREAKING_STAGE_1);
+		STRIPPED_CHERRY_LOG_BREAKING_STAGE_2 = block(MessinaroundModBlocks.STRIPPED_CHERRY_LOG_BREAKING_STAGE_2);
+		STRIPPED_CHERRY_LOG_BREAKING_STAGE_3 = block(MessinaroundModBlocks.STRIPPED_CHERRY_LOG_BREAKING_STAGE_3);
+		STRIPPED_JUNGLE_LOG_BREAKING_STAGE_1 = block(MessinaroundModBlocks.STRIPPED_JUNGLE_LOG_BREAKING_STAGE_1);
+		STRIPPED_JUNGLE_LOG_BREAKING_STAGE_2 = block(MessinaroundModBlocks.STRIPPED_JUNGLE_LOG_BREAKING_STAGE_2);
+		STRIPPED_JUNGLE_LOG_BREAKING_STAGE_3 = block(MessinaroundModBlocks.STRIPPED_JUNGLE_LOG_BREAKING_STAGE_3);
+		STRIPPED_SPRUCE_LOG_BREAKING_STAGE_1 = block(MessinaroundModBlocks.STRIPPED_SPRUCE_LOG_BREAKING_STAGE_1);
+		STRIPPED_SPRUCE_LOG_BREAKING_STAGE_2 = block(MessinaroundModBlocks.STRIPPED_SPRUCE_LOG_BREAKING_STAGE_2);
+		STRIPPED_SPRUCE_LOG_BREAKING_STAGE_3 = block(MessinaroundModBlocks.STRIPPED_SPRUCE_LOG_BREAKING_STAGE_3);
+		STRIPPED_MANGROVE_LOG_BREAKING_STAGE_1 = block(MessinaroundModBlocks.STRIPPED_MANGROVE_LOG_BREAKING_STAGE_1);
+		STRIPPED_MANGROVE_LOG_BREAKING_STAGE_2 = block(MessinaroundModBlocks.STRIPPED_MANGROVE_LOG_BREAKING_STAGE_2);
+		STRIPPED_MANGROVE_LOG_BREAKING_STAGE_3 = block(MessinaroundModBlocks.STRIPPED_MANGROVE_LOG_BREAKING_STAGE_3);
 	}
 
 	// Start of user code block custom items

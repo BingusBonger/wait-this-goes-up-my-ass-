@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "messinaround:block/stripped_acacia_log_breaking_stage_2",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "messinaround:block/stripped_acacia_log_breaking_stage_2"
+    },
+    "axis=z": {
+      "model": "messinaround:block/stripped_acacia_log_breaking_stage_2",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "messinaround:block/stripped_jungle_log_top_breaking_stage_3",
+    "up": "messinaround:block/stripped_jungle_log_top_breaking_stage_3",
+    "north": "messinaround:block/stripped_jungle_log_breaking_stage_3",
+    "east": "messinaround:block/stripped_jungle_log_breaking_stage_3",
+    "south": "messinaround:block/stripped_jungle_log_breaking_stage_3",
+    "west": "messinaround:block/stripped_jungle_log_breaking_stage_3",
+    "particle": "messinaround:block/stripped_jungle_log_top_breaking_stage_3"
+  },
+  "render_type": "solid"
+}

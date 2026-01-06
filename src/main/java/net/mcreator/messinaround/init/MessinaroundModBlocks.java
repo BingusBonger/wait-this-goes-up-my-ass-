@@ -28,6 +28,30 @@ public class MessinaroundModBlocks {
 	public static final DeferredBlock<Block> BREAKING_STAGE_5;
 	public static final DeferredBlock<Block> BREAKING_STAGE_6;
 	public static final DeferredBlock<Block> BREAKING_STAGE_7;
+	public static final DeferredBlock<Block> STRIPPED_OAK_LOG_BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> STRIPPED_OAK_LOG_BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> STRIPPED_OAK_LOG_BREAKING_STAGE_3;
+	public static final DeferredBlock<Block> STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_3;
+	public static final DeferredBlock<Block> STRIPPED_BIRCH_LOG_BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> STRIPPED_BIRCH_LOG_BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> STRIPPED_BIRCH_LOG_BREAKING_STAGE_3;
+	public static final DeferredBlock<Block> STRIPPED_ACACIA_LOG_BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> STRIPPED_ACACIA_LOG_BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> STRIPPED_ACACIA_LOG_BREAKING_STAGE_3;
+	public static final DeferredBlock<Block> STRIPPED_CHERRY_LOG_BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> STRIPPED_CHERRY_LOG_BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> STRIPPED_CHERRY_LOG_BREAKING_STAGE_3;
+	public static final DeferredBlock<Block> STRIPPED_JUNGLE_LOG_BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> STRIPPED_JUNGLE_LOG_BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> STRIPPED_JUNGLE_LOG_BREAKING_STAGE_3;
+	public static final DeferredBlock<Block> STRIPPED_SPRUCE_LOG_BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> STRIPPED_SPRUCE_LOG_BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> STRIPPED_SPRUCE_LOG_BREAKING_STAGE_3;
+	public static final DeferredBlock<Block> STRIPPED_MANGROVE_LOG_BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> STRIPPED_MANGROVE_LOG_BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> STRIPPED_MANGROVE_LOG_BREAKING_STAGE_3;
 	static {
 		LOOSE_DIRT_SLAB = register("loose_dirt_slab", LooseDirtSlabBlock::new);
 		LOOSE_DIRT_BLOCK = register("loose_dirt_block", LooseDirtBlockBlock::new);
@@ -41,6 +65,30 @@ public class MessinaroundModBlocks {
 		BREAKING_STAGE_5 = register("breaking_stage_5", BreakingStage5Block::new);
 		BREAKING_STAGE_6 = register("breaking_stage_6", BreakingStage6Block::new);
 		BREAKING_STAGE_7 = register("breaking_stage_7", BreakingStage7Block::new);
+		STRIPPED_OAK_LOG_BREAKING_STAGE_1 = register("stripped_oak_log_breaking_stage_1", StrippedOakLogBreakingStage1Block::new);
+		STRIPPED_OAK_LOG_BREAKING_STAGE_2 = register("stripped_oak_log_breaking_stage_2", StrippedOakLogBreakingStage2Block::new);
+		STRIPPED_OAK_LOG_BREAKING_STAGE_3 = register("stripped_oak_log_breaking_stage_3", StrippedOakLogBreakingStage3Block::new);
+		STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_1 = register("stripped_dark_oak_log_breaking_stage_1", StrippedDarkOakLogBreakingStage1Block::new);
+		STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_2 = register("stripped_dark_oak_log_breaking_stage_2", StrippedDarkOakLogBreakingStage2Block::new);
+		STRIPPED_DARK_OAK_LOG_BREAKING_STAGE_3 = register("stripped_dark_oak_log_breaking_stage_3", StrippedDarkOakLogBreakingStage3Block::new);
+		STRIPPED_BIRCH_LOG_BREAKING_STAGE_1 = register("stripped_birch_log_breaking_stage_1", StrippedBirchLogBreakingStage1Block::new);
+		STRIPPED_BIRCH_LOG_BREAKING_STAGE_2 = register("stripped_birch_log_breaking_stage_2", StrippedBirchLogBreakingStage2Block::new);
+		STRIPPED_BIRCH_LOG_BREAKING_STAGE_3 = register("stripped_birch_log_breaking_stage_3", StrippedBirchLogBreakingStage3Block::new);
+		STRIPPED_ACACIA_LOG_BREAKING_STAGE_1 = register("stripped_acacia_log_breaking_stage_1", StrippedAcaciaLogBreakingStage1Block::new);
+		STRIPPED_ACACIA_LOG_BREAKING_STAGE_2 = register("stripped_acacia_log_breaking_stage_2", StrippedAcaciaLogBreakingStage2Block::new);
+		STRIPPED_ACACIA_LOG_BREAKING_STAGE_3 = register("stripped_acacia_log_breaking_stage_3", StrippedAcaciaLogBreakingStage3Block::new);
+		STRIPPED_CHERRY_LOG_BREAKING_STAGE_1 = register("stripped_cherry_log_breaking_stage_1", StrippedCherryLogBreakingStage1Block::new);
+		STRIPPED_CHERRY_LOG_BREAKING_STAGE_2 = register("stripped_cherry_log_breaking_stage_2", StrippedCherryLogBreakingStage2Block::new);
+		STRIPPED_CHERRY_LOG_BREAKING_STAGE_3 = register("stripped_cherry_log_breaking_stage_3", StrippedCherryLogBreakingStage3Block::new);
+		STRIPPED_JUNGLE_LOG_BREAKING_STAGE_1 = register("stripped_jungle_log_breaking_stage_1", StrippedJungleLogBreakingStage1Block::new);
+		STRIPPED_JUNGLE_LOG_BREAKING_STAGE_2 = register("stripped_jungle_log_breaking_stage_2", StrippedJungleLogBreakingStage2Block::new);
+		STRIPPED_JUNGLE_LOG_BREAKING_STAGE_3 = register("stripped_jungle_log_breaking_stage_3", StrippedJungleLogBreakingStage3Block::new);
+		STRIPPED_SPRUCE_LOG_BREAKING_STAGE_1 = register("stripped_spruce_log_breaking_stage_1", StrippedSpruceLogBreakingStage1Block::new);
+		STRIPPED_SPRUCE_LOG_BREAKING_STAGE_2 = register("stripped_spruce_log_breaking_stage_2", StrippedSpruceLogBreakingStage2Block::new);
+		STRIPPED_SPRUCE_LOG_BREAKING_STAGE_3 = register("stripped_spruce_log_breaking_stage_3", StrippedSpruceLogBreakingStage3Block::new);
+		STRIPPED_MANGROVE_LOG_BREAKING_STAGE_1 = register("stripped_mangrove_log_breaking_stage_1", StrippedMangroveLogBreakingStage1Block::new);
+		STRIPPED_MANGROVE_LOG_BREAKING_STAGE_2 = register("stripped_mangrove_log_breaking_stage_2", StrippedMangroveLogBreakingStage2Block::new);
+		STRIPPED_MANGROVE_LOG_BREAKING_STAGE_3 = register("stripped_mangrove_log_breaking_stage_3", StrippedMangroveLogBreakingStage3Block::new);
 	}
 
 	// Start of user code block custom blocks
