@@ -1,20 +1,4 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "messinaround:blocks/stripped_oak_log_breaking_stage_3",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "messinaround:stripped_oak_log_breaking_stage_3"
-        }
-      ]
-    }
-  ]
+  "random_sequence": "messinaround:blocks/stripped_oak_log_breaking_stage_3"
 }
