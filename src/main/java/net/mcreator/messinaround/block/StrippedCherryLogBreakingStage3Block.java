@@ -16,7 +16,7 @@ public class StrippedCherryLogBreakingStage3Block extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public StrippedCherryLogBreakingStage3Block(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.GRAVEL).strength(2f, 10f));
+		super(properties.sound(SoundType.CHERRY_WOOD).strength(2f, 10f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 

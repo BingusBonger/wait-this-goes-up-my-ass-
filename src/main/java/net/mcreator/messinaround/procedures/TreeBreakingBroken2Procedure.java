@@ -35,7 +35,7 @@ import net.minecraft.client.Minecraft;
 import javax.annotation.Nullable;
 
 @EventBusSubscriber
-public class TreeDeBarkingProcedure {
+public class TreeBreakingBroken2Procedure {
 	@SubscribeEvent
 	public static void onBlockBreak(BlockEvent.BreakEvent event) {
 		execute(event, event.getLevel(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ(), event.getPlayer());
@@ -48,17 +48,17 @@ public class TreeDeBarkingProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		String blockName = "";
 		Direction sideBroken = Direction.NORTH;
+		String blockName = "";
+		String barkName = "";
 		if (!(getEntityGameType(entity) == GameType.CREATIVE)) {
-			if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("minecraft:logs")))
+			if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("messinaround:logs_breaking_2")))
 					&& !((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem)) {
 				if (event instanceof ICancellableEvent _cancellable) {
 					_cancellable.setCanceled(true);
 				}
 				blockName = BuiltInRegistries.BLOCK.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
-				blockName = blockName.replaceAll("minecraft:", "");
-				blockName = "minecraft:" + "stripped_" + blockName;
+				blockName = blockName.replaceAll("2", "3");
 				sideBroken = entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(5)), ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, entity)).getDirection();
 				{
 					BlockPos _bp = BlockPos.containing(x, y, z);
@@ -76,9 +76,9 @@ public class TreeDeBarkingProcedure {
 				}
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("item.axe.strip")), SoundSource.BLOCKS, 1, (float) Mth.nextDouble(RandomSource.create(), 0.85, 1.15));
+						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("item.axe.strip")), SoundSource.BLOCKS, 1, (float) Mth.nextDouble(RandomSource.create(), 0.7, 0.85));
 					} else {
-						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("item.axe.strip")), SoundSource.BLOCKS, 1, (float) Mth.nextDouble(RandomSource.create(), 0.85, 1.15), false);
+						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("item.axe.strip")), SoundSource.BLOCKS, 1, (float) Mth.nextDouble(RandomSource.create(), 0.7, 0.85), false);
 					}
 				}
 				if (world instanceof ServerLevel _level) {
