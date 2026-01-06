@@ -1519,16 +1519,7 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": [
-      {
-        "name": "TreeBreaking",
-        "children": []
-      },
-      {
-        "name": "PrimitiveGear",
-        "children": []
-      }
-    ]
+    "children": []
   },
   "workspaceSettings": {
     "modid": "messinaround",
