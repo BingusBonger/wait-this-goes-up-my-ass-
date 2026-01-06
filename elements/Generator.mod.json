@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:barrel_top_open",
+    "texture": "gearbox_top",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",

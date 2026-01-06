@@ -432,8 +432,8 @@
           "src/main/resources/data/messinaround/loot_table/blocks/generator.json",
           "src/main/resources/assets/messinaround/items/generator.json",
           "src/main/resources/assets/messinaround/blockstates/generator.json",
-          "src/main/resources/assets/messinaround/models/block/generator.json",
           "src/main/resources/assets/messinaround/models/item/generator.json",
+          "src/main/resources/assets/messinaround/models/block/generator.json",
           "src/main/java/net/mcreator/messinaround/block/GeneratorBlock.java"
         ]
       }
