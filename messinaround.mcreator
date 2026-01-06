@@ -8,12 +8,12 @@
       "registry_name": "loose_dirt_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_slab.json",
           "src/main/resources/assets/messinaround/models/block/loose_dirt_slab.json",
           "src/main/java/net/mcreator/messinaround/block/LooseDirtSlabBlock.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_slab.json",
-          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
-          "src/main/resources/assets/messinaround/blockstates/loose_dirt_slab.json",
-          "src/main/resources/assets/messinaround/models/item/loose_dirt_slab.json"
+          "src/main/resources/assets/messinaround/models/item/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/blockstates/loose_dirt_slab.json"
         ]
       }
     },
@@ -61,10 +61,10 @@
         "files": [
           "src/main/resources/assets/messinaround/models/block/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/items/loose_dirt_block.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/models/item/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/blockstates/loose_dirt_block.json",
-          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java"
+          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_block.json"
         ]
       }
     },
@@ -337,8 +337,8 @@
       "registry_name": "bone_knife",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/bone_knife.json",
           "src/main/java/net/mcreator/messinaround/item/BoneKnifeItem.java",
+          "src/main/resources/assets/messinaround/models/item/bone_knife.json",
           "src/main/resources/assets/messinaround/items/bone_knife.json"
         ]
       }
@@ -1767,7 +1767,6 @@
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:BoneKnife",
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:enchantable/durability": [

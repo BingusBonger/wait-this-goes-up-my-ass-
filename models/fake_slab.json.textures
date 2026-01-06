@@ -3,7 +3,7 @@
     "default": {
       "name": "default",
       "map": {
-        "all": "minecraft:coarse_dirt"
+        "all": "solid_dirt"
       }
     }
   }
