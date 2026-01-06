@@ -1294,7 +1294,7 @@
     {
       "name": "TreeBreakingUnbroken",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tree_breaking_unbroken",
       "metadata": {
@@ -1329,7 +1329,7 @@
     {
       "name": "TreeBreakingBroken3",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tree_breaking_broken_3",
       "metadata": {
@@ -1364,7 +1364,7 @@
     {
       "name": "TreeBreakingBroken2",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tree_breaking_broken_2",
       "metadata": {
@@ -1399,7 +1399,7 @@
     {
       "name": "TreeBreakingBroken1",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tree_breaking_broken_1",
       "metadata": {
@@ -1434,7 +1434,7 @@
     {
       "name": "TreeBreakingStripped",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tree_breaking_stripped",
       "metadata": {
@@ -1650,12 +1650,12 @@
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
