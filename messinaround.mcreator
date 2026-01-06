@@ -1684,6 +1684,24 @@
           "src/main/resources/data/messinaround/recipe/grass_booties_recipe.json"
         ]
       }
+    },
+    {
+      "name": "LeatherStripCutting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_strip_cutting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/LeatherStripCuttingProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
