@@ -236,41 +236,6 @@
       }
     },
     {
-      "name": "TreeDeBarking",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tree_de_barking",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/messinaround/procedures/TreeDeBarkingProcedure.java"
-        ]
-      },
-      "path": "~/TreeBreaking"
-    },
-    {
       "name": "JusMessinAroundTab",
       "type": "tab",
       "compiles": true,
@@ -935,12 +900,12 @@
       "registry_name": "stripped_oak_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage1Block.java",
-          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_1.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage1Block.java",
+          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_1.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -953,12 +918,12 @@
       "registry_name": "stripped_oak_log_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_2.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage2Block.java",
           "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_2.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_2.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -971,12 +936,12 @@
       "registry_name": "stripped_oak_log_breaking_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_3.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage3Block.java",
-          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_3.json"
+          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -989,12 +954,12 @@
       "registry_name": "stripped_dark_oak_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage1Block.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_1.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1007,12 +972,12 @@
       "registry_name": "stripped_dark_oak_log_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage2Block.java",
-          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_2.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage2Block.java"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1025,12 +990,12 @@
       "registry_name": "stripped_dark_oak_log_breaking_stage_3",
       "metadata": {
         "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_3.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage3Block.java",
-          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_3.json"
+          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage3Block.java"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1043,11 +1008,11 @@
       "registry_name": "stripped_birch_log_breaking_stage_1",
       "metadata": {
         "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage1Block.java",
           "src/main/resources/assets/messinaround/models/item/stripped_birch_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_1.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_1.json"
         ]
       },
@@ -1061,12 +1026,12 @@
       "registry_name": "stripped_birch_log_breaking_stage_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/models/item/stripped_birch_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_2.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage2Block.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage2Block.java"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1079,12 +1044,12 @@
       "registry_name": "stripped_birch_log_breaking_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage3Block.java",
           "src/main/resources/assets/messinaround/models/item/stripped_birch_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage3Block.java"
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1097,12 +1062,12 @@
       "registry_name": "stripped_acacia_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_1.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage1Block.java",
-          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_1.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1115,12 +1080,12 @@
       "registry_name": "stripped_acacia_log_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_2.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage2Block.java",
+          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_2.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_2.json"
+          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage2Block.java"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1133,12 +1098,12 @@
       "registry_name": "stripped_acacia_log_breaking_stage_3",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage3Block.java",
           "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_3.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage3Block.java"
+          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1151,12 +1116,12 @@
       "registry_name": "stripped_cherry_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage1Block.java",
-          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_1.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1169,12 +1134,12 @@
       "registry_name": "stripped_cherry_log_breaking_stage_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage2Block.java",
           "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_2.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage2Block.java",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_2.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1187,12 +1152,12 @@
       "registry_name": "stripped_cherry_log_breaking_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_3.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage3Block.java",
           "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_3.json"
+          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage3Block.java",
+          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1205,12 +1170,12 @@
       "registry_name": "stripped_jungle_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage1Block.java",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_1.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1224,11 +1189,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage2Block.java",
-          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_2.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_2.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1241,12 +1206,12 @@
       "registry_name": "stripped_jungle_log_breaking_stage_3",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage3Block.java",
           "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_3.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage3Block.java"
+          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1259,11 +1224,11 @@
       "registry_name": "stripped_spruce_log_breaking_stage_1",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_1.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage1Block.java"
         ]
       },
@@ -1277,12 +1242,12 @@
       "registry_name": "stripped_spruce_log_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_2.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage2Block.java",
           "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_2.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage2Block.java"
+          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_2.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1295,12 +1260,12 @@
       "registry_name": "stripped_spruce_log_breaking_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_3.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_3.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage3Block.java",
-          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_3.json"
+          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1313,11 +1278,11 @@
       "registry_name": "stripped_mangrove_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_1.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage1Block.java",
+          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_1.json"
         ]
       },
@@ -1331,12 +1296,12 @@
       "registry_name": "stripped_mangrove_log_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage2Block.java",
-          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_2.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage2Block.java",
           "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_2.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1350,11 +1315,186 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_3.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage3Block.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_3.json"
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_3.json"
+        ]
+      },
+      "path": "~/TreeBreaking"
+    },
+    {
+      "name": "TreeBreakingUnbroken",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_breaking_unbroken",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/TreeBreakingUnbrokenProcedure.java"
+        ]
+      },
+      "path": "~/TreeBreaking"
+    },
+    {
+      "name": "TreeBreakingStripped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_breaking_stripped",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/TreeBreakingStrippedProcedure.java"
+        ]
+      },
+      "path": "~/TreeBreaking"
+    },
+    {
+      "name": "TreeBreakingBroken1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_breaking_broken_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/TreeBreakingBroken1Procedure.java"
+        ]
+      },
+      "path": "~/TreeBreaking"
+    },
+    {
+      "name": "TreeBreakingBroken2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_breaking_broken_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/TreeBreakingBroken2Procedure.java"
+        ]
+      },
+      "path": "~/TreeBreaking"
+    },
+    {
+      "name": "TreeBreakingBroken3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_breaking_broken_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/TreeBreakingBroken3Procedure.java"
         ]
       },
       "path": "~/TreeBreaking"

@@ -1,20 +1,4 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "messinaround:blocks/stripped_cherry_log_breaking_stage_2",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "messinaround:stripped_cherry_log_breaking_stage_2"
-        }
-      ]
-    }
-  ]
+  "random_sequence": "messinaround:blocks/stripped_cherry_log_breaking_stage_2"
 }

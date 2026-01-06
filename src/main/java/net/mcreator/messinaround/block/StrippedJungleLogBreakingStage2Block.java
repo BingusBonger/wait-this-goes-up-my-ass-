@@ -16,7 +16,7 @@ public class StrippedJungleLogBreakingStage2Block extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public StrippedJungleLogBreakingStage2Block(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.GRAVEL).strength(2f, 10f));
+		super(properties.sound(SoundType.WOOD).strength(2f, 10f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 
