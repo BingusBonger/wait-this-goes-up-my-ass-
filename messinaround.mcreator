@@ -1719,6 +1719,101 @@
           "src/main/resources/data/messinaround/loot_table/blocks/coocible.json"
         ]
       }
+    },
+    {
+      "name": "HempSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/hemp_seeds.json",
+          "src/main/java/net/mcreator/messinaround/item/HempSeedsItem.java",
+          "src/main/resources/assets/messinaround/models/item/hemp_seeds.json"
+        ]
+      }
+    },
+    {
+      "name": "GrassBlockBreakWithHoe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_block_break_with_hoe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/GrassBlockBreakWithHoeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DirtBlockTilledBreak",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_block_tilled_break",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/DirtBlockTilledBreakProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NoTilling",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_tilling",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/NoTillingProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1936,7 +2031,8 @@
       "item.messinaround.grass_gear_boots": "Grass Slips",
       "item.messinaround.grass_gear_chestplate": "Grass Poncho",
       "item.messinaround.grass_gear_helmet": "Grass Hood",
-      "item.messinaround.coocible": "Coocible"
+      "item.messinaround.coocible": "Coocible",
+      "item.messinaround.hemp_seeds": "Hemp Seeds"
     }
   },
   "metadata": {

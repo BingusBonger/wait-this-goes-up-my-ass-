@@ -51,5 +51,6 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.GRASS_GEAR_LEGGINGS.get());
 				tabData.accept(MessinaroundModItems.GRASS_GEAR_BOOTS.get());
 				tabData.accept(MessinaroundModBlocks.COOCIBLE.get().asItem());
+				tabData.accept(MessinaroundModItems.HEMP_SEEDS.get());
 			}).build());
 }

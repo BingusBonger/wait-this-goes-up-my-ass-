@@ -84,6 +84,7 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> GRASS_GEAR_LEGGINGS;
 	public static final DeferredItem<Item> GRASS_GEAR_BOOTS;
 	public static final DeferredItem<Item> COOCIBLE;
+	public static final DeferredItem<Item> HEMP_SEEDS;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -150,6 +151,7 @@ public class MessinaroundModItems {
 		GRASS_GEAR_LEGGINGS = register("grass_gear_leggings", GrassGearItem.Leggings::new);
 		GRASS_GEAR_BOOTS = register("grass_gear_boots", GrassGearItem.Boots::new);
 		COOCIBLE = block(MessinaroundModBlocks.COOCIBLE, new Item.Properties().rarity(Rarity.RARE));
+		HEMP_SEEDS = register("hemp_seeds", HempSeedsItem::new);
 	}
 
 	// Start of user code block custom items
