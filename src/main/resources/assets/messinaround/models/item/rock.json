@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "messinaround:item/rock"
+    "layer0": "messinaround:item/stone_rock"
   }
 }

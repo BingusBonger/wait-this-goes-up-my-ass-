@@ -193,7 +193,8 @@
           "src/main/resources/assets/messinaround/models/item/sharp_rock.json",
           "src/main/resources/assets/messinaround/items/sharp_rock.json"
         ]
-      }
+      },
+      "path": "~/PrimitiveGear"
     },
     {
       "name": "Rock",
@@ -207,7 +208,8 @@
           "src/main/java/net/mcreator/messinaround/item/RockItem.java",
           "src/main/resources/assets/messinaround/items/rock.json"
         ]
-      }
+      },
+      "path": "~/PrimitiveGear"
     },
     {
       "name": "PileOfRocks",
@@ -221,7 +223,8 @@
           "src/main/java/net/mcreator/messinaround/item/PileOfRocksItem.java",
           "src/main/resources/assets/messinaround/models/item/pile_of_rocks.json"
         ]
-      }
+      },
+      "path": "~/PrimitiveGear"
     },
     {
       "name": "FlyingRock",
@@ -291,7 +294,8 @@
           "src/main/resources/assets/messinaround/items/wickerin_my_basket.json",
           "src/main/resources/assets/messinaround/models/item/wickerin_my_basket.json"
         ]
-      }
+      },
+      "path": "~/PrimitiveGear"
     },
     {
       "name": "WickerinMyBasketUsing",
@@ -361,7 +365,8 @@
           "src/main/resources/assets/messinaround/items/pointy_stick.json",
           "src/main/java/net/mcreator/messinaround/item/PointyStickItem.java"
         ]
-      }
+      },
+      "path": "~/PrimitiveGear"
     },
     {
       "name": "BoneKnife",
@@ -375,7 +380,8 @@
           "src/main/resources/assets/messinaround/models/item/bone_knife.json",
           "src/main/resources/assets/messinaround/items/bone_knife.json"
         ]
-      }
+      },
+      "path": "~/PrimitiveGear"
     },
     {
       "name": "StickToPointyStick",
@@ -418,7 +424,8 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/PrimToolsCraftedProcedure.java"
         ]
-      }
+      },
+      "path": "~/PrimitiveGear"
     },
     {
       "name": "PlayerDebuffs",
@@ -721,7 +728,8 @@
           "src/main/resources/assets/messinaround/items/grass_fabric.json",
           "src/main/resources/assets/messinaround/models/item/grass_fabric.json"
         ]
-      }
+      },
+      "path": "~/PrimitiveGear"
     },
     {
       "name": "StoneBreakingDown",
@@ -1519,7 +1527,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "PrimitiveGear",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "messinaround",
