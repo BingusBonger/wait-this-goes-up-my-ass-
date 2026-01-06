@@ -1,0 +1,9 @@
+{
+  "parent": "messinaround:custom/cuck",
+  "textures": {
+    "all": "messinaround:block/cuck_texture",
+    "particle": "messinaround:block/cuck_texture",
+    "0": "messinaround:block/cuck_texture"
+  },
+  "render_type": "solid"
+}

@@ -1702,6 +1702,23 @@
           "src/main/java/net/mcreator/messinaround/procedures/LeatherStripCuttingProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Coocible",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coocible",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/block/coocible.json",
+          "src/main/resources/assets/messinaround/models/item/coocible.json",
+          "src/main/java/net/mcreator/messinaround/block/CoocibleBlock.java",
+          "src/main/resources/assets/messinaround/blockstates/coocible.json",
+          "src/main/resources/assets/messinaround/items/coocible.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/coocible.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1837,6 +1854,12 @@
     ],
     "ITEMS:minecraft:foot_armor": [
       "~CUSTOM:GrassGear.boots"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Coocible"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Coocible"
     ]
   },
   "tab_element_order": {},
@@ -1913,7 +1936,8 @@
       "item.messinaround.grass_gear_leggings": "Grass Grieves",
       "item.messinaround.grass_gear_boots": "Grass Slips",
       "item.messinaround.grass_gear_chestplate": "Grass Poncho",
-      "item.messinaround.grass_gear_helmet": "Grass Hood"
+      "item.messinaround.grass_gear_helmet": "Grass Hood",
+      "item.messinaround.coocible": "Coocible"
     }
   },
   "metadata": {

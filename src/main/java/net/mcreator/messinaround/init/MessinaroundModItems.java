@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
@@ -82,6 +83,7 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> GRASS_GEAR_CHESTPLATE;
 	public static final DeferredItem<Item> GRASS_GEAR_LEGGINGS;
 	public static final DeferredItem<Item> GRASS_GEAR_BOOTS;
+	public static final DeferredItem<Item> COOCIBLE;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -147,6 +149,7 @@ public class MessinaroundModItems {
 		GRASS_GEAR_CHESTPLATE = register("grass_gear_chestplate", GrassGearItem.Chestplate::new);
 		GRASS_GEAR_LEGGINGS = register("grass_gear_leggings", GrassGearItem.Leggings::new);
 		GRASS_GEAR_BOOTS = register("grass_gear_boots", GrassGearItem.Boots::new);
+		COOCIBLE = block(MessinaroundModBlocks.COOCIBLE, new Item.Properties().rarity(Rarity.RARE));
 	}
 
 	// Start of user code block custom items
