@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "messinaround:bone_axe",
     "messinaround:sharp_rock"
   ]
 }

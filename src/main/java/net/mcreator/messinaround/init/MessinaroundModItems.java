@@ -71,6 +71,17 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> STRIPPED_MANGROVE_LOG_BREAKING_STAGE_1;
 	public static final DeferredItem<Item> STRIPPED_MANGROVE_LOG_BREAKING_STAGE_2;
 	public static final DeferredItem<Item> STRIPPED_MANGROVE_LOG_BREAKING_STAGE_3;
+	public static final DeferredItem<Item> BONE_AXE;
+	public static final DeferredItem<Item> BONE_PICKAXE;
+	public static final DeferredItem<Item> BONE_HOE;
+	public static final DeferredItem<Item> DEEP_ROCK;
+	public static final DeferredItem<Item> BLACK_ROCK;
+	public static final DeferredItem<Item> LEATHER_STRIP;
+	public static final DeferredItem<Item> BOTTLE_OF_RAINBOW;
+	public static final DeferredItem<Item> GRASS_GEAR_HELMET;
+	public static final DeferredItem<Item> GRASS_GEAR_CHESTPLATE;
+	public static final DeferredItem<Item> GRASS_GEAR_LEGGINGS;
+	public static final DeferredItem<Item> GRASS_GEAR_BOOTS;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -125,6 +136,17 @@ public class MessinaroundModItems {
 		STRIPPED_MANGROVE_LOG_BREAKING_STAGE_1 = block(MessinaroundModBlocks.STRIPPED_MANGROVE_LOG_BREAKING_STAGE_1);
 		STRIPPED_MANGROVE_LOG_BREAKING_STAGE_2 = block(MessinaroundModBlocks.STRIPPED_MANGROVE_LOG_BREAKING_STAGE_2);
 		STRIPPED_MANGROVE_LOG_BREAKING_STAGE_3 = block(MessinaroundModBlocks.STRIPPED_MANGROVE_LOG_BREAKING_STAGE_3);
+		BONE_AXE = register("bone_axe", BoneAxeItem::new);
+		BONE_PICKAXE = register("bone_pickaxe", BonePickaxeItem::new);
+		BONE_HOE = register("bone_hoe", BoneHoeItem::new);
+		DEEP_ROCK = register("deep_rock", DeepRockItem::new);
+		BLACK_ROCK = register("black_rock", BlackRockItem::new);
+		LEATHER_STRIP = register("leather_strip", LeatherStripItem::new);
+		BOTTLE_OF_RAINBOW = register("bottle_of_rainbow", BottleOfRainbowItem::new);
+		GRASS_GEAR_HELMET = register("grass_gear_helmet", GrassGearItem.Helmet::new);
+		GRASS_GEAR_CHESTPLATE = register("grass_gear_chestplate", GrassGearItem.Chestplate::new);
+		GRASS_GEAR_LEGGINGS = register("grass_gear_leggings", GrassGearItem.Leggings::new);
+		GRASS_GEAR_BOOTS = register("grass_gear_boots", GrassGearItem.Boots::new);
 	}
 
 	// Start of user code block custom items
