@@ -1323,8 +1323,7 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/TreeBreakingUnbrokenProcedure.java"
         ]
-      },
-      "path": "~/TreeBreaking"
+      }
     },
     {
       "name": "TreeBreakingBroken3",
@@ -1358,8 +1357,7 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/TreeBreakingBroken3Procedure.java"
         ]
-      },
-      "path": "~/TreeBreaking"
+      }
     },
     {
       "name": "TreeBreakingBroken2",
@@ -1393,8 +1391,7 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/TreeBreakingBroken2Procedure.java"
         ]
-      },
-      "path": "~/TreeBreaking"
+      }
     },
     {
       "name": "TreeBreakingBroken1",
@@ -1428,8 +1425,7 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/TreeBreakingBroken1Procedure.java"
         ]
-      },
-      "path": "~/TreeBreaking"
+      }
     },
     {
       "name": "TreeBreakingStripped",
@@ -1463,8 +1459,7 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/TreeBreakingStrippedProcedure.java"
         ]
-      },
-      "path": "~/TreeBreaking"
+      }
     }
   ],
   "variable_elements": [],
@@ -1650,22 +1645,17 @@
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
     "name": "~",
-    "children": [
-      {
-        "name": "TreeBreaking",
-        "children": []
-      }
-    ]
+    "children": []
   },
   "workspaceSettings": {
     "modid": "messinaround",
