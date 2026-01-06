@@ -57,6 +57,10 @@ public class TreeBreakingStrippedProcedure {
 				if (event instanceof ICancellableEvent _cancellable) {
 					_cancellable.setCanceled(true);
 				}
+				if (world instanceof ServerLevel _level) {
+					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).hurtAndBreak(1, _level, null, _stkprov -> {
+					});
+				}
 				blockName = BuiltInRegistries.BLOCK.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 				blockName = blockName.replaceAll("minecraft:", "messinaround:");
 				blockName = blockName + "_breaking_stage_1";

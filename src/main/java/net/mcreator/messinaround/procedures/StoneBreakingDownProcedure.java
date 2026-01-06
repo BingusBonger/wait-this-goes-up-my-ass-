@@ -60,6 +60,10 @@ public class StoneBreakingDownProcedure {
 					if (event instanceof ICancellableEvent _cancellable) {
 						_cancellable.setCanceled(true);
 					}
+					if (world instanceof ServerLevel _level) {
+						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).hurtAndBreak(1, _level, null, _stkprov -> {
+						});
+					}
 					if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.STONE) {
 						world.setBlock(BlockPos.containing(x, y, z), MessinaroundModBlocks.BREAKING_STAGE_1.get().defaultBlockState(), 3);
 					} else {
@@ -87,30 +91,37 @@ public class StoneBreakingDownProcedure {
 					}
 				}
 			}
-			if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("messinaround:stone_breaking_stages")))
-					&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.PICKAXES)
-					&& !((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:can_chip_stone"))))) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.stone.break")), SoundSource.BLOCKS, 1, (float) Mth.nextDouble(RandomSource.create(), 1.2, 1.4));
-					} else {
-						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.stone.break")), SoundSource.BLOCKS, 1, (float) Mth.nextDouble(RandomSource.create(), 1.2, 1.4), false);
-					}
+		}
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("messinaround:stone_breaking_stages")))
+				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.PICKAXES)
+				&& !((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:can_chip_stone"))))) {
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.stone.break")), SoundSource.BLOCKS, 1, (float) Mth.nextDouble(RandomSource.create(), 1.2, 1.4));
+				} else {
+					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.stone.break")), SoundSource.BLOCKS, 1, (float) Mth.nextDouble(RandomSource.create(), 1.2, 1.4), false);
 				}
-				{
-					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockState _bs = Blocks.COBBLESTONE.defaultBlockState();
-					BlockState _bso = world.getBlockState(_bp);
-					for (Property<?> _propertyOld : _bso.getProperties()) {
-						Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
-						if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
-							try {
-								_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
-							} catch (Exception e) {
-							}
-					}
-					world.setBlock(_bp, _bs, 3);
+			}
+			{
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockState _bs = Blocks.COBBLESTONE.defaultBlockState();
+				BlockState _bso = world.getBlockState(_bp);
+				for (Property<?> _propertyOld : _bso.getProperties()) {
+					Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+					if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+						try {
+							_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+						} catch (Exception e) {
+						}
 				}
+				world.setBlock(_bp, _bs, 3);
+			}
+		}
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("messinaround:stone_breaking_stages")))
+				&& !((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.PICKAXES))
+				&& !((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:can_chip_stone"))))) {
+			if (event instanceof ICancellableEvent _cancellable) {
+				_cancellable.setCanceled(true);
 			}
 		}
 	}
