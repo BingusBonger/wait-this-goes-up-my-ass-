@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "messinaround:grass_gear"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "messinaround:grass_gear"
+      }
+    ]
+  }
+}

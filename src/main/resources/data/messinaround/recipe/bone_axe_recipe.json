@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "messinaround:leather_strip",
+    "#primrock:tag",
+    "minecraft:bone"
+  ],
+  "result": {
+    "id": "messinaround:bone_axe",
+    "count": 1
+  }
+}

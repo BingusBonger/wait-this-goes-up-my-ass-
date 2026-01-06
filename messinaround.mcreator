@@ -1499,6 +1499,139 @@
         ]
       },
       "path": "~/TreeBreaking"
+    },
+    {
+      "name": "BoneAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/BoneAxeItem.java",
+          "src/main/resources/assets/messinaround/items/bone_axe.json",
+          "src/main/resources/assets/messinaround/models/item/bone_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "BonePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/bone_pickaxe.json",
+          "src/main/java/net/mcreator/messinaround/item/BonePickaxeItem.java",
+          "src/main/resources/assets/messinaround/models/item/bone_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoneHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/bone_hoe.json",
+          "src/main/resources/assets/messinaround/items/bone_hoe.json",
+          "src/main/java/net/mcreator/messinaround/item/BoneHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepRock",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/DeepRockItem.java",
+          "src/main/resources/assets/messinaround/models/item/deep_rock.json",
+          "src/main/resources/assets/messinaround/items/deep_rock.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackRock",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/black_rock.json",
+          "src/main/java/net/mcreator/messinaround/item/BlackRockItem.java",
+          "src/main/resources/assets/messinaround/items/black_rock.json"
+        ]
+      }
+    },
+    {
+      "name": "LeatherStrip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_strip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/leather_strip.json",
+          "src/main/resources/assets/messinaround/models/item/leather_strip.json",
+          "src/main/java/net/mcreator/messinaround/item/LeatherStripItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BottleOfRainbow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_of_rainbow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/bottle_of_rainbow.json",
+          "src/main/java/net/mcreator/messinaround/item/BottleOfRainbowItem.java",
+          "src/main/resources/assets/messinaround/models/item/bottle_of_rainbow.json"
+        ]
+      }
+    },
+    {
+      "name": "BoneAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/bone_axe_recipe.json",
+          "src/main/resources/data/messinaround/recipe/bone_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrassGear",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_gear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/grass_gear_helmet.json",
+          "src/main/resources/assets/messinaround/items/grass_gear_leggings.json",
+          "src/main/resources/assets/messinaround/models/item/grass_gear_chestplate.json",
+          "src/main/resources/assets/messinaround/items/grass_gear_boots.json",
+          "src/main/java/net/mcreator/messinaround/item/GrassGearItem.java",
+          "src/main/resources/assets/messinaround/models/item/grass_gear_boots.json",
+          "src/main/resources/assets/messinaround/items/grass_gear_helmet.json",
+          "src/main/resources/assets/messinaround/equipment/grass_gear.json",
+          "src/main/resources/assets/messinaround/models/item/grass_gear_leggings.json",
+          "src/main/java/net/mcreator/messinaround/client/renderer/item/GrassGearArmor.java",
+          "src/main/resources/assets/messinaround/items/grass_gear_chestplate.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1538,10 +1671,12 @@
       "~CUSTOM:Axle"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:BonePickaxe",
       "~CUSTOM:PointyStick",
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:BoneAxe",
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:swords": [
@@ -1612,6 +1747,26 @@
       "Blocks.COBBLESTONE",
       "Blocks.SANDSTONE#0",
       "Blocks.RED_SANDSTONE#0"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:BoneHoe"
+    ],
+    "ITEMS:primrock:tag": [
+      "CUSTOM:Rock",
+      "CUSTOM:DeepRock",
+      "CUSTOM:BlackRock"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:GrassGear.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:GrassGear.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:GrassGear.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:GrassGear.boots"
     ]
   },
   "tab_element_order": {},
@@ -1677,19 +1832,30 @@
       "item.messinaround.stripped_spruce_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1",
       "item.messinaround.stripped_mangrove_log_breaking_stage_1": "Stripped Oak Log Breaking Stage 1",
       "item.messinaround.stripped_mangrove_log_breaking_stage_2": "Stripped Oak Log Breaking Stage 1",
-      "item.messinaround.stripped_mangrove_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1"
+      "item.messinaround.stripped_mangrove_log_breaking_stage_3": "Stripped Oak Log Breaking Stage 1",
+      "item.messinaround.bone_axe": "Bone Axe",
+      "item.messinaround.bone_pickaxe": "Bone Pickaxe",
+      "item.messinaround.bone_hoe": "Bone Hoe",
+      "item.messinaround.deep_rock": "Deep Rock",
+      "item.messinaround.black_rock": "Black Rock",
+      "item.messinaround.leather_strip": "Leather Strip",
+      "item.messinaround.bottle_of_rainbow": "Bottle Of Rainbow",
+      "item.messinaround.grass_gear_leggings": "Grass Grieves",
+      "item.messinaround.grass_gear_boots": "Grass Slips",
+      "item.messinaround.grass_gear_chestplate": "Grass Poncho",
+      "item.messinaround.grass_gear_helmet": "Grass Hood"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
     ]
   },
   "foldersRoot": {

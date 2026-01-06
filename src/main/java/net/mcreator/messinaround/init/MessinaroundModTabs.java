@@ -39,5 +39,16 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.ACACIA_BARK.get());
 				tabData.accept(MessinaroundModItems.BIRCH_BARK.get());
 				tabData.accept(MessinaroundModItems.CHERRY_BARK.get());
+				tabData.accept(MessinaroundModItems.BONE_AXE.get());
+				tabData.accept(MessinaroundModItems.BONE_PICKAXE.get());
+				tabData.accept(MessinaroundModItems.BONE_HOE.get());
+				tabData.accept(MessinaroundModItems.DEEP_ROCK.get());
+				tabData.accept(MessinaroundModItems.BLACK_ROCK.get());
+				tabData.accept(MessinaroundModItems.LEATHER_STRIP.get());
+				tabData.accept(MessinaroundModItems.BOTTLE_OF_RAINBOW.get());
+				tabData.accept(MessinaroundModItems.GRASS_GEAR_HELMET.get());
+				tabData.accept(MessinaroundModItems.GRASS_GEAR_CHESTPLATE.get());
+				tabData.accept(MessinaroundModItems.GRASS_GEAR_LEGGINGS.get());
+				tabData.accept(MessinaroundModItems.GRASS_GEAR_BOOTS.get());
 			}).build());
 }
