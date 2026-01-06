@@ -16,7 +16,7 @@ import net.mcreator.messinaround.init.MessinaroundModItems;
 @EventBusSubscriber
 public class RockItem extends Item {
 	public RockItem(Item.Properties properties) {
-		super(properties.stacksTo(16).food((new FoodProperties.Builder()).nutrition(0).saturationModifier(0f).build(), Consumables.defaultFood().consumeSeconds(3.2F).build()));
+		super(properties.stacksTo(16).food((new FoodProperties.Builder()).nutrition(0).saturationModifier(0f).alwaysEdible().build(), Consumables.defaultFood().consumeSeconds(3.2F).build()));
 	}
 
 	@SubscribeEvent
