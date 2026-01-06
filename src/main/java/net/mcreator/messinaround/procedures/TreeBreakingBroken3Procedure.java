@@ -54,6 +54,10 @@ public class TreeBreakingBroken3Procedure {
 				if (event instanceof ICancellableEvent _cancellable) {
 					_cancellable.setCanceled(true);
 				}
+				if (world instanceof ServerLevel _level) {
+					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).hurtAndBreak(1, _level, null, _stkprov -> {
+					});
+				}
 				world.destroyBlock(BlockPos.containing(x, y, z), false);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {

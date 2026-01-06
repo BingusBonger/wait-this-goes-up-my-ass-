@@ -3,11 +3,12 @@ package net.mcreator.messinaround.block;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 
 public class BreakingStage7Block extends Block {
 	public BreakingStage7Block(BlockBehaviour.Properties properties) {
-		super(properties.strength(3f, 10f).pushReaction(PushReaction.IGNORE));
+		super(properties.sound(SoundType.BASALT).strength(8f, 10f).pushReaction(PushReaction.IGNORE));
 	}
 
 	@Override
