@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "messinaround:grass_fabric",
+    "messinaround:grass_fabric",
+    "messinaround:grass_fabric"
+  ],
+  "result": {
+    "id": "messinaround:grass_gear_leggings",
+    "count": 1
+  }
+}

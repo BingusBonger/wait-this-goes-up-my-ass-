@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "messinaround:grass_fabric"
+  ],
+  "result": {
+    "id": "messinaround:grass_gear_boots",
+    "count": 1
+  }
+}

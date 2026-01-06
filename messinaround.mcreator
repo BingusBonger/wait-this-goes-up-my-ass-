@@ -1632,6 +1632,58 @@
           "src/main/resources/assets/messinaround/items/grass_gear_chestplate.json"
         ]
       }
+    },
+    {
+      "name": "GrassHatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_hat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/grass_hat_recipe.json",
+          "src/main/resources/data/messinaround/advancement/recipes/grass_hat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrassPonchoRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_poncho_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/grass_poncho_recipe.json",
+          "src/main/resources/data/messinaround/advancement/recipes/grass_poncho_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrassPantiesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_panties_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/grass_panties_recipe.json",
+          "src/main/resources/data/messinaround/advancement/recipes/grass_panties_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrassBootiesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_booties_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/grass_booties_recipe.json",
+          "src/main/resources/data/messinaround/recipe/grass_booties_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
