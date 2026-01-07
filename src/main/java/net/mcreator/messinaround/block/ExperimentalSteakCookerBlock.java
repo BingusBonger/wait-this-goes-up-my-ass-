@@ -14,10 +14,12 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.messinaround.procedures.ExperimentalSteakCookerTickUpdateProcedure;
 import net.mcreator.messinaround.init.MessinaroundModBlocks;
 import net.mcreator.messinaround.block.entity.ExperimentalSteakCookerBlockEntity;
 
@@ -31,6 +33,19 @@ public class ExperimentalSteakCookerBlock extends Block implements EntityBlock {
 	@Override
 	public int getLightBlock(BlockState state) {
 		return 15;
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 10);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		ExperimentalSteakCookerTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		world.scheduleTick(pos, this, 10);
 	}
 
 	@Override
