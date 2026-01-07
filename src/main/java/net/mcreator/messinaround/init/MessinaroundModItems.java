@@ -88,6 +88,7 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> HEMP_SEEDS;
 	public static final DeferredItem<Item> CHUNK_O_WOOD;
 	public static final DeferredItem<Item> EXPERIMENTAL_STEAK_COOKER;
+	public static final DeferredItem<Item> OPEN_CUCK;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -157,6 +158,7 @@ public class MessinaroundModItems {
 		HEMP_SEEDS = register("hemp_seeds", HempSeedsItem::new);
 		CHUNK_O_WOOD = register("chunk_o_wood", ChunkOWoodItem::new);
 		EXPERIMENTAL_STEAK_COOKER = register("experimental_steak_cooker", ExperimentalSteakCookerBlock.Item::new);
+		OPEN_CUCK = block(MessinaroundModBlocks.OPEN_CUCK);
 	}
 
 	// Start of user code block custom items

@@ -690,5 +690,69 @@
         }
       }
     }
-  ]
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        3,
+        -0.5
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_righthand": {
+      "scale": [
+        0.47,
+        0.47,
+        0.47
+      ]
+    },
+    "firstperson_lefthand": {
+      "scale": [
+        0.47,
+        0.47,
+        0.47
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2.25,
+        0
+      ],
+      "scale": [
+        0.41,
+        0.41,
+        0.41
+      ]
+    },
+    "gui": {
+      "rotation": [
+        32.83,
+        48.63,
+        -2.89
+      ],
+      "scale": [
+        0.63,
+        0.63,
+        0.63
+      ]
+    }
+  }
 }
