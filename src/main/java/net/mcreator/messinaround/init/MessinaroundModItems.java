@@ -158,7 +158,7 @@ public class MessinaroundModItems {
 		HEMP_SEEDS = register("hemp_seeds", HempSeedsItem::new);
 		CHUNK_O_WOOD = register("chunk_o_wood", ChunkOWoodItem::new);
 		EXPERIMENTAL_STEAK_COOKER = register("experimental_steak_cooker", ExperimentalSteakCookerBlock.Item::new);
-		OPEN_CUCK = block(MessinaroundModBlocks.OPEN_CUCK);
+		OPEN_CUCK = block(MessinaroundModBlocks.OPEN_CUCK, new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant());
 	}
 
 	// Start of user code block custom items

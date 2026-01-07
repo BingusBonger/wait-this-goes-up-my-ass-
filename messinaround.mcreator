@@ -1886,12 +1886,12 @@
       "registry_name": "open_cuck",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/block/OpenCuckBlock.java",
           "src/main/resources/data/messinaround/loot_table/blocks/open_cuck.json",
           "src/main/resources/assets/messinaround/models/item/open_cuck.json",
+          "src/main/resources/assets/messinaround/blockstates/open_cuck.json",
           "src/main/resources/assets/messinaround/models/block/open_cuck.json",
-          "src/main/resources/assets/messinaround/items/open_cuck.json",
-          "src/main/java/net/mcreator/messinaround/block/OpenCuckBlock.java",
-          "src/main/resources/assets/messinaround/blockstates/open_cuck.json"
+          "src/main/resources/assets/messinaround/items/open_cuck.json"
         ]
       }
     }
@@ -2125,12 +2125,12 @@
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlockEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

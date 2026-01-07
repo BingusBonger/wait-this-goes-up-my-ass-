@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class OpenCuckBlock extends Block {
 	public OpenCuckBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.DECORATED_POT).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.sound(SoundType.DECORATED_POT).strength(4f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

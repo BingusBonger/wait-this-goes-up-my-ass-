@@ -16,7 +16,7 @@
     "displayFluidOverlay": false,
     "animations": [],
     "itemTexture": "",
-    "particleTexture": "",
+    "particleTexture": "minecraft:red_terracotta",
     "blockSetType": "OAK",
     "pottedPlant": {
       "value": ""
@@ -52,14 +52,14 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 4.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
     "maxStackSize": 64,
-    "rarity": "COMMON",
-    "immuneToFire": false,
+    "rarity": "UNCOMMON",
+    "immuneToFire": true,
     "creativeTabs": [
       {
         "value": "CUSTOM:JusMessinAroundTab"
