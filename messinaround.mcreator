@@ -1829,6 +1829,54 @@
         ]
       },
       "path": "~/TreeBreaking"
+    },
+    {
+      "name": "ExperimentalSteakCooker",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experimental_steak_cooker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/experimental_steak_cooker.json",
+          "src/main/resources/assets/messinaround/items/experimental_steak_cooker.json",
+          "src/main/resources/assets/messinaround/models/block/experimental_steak_cooker.json",
+          "src/main/resources/assets/messinaround/blockstates/experimental_steak_cooker.json",
+          "src/main/resources/assets/messinaround/models/item/experimental_steak_cooker.json",
+          "src/main/java/net/mcreator/messinaround/block/ExperimentalSteakCookerBlock.java",
+          "src/main/java/net/mcreator/messinaround/block/entity/ExperimentalSteakCookerBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ExperimentalSteakCookerTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experimental_steak_cooker_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/ExperimentalSteakCookerTickUpdateProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1965,6 +2013,7 @@
       "~CUSTOM:GrassGear.boots"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ExperimentalSteakCooker",
       "~CUSTOM:Coocible"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
@@ -2048,12 +2097,15 @@
       "item.messinaround.grass_gear_helmet": "Grass Hood",
       "item.messinaround.coocible": "Coocible",
       "item.messinaround.hemp_seeds": "Hemp Seeds",
-      "item.messinaround.chunk_o_wood": "Chunk \u0027O Wood"
+      "item.messinaround.chunk_o_wood": "Chunk \u0027O Wood",
+      "item.messinaround.experimental_steak_cooker": "Experimental Steak Cooker",
+      "block.messinaround.experimental_steak_cooker.description_0": "cooks steak that you place on top of it"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlockEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",

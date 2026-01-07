@@ -24,6 +24,7 @@ import net.mcreator.messinaround.init.MessinaroundModTabs;
 import net.mcreator.messinaround.init.MessinaroundModItems;
 import net.mcreator.messinaround.init.MessinaroundModEntities;
 import net.mcreator.messinaround.init.MessinaroundModBlocks;
+import net.mcreator.messinaround.init.MessinaroundModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -49,6 +50,7 @@ public class MessinaroundMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 		MessinaroundModBlocks.REGISTRY.register(modEventBus);
+		MessinaroundModBlockEntities.REGISTRY.register(modEventBus);
 		MessinaroundModItems.REGISTRY.register(modEventBus);
 		MessinaroundModEntities.REGISTRY.register(modEventBus);
 		MessinaroundModTabs.REGISTRY.register(modEventBus);

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/blast_furnace_top",
+    "up": "minecraft:block/glow_item_frame",
+    "north": "minecraft:block/blast_furnace_front_on",
+    "east": "minecraft:block/blast_furnace_front_on",
+    "south": "minecraft:block/blast_furnace_front_on",
+    "west": "minecraft:block/blast_furnace_front_on",
+    "particle": "minecraft:block/blast_furnace_top"
+  },
+  "render_type": "solid"
+}

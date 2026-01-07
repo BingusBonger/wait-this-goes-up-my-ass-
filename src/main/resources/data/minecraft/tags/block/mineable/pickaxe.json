@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "messinaround:coocible"
+    "messinaround:coocible",
+    "messinaround:experimental_steak_cooker"
   ]
 }

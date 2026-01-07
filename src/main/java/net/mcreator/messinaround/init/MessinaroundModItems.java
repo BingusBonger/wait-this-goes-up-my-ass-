@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.messinaround.item.*;
+import net.mcreator.messinaround.block.ExperimentalSteakCookerBlock;
 import net.mcreator.messinaround.MessinaroundMod;
 
 import java.util.function.Function;
@@ -86,6 +87,7 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> COOCIBLE;
 	public static final DeferredItem<Item> HEMP_SEEDS;
 	public static final DeferredItem<Item> CHUNK_O_WOOD;
+	public static final DeferredItem<Item> EXPERIMENTAL_STEAK_COOKER;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -154,6 +156,7 @@ public class MessinaroundModItems {
 		COOCIBLE = block(MessinaroundModBlocks.COOCIBLE, new Item.Properties().rarity(Rarity.RARE));
 		HEMP_SEEDS = register("hemp_seeds", HempSeedsItem::new);
 		CHUNK_O_WOOD = register("chunk_o_wood", ChunkOWoodItem::new);
+		EXPERIMENTAL_STEAK_COOKER = register("experimental_steak_cooker", ExperimentalSteakCookerBlock.Item::new);
 	}
 
 	// Start of user code block custom items
