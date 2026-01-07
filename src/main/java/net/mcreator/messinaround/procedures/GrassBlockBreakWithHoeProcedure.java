@@ -55,7 +55,7 @@ public class GrassBlockBreakWithHoeProcedure {
 				world.setBlock(_bp, _bs, 3);
 			}
 			if (world instanceof ServerLevel _level) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, x, (y + 1), z, new ItemStack(MessinaroundModItems.HEMP_SEEDS.get()));
+				ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 1), (z + 0.5), new ItemStack(MessinaroundModItems.HEMP_SEEDS.get()));
 				entityToSpawn.setPickUpDelay(10);
 				_level.addFreshEntity(entityToSpawn);
 			}
