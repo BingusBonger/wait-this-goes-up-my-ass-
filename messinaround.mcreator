@@ -547,7 +547,8 @@
           "src/main/resources/assets/messinaround/models/block/breaking_stage_1.json",
           "src/main/resources/assets/messinaround/blockstates/breaking_stage_1.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "BreakingStage2",
@@ -564,7 +565,8 @@
           "src/main/resources/assets/messinaround/models/item/breaking_stage_2.json",
           "src/main/resources/assets/messinaround/blockstates/breaking_stage_2.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "BreakingStage3",
@@ -581,7 +583,8 @@
           "src/main/resources/assets/messinaround/models/item/breaking_stage_3.json",
           "src/main/java/net/mcreator/messinaround/block/BreakingStage3Block.java"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "BreakingStage4",
@@ -598,7 +601,8 @@
           "src/main/resources/assets/messinaround/models/item/breaking_stage_4.json",
           "src/main/resources/assets/messinaround/blockstates/breaking_stage_4.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "BreakingStage5",
@@ -615,7 +619,8 @@
           "src/main/java/net/mcreator/messinaround/block/BreakingStage5Block.java",
           "src/main/resources/assets/messinaround/items/breaking_stage_5.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "BreakingStage6",
@@ -632,7 +637,8 @@
           "src/main/resources/assets/messinaround/models/item/breaking_stage_6.json",
           "src/main/resources/assets/messinaround/blockstates/breaking_stage_6.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "BreakingStage7",
@@ -649,7 +655,8 @@
           "src/main/resources/assets/messinaround/models/block/breaking_stage_7.json",
           "src/main/resources/assets/messinaround/models/item/breaking_stage_7.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "WhatTheHellyanteIsThis",
@@ -721,7 +728,8 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/StoneBreakingDownProcedure.java"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "OakBark",
@@ -1894,6 +1902,24 @@
           "src/main/resources/assets/messinaround/items/open_cuck.json"
         ]
       }
+    },
+    {
+      "name": "BreakingStage8",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaking_stage_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_8.json",
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_8.json",
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_8.json",
+          "src/main/resources/assets/messinaround/items/breaking_stage_8.json",
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage8Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_8.json"
+        ]
+      },
+      "path": "~/StoneBreaking"
     }
   ],
   "variable_elements": [],
@@ -1972,17 +1998,8 @@
       "CUSTOM:BreakingStage4",
       "CUSTOM:BreakingStage5",
       "CUSTOM:BreakingStage6",
-      "CUSTOM:BreakingStage7"
-    ],
-    "BLOCKS:forge:stone_breaking_stages": [
-      "CUSTOM:BreakingStage1",
-      "CUSTOM:BreakingStage2",
-      "CUSTOM:BreakingStage3",
-      "CUSTOM:BreakingStage4",
-      "CUSTOM:BreakingStage5",
-      "CUSTOM:BreakingStage6",
       "CUSTOM:BreakingStage7",
-      "Blocks.STONE#0"
+      "CUSTOM:BreakingStage8"
     ],
     "ITEMS:mod:can_chip_stone": [
       "CUSTOM:SharpRock",
@@ -2035,7 +2052,8 @@
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Coocible"
-    ]
+    ],
+    "BLOCKS:forge:stone_breaking_stages": []
   },
   "tab_element_order": {},
   "language_map": {
@@ -2117,7 +2135,8 @@
       "item.messinaround.chunk_o_wood": "Chunk \u0027O Wood",
       "item.messinaround.experimental_steak_cooker": "Experimental Steak Cooker",
       "block.messinaround.experimental_steak_cooker.description_0": "cooks steak that you place on top of it",
-      "item.messinaround.open_cuck": "Open Cuck"
+      "item.messinaround.open_cuck": "Open Cuck",
+      "item.messinaround.breaking_stage_8": "Breaking Stage 7"
     }
   },
   "metadata": {
@@ -2138,6 +2157,10 @@
     "children": [
       {
         "name": "TreeBreaking",
+        "children": []
+      },
+      {
+        "name": "StoneBreaking",
         "children": []
       }
     ]

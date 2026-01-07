@@ -22,7 +22,7 @@
     "attackSpeed": 1.0,
     "enchantability": 1,
     "damageVsEntity": 1.0,
-    "usageCount": 1,
+    "usageCount": 2,
     "glowCondition": {
       "fixedValue": false
     },
@@ -53,6 +53,9 @@
       },
       {
         "value": "CUSTOM:BreakingStage7"
+      },
+      {
+        "value": "CUSTOM:BreakingStage8"
       }
     ],
     "stayInGridWhenCrafting": false,

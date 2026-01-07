@@ -53,10 +53,11 @@ public class StoneBreakingDownProcedure {
 			return;
 		String blockName = "";
 		Direction sideBroken = Direction.NORTH;
+		boolean giveRock = false;
 		if (!(getEntityGameType(entity) == GameType.CREATIVE)) {
 			if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("messinaround:stone_breaking_stages")))
 					&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:can_chip_stone")))) {
-				if (!((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == MessinaroundModBlocks.BREAKING_STAGE_7.get())) {
+				if (!((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == MessinaroundModBlocks.BREAKING_STAGE_8.get())) {
 					if (event instanceof ICancellableEvent _cancellable) {
 						_cancellable.setCanceled(true);
 					}
@@ -64,10 +65,15 @@ public class StoneBreakingDownProcedure {
 						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).hurtAndBreak(1, _level, null, _stkprov -> {
 						});
 					}
+					giveRock = false;
 					if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.STONE) {
 						world.setBlock(BlockPos.containing(x, y, z), MessinaroundModBlocks.BREAKING_STAGE_1.get().defaultBlockState(), 3);
 					} else {
 						blockName = BuiltInRegistries.BLOCK.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
+						if (blockName.contains("1") || blockName.contains("3") || blockName.contains("5") || blockName.contains("7")) {
+							giveRock = true;
+						}
+						blockName = blockName.replaceAll("7", "8");
 						blockName = blockName.replaceAll("6", "7");
 						blockName = blockName.replaceAll("5", "6");
 						blockName = blockName.replaceAll("4", "5");
@@ -84,10 +90,13 @@ public class StoneBreakingDownProcedure {
 							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.stone.break")), SoundSource.BLOCKS, 1, (float) Mth.nextDouble(RandomSource.create(), 1.2, 1.4), false);
 						}
 					}
-					if (world instanceof ServerLevel _level) {
-						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5 + sideBroken.getStepX() * 0.75), (y + 0.5 + sideBroken.getStepY() * 0.75), (z + 0.5 + sideBroken.getStepZ() * 0.75), new ItemStack(MessinaroundModItems.ROCK.get()));
-						entityToSpawn.setPickUpDelay(10);
-						_level.addFreshEntity(entityToSpawn);
+					if (giveRock) {
+						if (world instanceof ServerLevel _level) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5 + sideBroken.getStepX() * 0.75), (y + 0.5 + sideBroken.getStepY() * 0.75), (z + 0.5 + sideBroken.getStepZ() * 0.75),
+									new ItemStack(MessinaroundModItems.ROCK.get()));
+							entityToSpawn.setPickUpDelay(10);
+							_level.addFreshEntity(entityToSpawn);
+						}
 					}
 				}
 			}
@@ -119,7 +128,7 @@ public class StoneBreakingDownProcedure {
 		}
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("messinaround:stone_breaking_stages")))
 				&& !((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.PICKAXES))
-				&& !((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:can_chip_stone"))))) {
+				&& !((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:can_chip_stone")))) && !(getEntityGameType(entity) == GameType.CREATIVE)) {
 			if (event instanceof ICancellableEvent _cancellable) {
 				_cancellable.setCanceled(true);
 			}

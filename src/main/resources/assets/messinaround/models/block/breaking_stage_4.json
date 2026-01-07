@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "messinaround:block/breaking_stage_4",
-    "particle": "messinaround:block/breaking_stage_4"
+    "all": "messinaround:block/stone_breaking_stage_4",
+    "particle": "messinaround:block/stone_breaking_stage_4"
   },
   "render_type": "solid"
 }

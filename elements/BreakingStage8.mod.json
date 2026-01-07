@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "stone_breaking_stage_6",
+    "texture": "stone_breaking_stage_8",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -39,11 +39,11 @@
       }
     ],
     "customProperties": [],
-    "name": "Breaking Stage 1",
+    "name": "Breaking Stage 7",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.0,
+    "hardness": 8.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -54,7 +54,7 @@
     "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Rock"
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
@@ -93,7 +93,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "BASALT"
     },
     "breakSound": {
       "value": ""

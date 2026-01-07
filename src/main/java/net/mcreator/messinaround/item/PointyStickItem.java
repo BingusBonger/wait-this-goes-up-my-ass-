@@ -20,14 +20,14 @@ import java.util.List;
 
 public class PointyStickItem extends Item {
 	public PointyStickItem(Item.Properties properties) {
-		super(properties.durability(1).attributes(ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, 0, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
+		super(properties.durability(2).attributes(ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, 0, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
 				.add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, -3, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build()).enchantable(1));
 	}
 
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
 		return List.of(Blocks.STONE, MessinaroundModBlocks.BREAKING_STAGE_1.get(), MessinaroundModBlocks.BREAKING_STAGE_2.get(), MessinaroundModBlocks.BREAKING_STAGE_3.get(), MessinaroundModBlocks.BREAKING_STAGE_4.get(),
-				MessinaroundModBlocks.BREAKING_STAGE_5.get(), MessinaroundModBlocks.BREAKING_STAGE_6.get(), MessinaroundModBlocks.BREAKING_STAGE_7.get()).contains(blockstate.getBlock()) ? 1.5f : 1;
+				MessinaroundModBlocks.BREAKING_STAGE_5.get(), MessinaroundModBlocks.BREAKING_STAGE_6.get(), MessinaroundModBlocks.BREAKING_STAGE_7.get(), MessinaroundModBlocks.BREAKING_STAGE_8.get()).contains(blockstate.getBlock()) ? 1.5f : 1;
 	}
 
 	@Override

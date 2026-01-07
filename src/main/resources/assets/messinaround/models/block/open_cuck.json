@@ -2,7 +2,7 @@
   "parent": "messinaround:custom/open_cuck",
   "textures": {
     "all": "messinaround:block/open_cuck",
-    "particle": "minecraft:block/red_terracotta",
+    "particle": "messinaround:block/open_cuck_particles",
     "0": "messinaround:block/open_cuck"
   },
   "render_type": "solid"
