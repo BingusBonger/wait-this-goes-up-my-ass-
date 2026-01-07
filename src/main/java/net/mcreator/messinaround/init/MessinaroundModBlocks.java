@@ -54,6 +54,7 @@ public class MessinaroundModBlocks {
 	public static final DeferredBlock<Block> STRIPPED_MANGROVE_LOG_BREAKING_STAGE_3;
 	public static final DeferredBlock<Block> COOCIBLE;
 	public static final DeferredBlock<Block> EXPERIMENTAL_STEAK_COOKER;
+	public static final DeferredBlock<Block> OPEN_CUCK;
 	static {
 		LOOSE_DIRT_SLAB = register("loose_dirt_slab", LooseDirtSlabBlock::new);
 		LOOSE_DIRT_BLOCK = register("loose_dirt_block", LooseDirtBlockBlock::new);
@@ -93,6 +94,7 @@ public class MessinaroundModBlocks {
 		STRIPPED_MANGROVE_LOG_BREAKING_STAGE_3 = register("stripped_mangrove_log_breaking_stage_3", StrippedMangroveLogBreakingStage3Block::new);
 		COOCIBLE = register("coocible", CoocibleBlock::new);
 		EXPERIMENTAL_STEAK_COOKER = register("experimental_steak_cooker", ExperimentalSteakCookerBlock::new);
+		OPEN_CUCK = register("open_cuck", OpenCuckBlock::new);
 	}
 
 	// Start of user code block custom blocks

@@ -54,5 +54,6 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.HEMP_SEEDS.get());
 				tabData.accept(MessinaroundModItems.CHUNK_O_WOOD.get());
 				tabData.accept(MessinaroundModBlocks.EXPERIMENTAL_STEAK_COOKER.get().asItem());
+				tabData.accept(MessinaroundModBlocks.OPEN_CUCK.get().asItem());
 			}).build());
 }
