@@ -1814,6 +1814,21 @@
           "src/main/java/net/mcreator/messinaround/procedures/NoTillingProcedure.java"
         ]
       }
+    },
+    {
+      "name": "ChunkOWood",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chunk_o_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/chunk_o_wood.json",
+          "src/main/java/net/mcreator/messinaround/item/ChunkOWoodItem.java",
+          "src/main/resources/assets/messinaround/items/chunk_o_wood.json"
+        ]
+      },
+      "path": "~/TreeBreaking"
     }
   ],
   "variable_elements": [],
@@ -2032,19 +2047,20 @@
       "item.messinaround.grass_gear_chestplate": "Grass Poncho",
       "item.messinaround.grass_gear_helmet": "Grass Hood",
       "item.messinaround.coocible": "Coocible",
-      "item.messinaround.hemp_seeds": "Hemp Seeds"
+      "item.messinaround.hemp_seeds": "Hemp Seeds",
+      "item.messinaround.chunk_o_wood": "Chunk \u0027O Wood"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

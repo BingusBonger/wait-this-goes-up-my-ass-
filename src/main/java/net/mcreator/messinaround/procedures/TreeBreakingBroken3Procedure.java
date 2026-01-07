@@ -9,7 +9,6 @@ import net.neoforged.bus.api.Event;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.GameType;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.entity.player.Player;
@@ -28,6 +27,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.client.Minecraft;
+
+import net.mcreator.messinaround.init.MessinaroundModItems;
 
 import javax.annotation.Nullable;
 
@@ -67,7 +68,7 @@ public class TreeBreakingBroken3Procedure {
 					}
 				}
 				if (world instanceof ServerLevel _level) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.STICK));
+					ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(MessinaroundModItems.CHUNK_O_WOOD.get()));
 					entityToSpawn.setPickUpDelay(10);
 					_level.addFreshEntity(entityToSpawn);
 				}
