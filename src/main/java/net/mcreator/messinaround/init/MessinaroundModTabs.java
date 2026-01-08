@@ -58,5 +58,10 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModBlocks.PIPE_EMPTY.get().asItem());
 				tabData.accept(MessinaroundModBlocks.PIPE_FULL.get().asItem());
 				tabData.accept(MessinaroundModItems.COPPER_NUGGET.get());
+				tabData.accept(MessinaroundModItems.COPPER_SWORD.get());
+				tabData.accept(MessinaroundModItems.COPPER_AXE.get());
+				tabData.accept(MessinaroundModItems.COPPER_PICKAXE.get());
+				tabData.accept(MessinaroundModItems.COPPER_SHOVEL.get());
+				tabData.accept(MessinaroundModItems.COPPER_HOE.get());
 			}).build());
 }

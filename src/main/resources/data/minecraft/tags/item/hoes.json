@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "messinaround:bone_hoe"
+    "messinaround:bone_hoe",
+    "messinaround:copper_hoe"
   ]
 }

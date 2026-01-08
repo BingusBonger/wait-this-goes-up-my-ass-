@@ -82,5 +82,10 @@
   "item.messinaround.pipe_full": "Pipe Full",
   "item.messinaround.copper_nugget": "Copper Nugget",
   "block.messinaround.open_cuck.description_0": "Smelts metals with a low melting point into nuggets",
-  "block.messinaround.open_cuck.description_1": "Surround on four sides with fire or lava to heat it up"
+  "block.messinaround.open_cuck.description_1": "Surround on four sides with fire or lava to heat it up",
+  "item.messinaround.copper_sword": "Copper Sword",
+  "item.messinaround.copper_axe": "Copper Axe",
+  "item.messinaround.copper_pickaxe": "Copper Pickaxe",
+  "item.messinaround.copper_shovel": "Copper Shovel",
+  "item.messinaround.copper_hoe": "Copper Hoe"
 }

@@ -2288,6 +2288,81 @@
         ]
       },
       "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/CopperSwordItem.java",
+          "src/main/resources/assets/messinaround/models/item/copper_sword.json",
+          "src/main/resources/assets/messinaround/items/copper_sword.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/copper_axe.json",
+          "src/main/resources/assets/messinaround/models/item/copper_axe.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperAxeItem.java"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/copper_pickaxe.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperPickaxeItem.java",
+          "src/main/resources/assets/messinaround/models/item/copper_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/CopperShovelItem.java",
+          "src/main/resources/assets/messinaround/models/item/copper_shovel.json",
+          "src/main/resources/assets/messinaround/items/copper_shovel.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/copper_hoe.json",
+          "src/main/resources/assets/messinaround/models/item/copper_hoe.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperHoeItem.java"
+        ]
+      },
+      "path": "~/Tools/Copper"
     }
   ],
   "variable_elements": [],
@@ -2327,15 +2402,18 @@
       "~CUSTOM:Axle"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:CopperPickaxe",
       "~CUSTOM:BonePickaxe",
       "~CUSTOM:PointyStick",
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:CopperAxe",
       "~CUSTOM:BoneAxe",
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:CopperSword",
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:enchantable/durability": [
@@ -2395,6 +2473,7 @@
       "Blocks.RED_SANDSTONE#0"
     ],
     "ITEMS:minecraft:hoes": [
+      "~CUSTOM:CopperHoe",
       "~CUSTOM:BoneHoe"
     ],
     "ITEMS:primrock:tag": [
@@ -2428,6 +2507,24 @@
       "Blocks.FIRE",
       "Blocks.MAGMA",
       "Blocks.LAVA"
+    ],
+    "ITEMS:messinaround:copper_sword_repair_items": [
+      "~CUSTOM:CopperNugget"
+    ],
+    "ITEMS:messinaround:copper_axe_repair_items": [
+      "~CUSTOM:CopperNugget"
+    ],
+    "ITEMS:messinaround:copper_pickaxe_repair_items": [
+      "~CUSTOM:CopperNugget"
+    ],
+    "ITEMS:messinaround:copper_shovel_repair_items": [
+      "~CUSTOM:CopperNugget"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:CopperShovel"
+    ],
+    "ITEMS:messinaround:copper_hoe_repair_items": [
+      "~CUSTOM:CopperNugget"
     ]
   },
   "tab_element_order": {},
@@ -2516,7 +2613,12 @@
       "item.messinaround.pipe_full": "Pipe Full",
       "item.messinaround.copper_nugget": "Copper Nugget",
       "block.messinaround.open_cuck.description_0": "Smelts metals with a low melting point into nuggets",
-      "block.messinaround.open_cuck.description_1": "Surround on four sides with fire or lava to heat it up"
+      "block.messinaround.open_cuck.description_1": "Surround on four sides with fire or lava to heat it up",
+      "item.messinaround.copper_sword": "Copper Sword",
+      "item.messinaround.copper_axe": "Copper Axe",
+      "item.messinaround.copper_pickaxe": "Copper Pickaxe",
+      "item.messinaround.copper_shovel": "Copper Shovel",
+      "item.messinaround.copper_hoe": "Copper Hoe"
     }
   },
   "metadata": {
@@ -2524,12 +2626,12 @@
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlockEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

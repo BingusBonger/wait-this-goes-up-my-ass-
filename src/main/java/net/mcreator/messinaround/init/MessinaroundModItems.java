@@ -94,6 +94,11 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> PIPE_EMPTY;
 	public static final DeferredItem<Item> PIPE_FULL;
 	public static final DeferredItem<Item> COPPER_NUGGET;
+	public static final DeferredItem<Item> COPPER_SWORD;
+	public static final DeferredItem<Item> COPPER_AXE;
+	public static final DeferredItem<Item> COPPER_PICKAXE;
+	public static final DeferredItem<Item> COPPER_SHOVEL;
+	public static final DeferredItem<Item> COPPER_HOE;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -168,6 +173,11 @@ public class MessinaroundModItems {
 		PIPE_EMPTY = block(MessinaroundModBlocks.PIPE_EMPTY);
 		PIPE_FULL = block(MessinaroundModBlocks.PIPE_FULL);
 		COPPER_NUGGET = register("copper_nugget", CopperNuggetItem::new);
+		COPPER_SWORD = register("copper_sword", CopperSwordItem::new);
+		COPPER_AXE = register("copper_axe", CopperAxeItem::new);
+		COPPER_PICKAXE = register("copper_pickaxe", CopperPickaxeItem::new);
+		COPPER_SHOVEL = register("copper_shovel", CopperShovelItem::new);
+		COPPER_HOE = register("copper_hoe", CopperHoeItem::new);
 	}
 
 	// Start of user code block custom items
