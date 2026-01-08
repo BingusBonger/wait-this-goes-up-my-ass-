@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "messinaround:iron_shovel",
+    "messinaround:iron_sword",
+    "messinaround:copper_axe",
+    "messinaround:copper_hoe",
+    "messinaround:iron_pickaxe",
+    "messinaround:gaydon_pickaxe",
+    "messinaround:copper_shovel",
+    "messinaround:copper_sword",
+    "messinaround:copper_pickaxe",
+    "messinaround:iron_axe",
+    "messinaround:iron_hoe"
+  ]
+}

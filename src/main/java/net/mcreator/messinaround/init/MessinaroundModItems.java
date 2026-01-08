@@ -110,6 +110,7 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> IRON_PICKAXE;
 	public static final DeferredItem<Item> IRON_SHOVEL;
 	public static final DeferredItem<Item> IRON_HOE;
+	public static final DeferredItem<Item> GAYDON_PICKAXE;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -200,6 +201,7 @@ public class MessinaroundModItems {
 		IRON_PICKAXE = register("iron_pickaxe", IronPickaxeItem::new);
 		IRON_SHOVEL = register("iron_shovel", IronShovelItem::new);
 		IRON_HOE = register("iron_hoe", IronHoeItem::new);
+		GAYDON_PICKAXE = register("gaydon_pickaxe", GaydonPickaxeItem::new);
 	}
 
 	// Start of user code block custom items

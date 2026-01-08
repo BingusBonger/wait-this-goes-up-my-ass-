@@ -63,8 +63,8 @@
   "item.messinaround.bone_axe": "Bone Axe",
   "item.messinaround.bone_pickaxe": "Bone Pickaxe",
   "item.messinaround.bone_hoe": "Bone Hoe",
-  "item.messinaround.deep_rock": "Deep Rock",
-  "item.messinaround.black_rock": "Black Rock",
+  "item.messinaround.deep_rock": "Deepslate Rock",
+  "item.messinaround.black_rock": "Grimstone Rock",
   "item.messinaround.leather_strip": "Leather Strip",
   "item.messinaround.bottle_of_rainbow": "Bottle Of Rainbow",
   "item.messinaround.grass_gear_leggings": "Grass Grieves",
@@ -114,5 +114,6 @@
   "item.messinaround.iron_axe": "Iron Axe",
   "item.messinaround.iron_pickaxe": "Iron Pickaxe",
   "item.messinaround.iron_shovel": "Iron Shovel",
-  "item.messinaround.iron_hoe": "Iron Hoe"
+  "item.messinaround.iron_hoe": "Iron Hoe",
+  "item.messinaround.gaydon_pickaxe": "Gaydon Pickaxe"
 }

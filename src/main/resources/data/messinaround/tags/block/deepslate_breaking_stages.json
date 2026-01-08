@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "messinaround:deepslate_breaking_stage_2",
+    "messinaround:deepslate_breaking_stage_1",
+    "minecraft:deepslate",
+    "messinaround:deepslate_breaking_stage_4",
+    "messinaround:deepslate_breaking_stage_3",
+    "minecraft:cobbled_deepslate",
+    "messinaround:deepslate_breaking_stage_6",
+    "messinaround:deepslate_breaking_stage_5",
+    "messinaround:deepslate_breaking_stage_8",
+    "messinaround:deepslate_breaking_stage_7"
+  ]
+}
