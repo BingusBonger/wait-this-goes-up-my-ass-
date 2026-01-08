@@ -74,5 +74,6 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.IRON_PICKAXE.get());
 				tabData.accept(MessinaroundModItems.IRON_SHOVEL.get());
 				tabData.accept(MessinaroundModItems.IRON_HOE.get());
+				tabData.accept(MessinaroundModItems.GAYDON_PICKAXE.get());
 			}).build());
 }

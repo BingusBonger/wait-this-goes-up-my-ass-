@@ -2925,6 +2925,90 @@
         ]
       },
       "path": "~/Tools/Iron"
+    },
+    {
+      "name": "GrimstoneBreakingDown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_breaking_down",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/GrimstoneBreakingDownProcedure.java"
+        ]
+      },
+      "path": "~/StoneBreaking"
+    },
+    {
+      "name": "GaydonPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaydon_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/gaydon_pickaxe.json",
+          "src/main/resources/assets/messinaround/items/gaydon_pickaxe.json",
+          "src/main/java/net/mcreator/messinaround/item/GaydonPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateBreakingDown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_breaking_down",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/DeepslateBreakingDownProcedure.java"
+        ]
+      },
+      "path": "~/StoneBreaking"
     }
   ],
   "variable_elements": [],
@@ -2964,6 +3048,7 @@
       "~CUSTOM:Axle"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:GaydonPickaxe",
       "~CUSTOM:IronPickaxe",
       "~CUSTOM:CopperPickaxe",
       "~CUSTOM:BonePickaxe",
@@ -3155,6 +3240,60 @@
     ],
     "ITEMS:messinaround:iron_hoe_repair_items": [
       "~Items.IRON_NUGGET"
+    ],
+    "BLOCKS:mod:grimstone_breaking_stages": [
+      "CUSTOM:Grimstone",
+      "CUSTOM:CobbledGrimstone",
+      "CUSTOM:GrimstoneBreakingStage1",
+      "CUSTOM:GrimstoneBreakingStage2",
+      "CUSTOM:GrimstoneBreakingStage3",
+      "CUSTOM:GrimstoneBreakingStage4",
+      "CUSTOM:GrimstoneBreakingStage5",
+      "CUSTOM:GrimstoneBreakingStage6",
+      "CUSTOM:GrimstoneBreakingStage7",
+      "CUSTOM:GrimstoneBreakingStage8"
+    ],
+    "BLOCKS:mod:deepslate_breaking_stages": [
+      "CUSTOM:DeepslateBreakingStage1",
+      "CUSTOM:DeepslateBreakingStage2",
+      "CUSTOM:DeepslateBreakingStage3",
+      "CUSTOM:DeepslateBreakingStage4",
+      "CUSTOM:DeepslateBreakingStage5",
+      "CUSTOM:DeepslateBreakingStage6",
+      "CUSTOM:DeepslateBreakingStage7",
+      "CUSTOM:DeepslateBreakingStage8",
+      "Blocks.DEEPSLATE",
+      "Blocks.COBBLED_DEEPSLATE"
+    ],
+    "ITEMS:mod:copper_tier": [
+      "CUSTOM:CopperSword",
+      "CUSTOM:CopperAxe",
+      "CUSTOM:CopperPickaxe",
+      "CUSTOM:CopperShovel",
+      "CUSTOM:CopperHoe",
+      "CUSTOM:IronSword",
+      "CUSTOM:IronAxe",
+      "CUSTOM:IronPickaxe",
+      "CUSTOM:IronShovel",
+      "CUSTOM:IronHoe",
+      "CUSTOM:GaydonPickaxe"
+    ],
+    "ITEMS:mod:iron_tier": [
+      "CUSTOM:IronSword",
+      "CUSTOM:IronAxe",
+      "CUSTOM:IronPickaxe",
+      "CUSTOM:IronShovel",
+      "CUSTOM:IronHoe",
+      "CUSTOM:GaydonPickaxe"
+    ],
+    "ITEMS:mod:gaydon_tier": [
+      "CUSTOM:GaydonPickaxe"
+    ],
+    "ITEMS:mod:primitive_tools": [
+      "CUSTOM:BoneKnife",
+      "CUSTOM:BoneAxe",
+      "CUSTOM:BonePickaxe",
+      "CUSTOM:BoneHoe"
     ]
   },
   "tab_element_order": {},
@@ -3275,7 +3414,8 @@
       "item.messinaround.iron_axe": "Iron Axe",
       "item.messinaround.iron_pickaxe": "Iron Pickaxe",
       "item.messinaround.iron_shovel": "Iron Shovel",
-      "item.messinaround.iron_hoe": "Iron Hoe"
+      "item.messinaround.iron_hoe": "Iron Hoe",
+      "item.messinaround.gaydon_pickaxe": "Gaydon Pickaxe"
     }
   },
   "metadata": {
