@@ -63,6 +63,23 @@ public class MessinaroundModBlocks {
 	public static final DeferredBlock<Block> GRIMSTONE_GOLD_ORE;
 	public static final DeferredBlock<Block> GRIMSTONE_LAPIS_ORE;
 	public static final DeferredBlock<Block> GRIMSTONE_REDSTONE_ORE;
+	public static final DeferredBlock<Block> COBBLED_GRIMSTONE;
+	public static final DeferredBlock<Block> GRIMSTONE_BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> GRIMSTONE_BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> GRIMSTONE_BREAKING_STAGE_3;
+	public static final DeferredBlock<Block> GRIMSTONE_BREAKING_STAGE_4;
+	public static final DeferredBlock<Block> GRIMSTONE_BREAKING_STAGE_5;
+	public static final DeferredBlock<Block> GRIMSTONE_BREAKING_STAGE_6;
+	public static final DeferredBlock<Block> GRIMSTONE_BREAKING_STAGE_7;
+	public static final DeferredBlock<Block> GRIMSTONE_BREAKING_STAGE_8;
+	public static final DeferredBlock<Block> DEEPSLATE_BREAKING_STAGE_1;
+	public static final DeferredBlock<Block> DEEPSLATE_BREAKING_STAGE_2;
+	public static final DeferredBlock<Block> DEEPSLATE_BREAKING_STAGE_3;
+	public static final DeferredBlock<Block> DEEPSLATE_BREAKING_STAGE_4;
+	public static final DeferredBlock<Block> DEEPSLATE_BREAKING_STAGE_5;
+	public static final DeferredBlock<Block> DEEPSLATE_BREAKING_STAGE_6;
+	public static final DeferredBlock<Block> DEEPSLATE_BREAKING_STAGE_7;
+	public static final DeferredBlock<Block> DEEPSLATE_BREAKING_STAGE_8;
 	static {
 		LOOSE_DIRT_SLAB = register("loose_dirt_slab", LooseDirtSlabBlock::new);
 		LOOSE_DIRT_BLOCK = register("loose_dirt_block", LooseDirtBlockBlock::new);
@@ -111,6 +128,23 @@ public class MessinaroundModBlocks {
 		GRIMSTONE_GOLD_ORE = register("grimstone_gold_ore", GrimstoneGoldOreBlock::new);
 		GRIMSTONE_LAPIS_ORE = register("grimstone_lapis_ore", GrimstoneLapisOreBlock::new);
 		GRIMSTONE_REDSTONE_ORE = register("grimstone_redstone_ore", GrimstoneRedstoneOreBlock::new);
+		COBBLED_GRIMSTONE = register("cobbled_grimstone", CobbledGrimstoneBlock::new);
+		GRIMSTONE_BREAKING_STAGE_1 = register("grimstone_breaking_stage_1", GrimstoneBreakingStage1Block::new);
+		GRIMSTONE_BREAKING_STAGE_2 = register("grimstone_breaking_stage_2", GrimstoneBreakingStage2Block::new);
+		GRIMSTONE_BREAKING_STAGE_3 = register("grimstone_breaking_stage_3", GrimstoneBreakingStage3Block::new);
+		GRIMSTONE_BREAKING_STAGE_4 = register("grimstone_breaking_stage_4", GrimstoneBreakingStage4Block::new);
+		GRIMSTONE_BREAKING_STAGE_5 = register("grimstone_breaking_stage_5", GrimstoneBreakingStage5Block::new);
+		GRIMSTONE_BREAKING_STAGE_6 = register("grimstone_breaking_stage_6", GrimstoneBreakingStage6Block::new);
+		GRIMSTONE_BREAKING_STAGE_7 = register("grimstone_breaking_stage_7", GrimstoneBreakingStage7Block::new);
+		GRIMSTONE_BREAKING_STAGE_8 = register("grimstone_breaking_stage_8", GrimstoneBreakingStage8Block::new);
+		DEEPSLATE_BREAKING_STAGE_1 = register("deepslate_breaking_stage_1", DeepslateBreakingStage1Block::new);
+		DEEPSLATE_BREAKING_STAGE_2 = register("deepslate_breaking_stage_2", DeepslateBreakingStage2Block::new);
+		DEEPSLATE_BREAKING_STAGE_3 = register("deepslate_breaking_stage_3", DeepslateBreakingStage3Block::new);
+		DEEPSLATE_BREAKING_STAGE_4 = register("deepslate_breaking_stage_4", DeepslateBreakingStage4Block::new);
+		DEEPSLATE_BREAKING_STAGE_5 = register("deepslate_breaking_stage_5", DeepslateBreakingStage5Block::new);
+		DEEPSLATE_BREAKING_STAGE_6 = register("deepslate_breaking_stage_6", DeepslateBreakingStage6Block::new);
+		DEEPSLATE_BREAKING_STAGE_7 = register("deepslate_breaking_stage_7", DeepslateBreakingStage7Block::new);
+		DEEPSLATE_BREAKING_STAGE_8 = register("deepslate_breaking_stage_8", DeepslateBreakingStage8Block::new);
 	}
 
 	// Start of user code block custom blocks

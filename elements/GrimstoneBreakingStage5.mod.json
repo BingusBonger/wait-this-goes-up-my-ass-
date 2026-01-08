@@ -2,12 +2,12 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "grimstone",
-    "textureTop": "grimstone",
-    "textureLeft": "grimstone",
-    "textureFront": "grimstone",
-    "textureRight": "grimstone",
-    "textureBack": "grimstone",
+    "texture": "grimstone_breaking_stage_5",
+    "textureTop": "cobbled_grimstone",
+    "textureLeft": "cobbled_grimstone",
+    "textureFront": "cobbled_grimstone",
+    "textureRight": "cobbled_grimstone",
+    "textureBack": "cobbled_grimstone",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -39,15 +39,15 @@
       }
     ],
     "customProperties": [],
-    "name": "Grimstone",
+    "name": "GrimstoneBreakingStage",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 6.0,
-    "resistance": 8.0,
+    "hardness": 7.0,
+    "resistance": 9.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "hasBlockItem": true,
+    "hasBlockItem": false,
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
@@ -58,9 +58,9 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:CobbledGrimstone"
+      "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
@@ -97,7 +97,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "NETHER_BRICK"
+      "value": "BASALT"
     },
     "breakSound": {
       "value": ""

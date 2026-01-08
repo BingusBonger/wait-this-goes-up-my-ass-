@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "messinaround:blocks/grimstone",
+  "random_sequence": "messinaround:blocks/cobbled_grimstone",
   "pools": [
     {
       "rolls": 1.0,

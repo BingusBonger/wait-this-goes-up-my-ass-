@@ -68,5 +68,6 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModBlocks.GRIMSTONE_GOLD_ORE.get().asItem());
 				tabData.accept(MessinaroundModBlocks.GRIMSTONE_LAPIS_ORE.get().asItem());
 				tabData.accept(MessinaroundModBlocks.GRIMSTONE_REDSTONE_ORE.get().asItem());
+				tabData.accept(MessinaroundModBlocks.COBBLED_GRIMSTONE.get().asItem());
 			}).build());
 }

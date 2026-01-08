@@ -104,6 +104,7 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> GRIMSTONE_GOLD_ORE;
 	public static final DeferredItem<Item> GRIMSTONE_LAPIS_ORE;
 	public static final DeferredItem<Item> GRIMSTONE_REDSTONE_ORE;
+	public static final DeferredItem<Item> COBBLED_GRIMSTONE;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -188,6 +189,7 @@ public class MessinaroundModItems {
 		GRIMSTONE_GOLD_ORE = block(MessinaroundModBlocks.GRIMSTONE_GOLD_ORE);
 		GRIMSTONE_LAPIS_ORE = block(MessinaroundModBlocks.GRIMSTONE_LAPIS_ORE);
 		GRIMSTONE_REDSTONE_ORE = block(MessinaroundModBlocks.GRIMSTONE_REDSTONE_ORE);
+		COBBLED_GRIMSTONE = block(MessinaroundModBlocks.COBBLED_GRIMSTONE);
 	}
 
 	// Start of user code block custom items

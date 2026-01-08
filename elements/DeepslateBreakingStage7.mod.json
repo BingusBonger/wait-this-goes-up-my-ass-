@@ -2,12 +2,12 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "grimstone",
-    "textureTop": "grimstone",
-    "textureLeft": "grimstone",
-    "textureFront": "grimstone",
-    "textureRight": "grimstone",
-    "textureBack": "grimstone",
+    "texture": "deepslate_breaking_stage_7",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -39,28 +39,24 @@
       }
     ],
     "customProperties": [],
-    "name": "Grimstone",
+    "name": "DeepslateBreakingStage",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 6.0,
-    "resistance": 8.0,
+    "hardness": 3.5,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "hasBlockItem": true,
+    "hasBlockItem": false,
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:JusMessinAroundTab"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:CobbledGrimstone"
+      "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
@@ -97,7 +93,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "NETHER_BRICK"
+      "value": "DEEPSLATE"
     },
     "breakSound": {
       "value": ""
@@ -116,7 +112,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "DIAMOND",
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
