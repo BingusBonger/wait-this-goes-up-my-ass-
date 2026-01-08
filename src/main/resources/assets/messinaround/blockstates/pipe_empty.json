@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "messinaround:block/pipe_empty",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "messinaround:block/pipe_empty"
+    },
+    "axis=z": {
+      "model": "messinaround:block/pipe_empty",
+      "x": 90
+    }
+  }
+}

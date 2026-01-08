@@ -1920,6 +1920,40 @@
         ]
       },
       "path": "~/StoneBreaking"
+    },
+    {
+      "name": "PipeEmpty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipe_empty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/PipeEmptyBlock.java",
+          "src/main/resources/assets/messinaround/items/pipe_empty.json",
+          "src/main/resources/assets/messinaround/models/item/pipe_empty.json",
+          "src/main/resources/assets/messinaround/blockstates/pipe_empty.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/pipe_empty.json",
+          "src/main/resources/assets/messinaround/models/block/pipe_empty.json"
+        ]
+      }
+    },
+    {
+      "name": "PipeFull",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipe_full",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/pipe_full.json",
+          "src/main/resources/assets/messinaround/models/block/pipe_full.json",
+          "src/main/resources/assets/messinaround/blockstates/pipe_full.json",
+          "src/main/resources/assets/messinaround/items/pipe_full.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/pipe_full.json",
+          "src/main/java/net/mcreator/messinaround/block/PipeFullBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2047,13 +2081,14 @@
       "~CUSTOM:GrassGear.boots"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PipeEmpty",
+      "~CUSTOM:PipeFull",
       "~CUSTOM:ExperimentalSteakCooker",
       "~CUSTOM:Coocible"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Coocible"
-    ],
-    "BLOCKS:forge:stone_breaking_stages": []
+    ]
   },
   "tab_element_order": {},
   "language_map": {
@@ -2136,7 +2171,9 @@
       "item.messinaround.experimental_steak_cooker": "Experimental Steak Cooker",
       "block.messinaround.experimental_steak_cooker.description_0": "cooks steak that you place on top of it",
       "item.messinaround.open_cuck": "Open Cuck",
-      "item.messinaround.breaking_stage_8": "Breaking Stage 7"
+      "item.messinaround.breaking_stage_8": "Breaking Stage 7",
+      "item.messinaround.pipe_empty": "Pipe Empty",
+      "item.messinaround.pipe_full": "Pipe Full"
     }
   },
   "metadata": {
@@ -2144,12 +2181,12 @@
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlockEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
     ]
   },
   "foldersRoot": {

@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "messinaround:pipe_empty",
     "messinaround:coocible",
+    "messinaround:pipe_full",
     "messinaround:experimental_steak_cooker"
   ]
 }

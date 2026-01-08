@@ -77,5 +77,7 @@
   "item.messinaround.experimental_steak_cooker": "Experimental Steak Cooker",
   "block.messinaround.experimental_steak_cooker.description_0": "cooks steak that you place on top of it",
   "item.messinaround.open_cuck": "Open Cuck",
-  "item.messinaround.breaking_stage_8": "Breaking Stage 7"
+  "item.messinaround.breaking_stage_8": "Breaking Stage 7",
+  "item.messinaround.pipe_empty": "Pipe Empty",
+  "item.messinaround.pipe_full": "Pipe Full"
 }

@@ -56,6 +56,8 @@ public class MessinaroundModBlocks {
 	public static final DeferredBlock<Block> EXPERIMENTAL_STEAK_COOKER;
 	public static final DeferredBlock<Block> OPEN_CUCK;
 	public static final DeferredBlock<Block> BREAKING_STAGE_8;
+	public static final DeferredBlock<Block> PIPE_EMPTY;
+	public static final DeferredBlock<Block> PIPE_FULL;
 	static {
 		LOOSE_DIRT_SLAB = register("loose_dirt_slab", LooseDirtSlabBlock::new);
 		LOOSE_DIRT_BLOCK = register("loose_dirt_block", LooseDirtBlockBlock::new);
@@ -97,6 +99,8 @@ public class MessinaroundModBlocks {
 		EXPERIMENTAL_STEAK_COOKER = register("experimental_steak_cooker", ExperimentalSteakCookerBlock::new);
 		OPEN_CUCK = register("open_cuck", OpenCuckBlock::new);
 		BREAKING_STAGE_8 = register("breaking_stage_8", BreakingStage8Block::new);
+		PIPE_EMPTY = register("pipe_empty", PipeEmptyBlock::new);
+		PIPE_FULL = register("pipe_full", PipeFullBlock::new);
 	}
 
 	// Start of user code block custom blocks

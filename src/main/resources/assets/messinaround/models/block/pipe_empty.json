@@ -1,0 +1,9 @@
+{
+  "parent": "messinaround:custom/pipe_full",
+  "textures": {
+    "all": "messinaround:block/pipe_full",
+    "particle": "messinaround:block/pipe_full",
+    "1": "messinaround:block/pipe_full"
+  },
+  "render_type": "solid"
+}
