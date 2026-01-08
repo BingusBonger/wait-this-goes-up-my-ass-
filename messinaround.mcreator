@@ -2973,7 +2973,8 @@
           "src/main/resources/assets/messinaround/items/gaydon_pickaxe.json",
           "src/main/java/net/mcreator/messinaround/item/GaydonPickaxeItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "DeepslateBreakingDown",
