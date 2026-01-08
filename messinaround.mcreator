@@ -2024,6 +2024,230 @@
           "src/main/resources/data/messinaround/advancement/recipes/copper_nuggets_from_ingot.json"
         ]
       }
+    },
+    {
+      "name": "GrassAnDirtFall",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_an_dirt_fall",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/GrassAnDirtFallProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GrassBlock",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/grass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Dirt",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "CoarseDirt",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coarse_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/coarse_dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "Podzol",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "podzol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/podzol.json"
+        ]
+      }
+    },
+    {
+      "name": "NoOakPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/oak_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NoSprucePlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_spruce_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/spruce_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NoDarkOakPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_dark_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/dark_oak_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NoPaleOakPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_pale_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/pale_oak_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NoMangrovePlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_mangrove_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/mangrove_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NoBirchPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_birch_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/birch_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NoAcaciaPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_acacia_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/acacia_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NoCherryPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_cherry_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/cherry_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NoJunglePlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_jungle_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/jungle_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "ChopWoodPrimitive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chop_wood_primitive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/ChopWoodPrimitiveProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2260,12 +2484,12 @@
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlockEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java"
     ]
   },
   "foldersRoot": {

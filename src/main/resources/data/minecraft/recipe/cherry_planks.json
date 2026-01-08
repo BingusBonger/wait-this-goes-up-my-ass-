@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cherry_log"
+  ],
+  "result": {
+    "id": "messinaround:chunk_o_wood",
+    "count": 1
+  }
+}
