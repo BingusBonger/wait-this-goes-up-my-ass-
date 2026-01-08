@@ -99,6 +99,12 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> COPPER_PICKAXE;
 	public static final DeferredItem<Item> COPPER_SHOVEL;
 	public static final DeferredItem<Item> COPPER_HOE;
+	public static final DeferredItem<Item> GRIMSTONE;
+	public static final DeferredItem<Item> GRIMSTONE_DIAMOND_ORE;
+	public static final DeferredItem<Item> GRIMSTONE_GOLD_ORE;
+	public static final DeferredItem<Item> GRIMSTONE_LAPIS_ORE;
+	public static final DeferredItem<Item> GRIMSTONE_REDSTONE_ORE;
+	public static final DeferredItem<Item> COBBLED_GRIMSTONE;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -178,6 +184,12 @@ public class MessinaroundModItems {
 		COPPER_PICKAXE = register("copper_pickaxe", CopperPickaxeItem::new);
 		COPPER_SHOVEL = register("copper_shovel", CopperShovelItem::new);
 		COPPER_HOE = register("copper_hoe", CopperHoeItem::new);
+		GRIMSTONE = block(MessinaroundModBlocks.GRIMSTONE);
+		GRIMSTONE_DIAMOND_ORE = block(MessinaroundModBlocks.GRIMSTONE_DIAMOND_ORE);
+		GRIMSTONE_GOLD_ORE = block(MessinaroundModBlocks.GRIMSTONE_GOLD_ORE);
+		GRIMSTONE_LAPIS_ORE = block(MessinaroundModBlocks.GRIMSTONE_LAPIS_ORE);
+		GRIMSTONE_REDSTONE_ORE = block(MessinaroundModBlocks.GRIMSTONE_REDSTONE_ORE);
+		COBBLED_GRIMSTONE = block(MessinaroundModBlocks.COBBLED_GRIMSTONE);
 	}
 
 	// Start of user code block custom items

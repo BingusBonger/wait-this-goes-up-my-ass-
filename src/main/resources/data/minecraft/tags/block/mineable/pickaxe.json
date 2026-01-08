@@ -1,10 +1,32 @@
 {
   "replace": false,
   "values": [
-    "messinaround:pipe_empty",
     "messinaround:coocible",
-    "messinaround:pipe_full",
     "messinaround:open_cuck",
-    "messinaround:experimental_steak_cooker"
+    "messinaround:grimstone_gold_ore",
+    "messinaround:deepslate_breaking_stage_8",
+    "messinaround:deepslate_breaking_stage_7",
+    "messinaround:cobbled_grimstone",
+    "messinaround:experimental_steak_cooker",
+    "messinaround:grimstone_breaking_stage_2",
+    "messinaround:grimstone_breaking_stage_3",
+    "messinaround:deepslate_breaking_stage_2",
+    "messinaround:grimstone_breaking_stage_4",
+    "messinaround:deepslate_breaking_stage_1",
+    "messinaround:grimstone_breaking_stage_5",
+    "messinaround:deepslate_breaking_stage_4",
+    "messinaround:deepslate_breaking_stage_3",
+    "messinaround:deepslate_breaking_stage_6",
+    "messinaround:deepslate_breaking_stage_5",
+    "messinaround:grimstone_breaking_stage_1",
+    "messinaround:grimstone_lapis_ore",
+    "messinaround:pipe_empty",
+    "messinaround:grimstone",
+    "messinaround:grimstone_breaking_stage_6",
+    "messinaround:grimstone_breaking_stage_7",
+    "messinaround:grimstone_breaking_stage_8",
+    "messinaround:pipe_full",
+    "messinaround:grimstone_redstone_ore",
+    "messinaround:grimstone_diamond_ore"
   ]
 }

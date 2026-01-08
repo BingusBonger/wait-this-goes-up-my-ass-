@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "messinaround:grimstone_breaking_stage_2",
+    "messinaround:grimstone_breaking_stage_3",
+    "messinaround:grimstone_breaking_stage_4",
+    "messinaround:grimstone_breaking_stage_5",
+    "messinaround:grimstone_breaking_stage_1",
+    "messinaround:grimstone_lapis_ore",
+    "messinaround:grimstone",
+    "messinaround:grimstone_breaking_stage_6",
+    "messinaround:grimstone_breaking_stage_7",
+    "messinaround:grimstone_breaking_stage_8",
+    "messinaround:grimstone_gold_ore",
+    "messinaround:cobbled_grimstone",
+    "messinaround:grimstone_redstone_ore",
+    "messinaround:grimstone_diamond_ore"
+  ]
+}

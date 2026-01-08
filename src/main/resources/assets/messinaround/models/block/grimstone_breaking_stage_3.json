@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "messinaround:block/grimstone_breaking_stage_3",
+    "particle": "messinaround:block/grimstone_breaking_stage_3"
+  },
+  "render_type": "solid"
+}

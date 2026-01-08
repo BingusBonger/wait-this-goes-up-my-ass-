@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "target": {
+              "Name": "minecraft:deepslate"
+            },
+            "state": {
+              "Name": "messinaround:grimstone"
+            },
+            "radius": 12
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:disk",
+          "config": {
+            "radius": {
+              "type": "uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 3
+            },
+            "half_height": 4,
+            "target": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:tuff",
+                "minecraft:deepslate"
+              ]
+            },
+            "state_provider": {
+              "fallback": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "messinaround:grimstone"
+                }
+              },
+              "rules": []
+            }
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}
