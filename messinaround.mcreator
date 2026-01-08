@@ -8,12 +8,12 @@
       "registry_name": "loose_dirt_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_slab.json",
           "src/main/resources/assets/messinaround/models/block/loose_dirt_slab.json",
           "src/main/java/net/mcreator/messinaround/block/LooseDirtSlabBlock.java",
-          "src/main/resources/assets/messinaround/models/item/loose_dirt_slab.json",
-          "src/main/resources/assets/messinaround/blockstates/loose_dirt_slab.json"
+          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/blockstates/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/models/item/loose_dirt_slab.json"
         ]
       }
     },
@@ -61,10 +61,10 @@
         "files": [
           "src/main/resources/assets/messinaround/models/block/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/items/loose_dirt_block.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/models/item/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/blockstates/loose_dirt_block.json",
-          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_block.json"
+          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java"
         ]
       }
     },
@@ -432,8 +432,8 @@
           "src/main/resources/data/messinaround/loot_table/blocks/generator.json",
           "src/main/resources/assets/messinaround/items/generator.json",
           "src/main/resources/assets/messinaround/blockstates/generator.json",
-          "src/main/resources/assets/messinaround/models/item/generator.json",
           "src/main/resources/assets/messinaround/models/block/generator.json",
+          "src/main/resources/assets/messinaround/models/item/generator.json",
           "src/main/java/net/mcreator/messinaround/block/GeneratorBlock.java"
         ]
       }
@@ -1516,8 +1516,8 @@
       "registry_name": "bone_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/BoneAxeItem.java",
           "src/main/resources/assets/messinaround/items/bone_axe.json",
+          "src/main/java/net/mcreator/messinaround/item/BoneAxeItem.java",
           "src/main/resources/assets/messinaround/models/item/bone_axe.json"
         ]
       }
@@ -1530,9 +1530,9 @@
       "registry_name": "bone_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/bone_pickaxe.json",
+          "src/main/resources/assets/messinaround/models/item/bone_pickaxe.json",
           "src/main/java/net/mcreator/messinaround/item/BonePickaxeItem.java",
-          "src/main/resources/assets/messinaround/models/item/bone_pickaxe.json"
+          "src/main/resources/assets/messinaround/items/bone_pickaxe.json"
         ]
       }
     },
@@ -1544,9 +1544,9 @@
       "registry_name": "bone_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/bone_hoe.json",
+          "src/main/java/net/mcreator/messinaround/item/BoneHoeItem.java",
           "src/main/resources/assets/messinaround/items/bone_hoe.json",
-          "src/main/java/net/mcreator/messinaround/item/BoneHoeItem.java"
+          "src/main/resources/assets/messinaround/models/item/bone_hoe.json"
         ]
       }
     },
@@ -1558,8 +1558,8 @@
       "registry_name": "deep_rock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/DeepRockItem.java",
           "src/main/resources/assets/messinaround/models/item/deep_rock.json",
+          "src/main/java/net/mcreator/messinaround/item/DeepRockItem.java",
           "src/main/resources/assets/messinaround/items/deep_rock.json"
         ]
       }
@@ -1573,8 +1573,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/models/item/black_rock.json",
-          "src/main/java/net/mcreator/messinaround/item/BlackRockItem.java",
-          "src/main/resources/assets/messinaround/items/black_rock.json"
+          "src/main/resources/assets/messinaround/items/black_rock.json",
+          "src/main/java/net/mcreator/messinaround/item/BlackRockItem.java"
         ]
       }
     },
@@ -1586,9 +1586,9 @@
       "registry_name": "leather_strip",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/leather_strip.json",
+          "src/main/java/net/mcreator/messinaround/item/LeatherStripItem.java",
           "src/main/resources/assets/messinaround/models/item/leather_strip.json",
-          "src/main/java/net/mcreator/messinaround/item/LeatherStripItem.java"
+          "src/main/resources/assets/messinaround/items/leather_strip.json"
         ]
       }
     },
@@ -1600,8 +1600,8 @@
       "registry_name": "bottle_of_rainbow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/bottle_of_rainbow.json",
           "src/main/java/net/mcreator/messinaround/item/BottleOfRainbowItem.java",
+          "src/main/resources/assets/messinaround/items/bottle_of_rainbow.json",
           "src/main/resources/assets/messinaround/models/item/bottle_of_rainbow.json"
         ]
       }
@@ -1627,17 +1627,17 @@
       "registry_name": "grass_gear",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/equipment/grass_gear.json",
+          "src/main/resources/assets/messinaround/items/grass_gear_chestplate.json",
+          "src/main/resources/assets/messinaround/models/item/grass_gear_boots.json",
+          "src/main/resources/assets/messinaround/models/item/grass_gear_leggings.json",
           "src/main/resources/assets/messinaround/models/item/grass_gear_helmet.json",
           "src/main/resources/assets/messinaround/items/grass_gear_leggings.json",
           "src/main/resources/assets/messinaround/models/item/grass_gear_chestplate.json",
           "src/main/resources/assets/messinaround/items/grass_gear_boots.json",
-          "src/main/java/net/mcreator/messinaround/item/GrassGearItem.java",
-          "src/main/resources/assets/messinaround/models/item/grass_gear_boots.json",
-          "src/main/resources/assets/messinaround/items/grass_gear_helmet.json",
-          "src/main/resources/assets/messinaround/equipment/grass_gear.json",
-          "src/main/resources/assets/messinaround/models/item/grass_gear_leggings.json",
           "src/main/java/net/mcreator/messinaround/client/renderer/item/GrassGearArmor.java",
-          "src/main/resources/assets/messinaround/items/grass_gear_chestplate.json"
+          "src/main/resources/assets/messinaround/items/grass_gear_helmet.json",
+          "src/main/java/net/mcreator/messinaround/item/GrassGearItem.java"
         ]
       }
     },
@@ -1675,8 +1675,8 @@
       "registry_name": "grass_panties_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/recipe/grass_panties_recipe.json",
-          "src/main/resources/data/messinaround/advancement/recipes/grass_panties_recipe.json"
+          "src/main/resources/data/messinaround/advancement/recipes/grass_panties_recipe.json",
+          "src/main/resources/data/messinaround/recipe/grass_panties_recipe.json"
         ]
       }
     },
@@ -1688,8 +1688,8 @@
       "registry_name": "grass_booties_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/advancement/recipes/grass_booties_recipe.json",
-          "src/main/resources/data/messinaround/recipe/grass_booties_recipe.json"
+          "src/main/resources/data/messinaround/recipe/grass_booties_recipe.json",
+          "src/main/resources/data/messinaround/advancement/recipes/grass_booties_recipe.json"
         ]
       }
     },
@@ -1719,12 +1719,12 @@
       "registry_name": "coocible",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/block/coocible.json",
-          "src/main/resources/assets/messinaround/models/item/coocible.json",
           "src/main/java/net/mcreator/messinaround/block/CoocibleBlock.java",
+          "src/main/resources/assets/messinaround/models/item/coocible.json",
           "src/main/resources/assets/messinaround/blockstates/coocible.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/coocible.json",
           "src/main/resources/assets/messinaround/items/coocible.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/coocible.json"
+          "src/main/resources/assets/messinaround/models/block/coocible.json"
         ]
       }
     },
@@ -1929,12 +1929,12 @@
       "registry_name": "pipe_empty",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/PipeEmptyBlock.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/pipe_empty.json",
+          "src/main/resources/assets/messinaround/models/block/pipe_empty.json",
           "src/main/resources/assets/messinaround/items/pipe_empty.json",
           "src/main/resources/assets/messinaround/models/item/pipe_empty.json",
           "src/main/resources/assets/messinaround/blockstates/pipe_empty.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/pipe_empty.json",
-          "src/main/resources/assets/messinaround/models/block/pipe_empty.json"
+          "src/main/java/net/mcreator/messinaround/block/PipeEmptyBlock.java"
         ]
       }
     },
@@ -1946,12 +1946,82 @@
       "registry_name": "pipe_full",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/pipe_full.json",
-          "src/main/resources/assets/messinaround/models/block/pipe_full.json",
-          "src/main/resources/assets/messinaround/blockstates/pipe_full.json",
           "src/main/resources/assets/messinaround/items/pipe_full.json",
+          "src/main/java/net/mcreator/messinaround/block/PipeFullBlock.java",
           "src/main/resources/data/messinaround/loot_table/blocks/pipe_full.json",
-          "src/main/java/net/mcreator/messinaround/block/PipeFullBlock.java"
+          "src/main/resources/assets/messinaround/blockstates/pipe_full.json",
+          "src/main/resources/assets/messinaround/models/item/pipe_full.json",
+          "src/main/resources/assets/messinaround/models/block/pipe_full.json"
+        ]
+      }
+    },
+    {
+      "name": "OpenCrucibleTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_crucible_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/OpenCrucibleTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/copper_nugget.json",
+          "src/main/resources/assets/messinaround/items/copper_nugget.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperIngotFromNuggets",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ingot_from_nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/copper_ingot_from_nuggets.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_ingot_from_nuggets.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperNuggetsFromIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nuggets_from_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/copper_nuggets_from_ingot.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_nuggets_from_ingot.json"
         ]
       }
     }
@@ -2081,13 +2151,19 @@
       "~CUSTOM:GrassGear.boots"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:PipeEmpty",
       "~CUSTOM:PipeFull",
+      "~CUSTOM:PipeEmpty",
+      "~CUSTOM:OpenCuck",
       "~CUSTOM:ExperimentalSteakCooker",
       "~CUSTOM:Coocible"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Coocible"
+    ],
+    "BLOCKS:mod:valid_crucible_heat_blocks": [
+      "Blocks.FIRE",
+      "Blocks.MAGMA",
+      "Blocks.LAVA"
     ]
   },
   "tab_element_order": {},
@@ -2170,10 +2246,13 @@
       "item.messinaround.chunk_o_wood": "Chunk \u0027O Wood",
       "item.messinaround.experimental_steak_cooker": "Experimental Steak Cooker",
       "block.messinaround.experimental_steak_cooker.description_0": "cooks steak that you place on top of it",
-      "item.messinaround.open_cuck": "Open Cuck",
+      "item.messinaround.open_cuck": "Crucible",
       "item.messinaround.breaking_stage_8": "Breaking Stage 7",
       "item.messinaround.pipe_empty": "Pipe Empty",
-      "item.messinaround.pipe_full": "Pipe Full"
+      "item.messinaround.pipe_full": "Pipe Full",
+      "item.messinaround.copper_nugget": "Copper Nugget",
+      "block.messinaround.open_cuck.description_0": "Smelts metals with a low melting point into nuggets",
+      "block.messinaround.open_cuck.description_1": "Surround on four sides with fire or lava to heat it up"
     }
   },
   "metadata": {

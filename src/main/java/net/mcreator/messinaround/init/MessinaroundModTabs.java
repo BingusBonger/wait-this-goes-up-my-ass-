@@ -57,5 +57,6 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModBlocks.OPEN_CUCK.get().asItem());
 				tabData.accept(MessinaroundModBlocks.PIPE_EMPTY.get().asItem());
 				tabData.accept(MessinaroundModBlocks.PIPE_FULL.get().asItem());
+				tabData.accept(MessinaroundModItems.COPPER_NUGGET.get());
 			}).build());
 }
