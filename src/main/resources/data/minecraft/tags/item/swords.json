@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "messinaround:iron_sword",
     "messinaround:sharp_rock",
     "messinaround:copper_sword"
   ]

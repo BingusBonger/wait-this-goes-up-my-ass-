@@ -2850,6 +2850,81 @@
         ]
       },
       "path": "~/StoneBreaking"
+    },
+    {
+      "name": "IronSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/iron_sword.json",
+          "src/main/java/net/mcreator/messinaround/item/IronSwordItem.java",
+          "src/main/resources/assets/messinaround/items/iron_sword.json"
+        ]
+      },
+      "path": "~/Tools/Iron"
+    },
+    {
+      "name": "IronAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/iron_axe.json",
+          "src/main/java/net/mcreator/messinaround/item/IronAxeItem.java",
+          "src/main/resources/assets/messinaround/models/item/iron_axe.json"
+        ]
+      },
+      "path": "~/Tools/Iron"
+    },
+    {
+      "name": "IronPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/IronPickaxeItem.java",
+          "src/main/resources/assets/messinaround/models/item/iron_pickaxe.json",
+          "src/main/resources/assets/messinaround/items/iron_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools/Iron"
+    },
+    {
+      "name": "IronShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/IronShovelItem.java",
+          "src/main/resources/assets/messinaround/items/iron_shovel.json",
+          "src/main/resources/assets/messinaround/models/item/iron_shovel.json"
+        ]
+      },
+      "path": "~/Tools/Iron"
+    },
+    {
+      "name": "IronHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/IronHoeItem.java",
+          "src/main/resources/assets/messinaround/items/iron_hoe.json",
+          "src/main/resources/assets/messinaround/models/item/iron_hoe.json"
+        ]
+      },
+      "path": "~/Tools/Iron"
     }
   ],
   "variable_elements": [],
@@ -2889,17 +2964,20 @@
       "~CUSTOM:Axle"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:IronPickaxe",
       "~CUSTOM:CopperPickaxe",
       "~CUSTOM:BonePickaxe",
       "~CUSTOM:PointyStick",
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:IronAxe",
       "~CUSTOM:CopperAxe",
       "~CUSTOM:BoneAxe",
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:IronSword",
       "~CUSTOM:CopperSword",
       "~CUSTOM:SharpRock"
     ],
@@ -2960,6 +3038,7 @@
       "Blocks.RED_SANDSTONE#0"
     ],
     "ITEMS:minecraft:hoes": [
+      "~CUSTOM:IronHoe",
       "~CUSTOM:CopperHoe",
       "~CUSTOM:BoneHoe"
     ],
@@ -3030,6 +3109,7 @@
       "~CUSTOM:CopperNugget"
     ],
     "ITEMS:minecraft:shovels": [
+      "~CUSTOM:IronShovel",
       "~CUSTOM:CopperShovel"
     ],
     "ITEMS:messinaround:copper_hoe_repair_items": [
@@ -3060,6 +3140,21 @@
       "~CUSTOM:DeepslateBreakingStage3",
       "~CUSTOM:DeepslateBreakingStage2",
       "~CUSTOM:DeepslateBreakingStage1"
+    ],
+    "ITEMS:messinaround:iron_sword_repair_items": [
+      "~Items.IRON_NUGGET"
+    ],
+    "ITEMS:messinaround:iron_axe_repair_items": [
+      "~Items.IRON_NUGGET"
+    ],
+    "ITEMS:messinaround:iron_pickaxe_repair_items": [
+      "~Items.IRON_NUGGET"
+    ],
+    "ITEMS:messinaround:iron_shovel_repair_items": [
+      "~Items.IRON_NUGGET"
+    ],
+    "ITEMS:messinaround:iron_hoe_repair_items": [
+      "~Items.IRON_NUGGET"
     ]
   },
   "tab_element_order": {},
@@ -3175,7 +3270,12 @@
       "item.messinaround.deepslate_breaking_stage_5": "DeepslateBreakingStage",
       "item.messinaround.deepslate_breaking_stage_6": "DeepslateBreakingStage",
       "item.messinaround.deepslate_breaking_stage_7": "DeepslateBreakingStage",
-      "item.messinaround.deepslate_breaking_stage_8": "DeepslateBreakingStage"
+      "item.messinaround.deepslate_breaking_stage_8": "DeepslateBreakingStage",
+      "item.messinaround.iron_sword": "Iron Sword",
+      "item.messinaround.iron_axe": "Iron Axe",
+      "item.messinaround.iron_pickaxe": "Iron Pickaxe",
+      "item.messinaround.iron_shovel": "Iron Shovel",
+      "item.messinaround.iron_hoe": "Iron Hoe"
     }
   },
   "metadata": {
@@ -3212,6 +3312,15 @@
           },
           {
             "name": "Copper",
+            "children": [
+              {
+                "name": "Heads",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Iron",
             "children": [
               {
                 "name": "Heads",

@@ -105,6 +105,11 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> GRIMSTONE_LAPIS_ORE;
 	public static final DeferredItem<Item> GRIMSTONE_REDSTONE_ORE;
 	public static final DeferredItem<Item> COBBLED_GRIMSTONE;
+	public static final DeferredItem<Item> IRON_SWORD;
+	public static final DeferredItem<Item> IRON_AXE;
+	public static final DeferredItem<Item> IRON_PICKAXE;
+	public static final DeferredItem<Item> IRON_SHOVEL;
+	public static final DeferredItem<Item> IRON_HOE;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -190,6 +195,11 @@ public class MessinaroundModItems {
 		GRIMSTONE_LAPIS_ORE = block(MessinaroundModBlocks.GRIMSTONE_LAPIS_ORE);
 		GRIMSTONE_REDSTONE_ORE = block(MessinaroundModBlocks.GRIMSTONE_REDSTONE_ORE);
 		COBBLED_GRIMSTONE = block(MessinaroundModBlocks.COBBLED_GRIMSTONE);
+		IRON_SWORD = register("iron_sword", IronSwordItem::new);
+		IRON_AXE = register("iron_axe", IronAxeItem::new);
+		IRON_PICKAXE = register("iron_pickaxe", IronPickaxeItem::new);
+		IRON_SHOVEL = register("iron_shovel", IronShovelItem::new);
+		IRON_HOE = register("iron_hoe", IronHoeItem::new);
 	}
 
 	// Start of user code block custom items

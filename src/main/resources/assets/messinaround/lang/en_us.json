@@ -109,5 +109,10 @@
   "item.messinaround.deepslate_breaking_stage_5": "DeepslateBreakingStage",
   "item.messinaround.deepslate_breaking_stage_6": "DeepslateBreakingStage",
   "item.messinaround.deepslate_breaking_stage_7": "DeepslateBreakingStage",
-  "item.messinaround.deepslate_breaking_stage_8": "DeepslateBreakingStage"
+  "item.messinaround.deepslate_breaking_stage_8": "DeepslateBreakingStage",
+  "item.messinaround.iron_sword": "Iron Sword",
+  "item.messinaround.iron_axe": "Iron Axe",
+  "item.messinaround.iron_pickaxe": "Iron Pickaxe",
+  "item.messinaround.iron_shovel": "Iron Shovel",
+  "item.messinaround.iron_hoe": "Iron Hoe"
 }
