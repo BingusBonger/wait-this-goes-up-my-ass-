@@ -4,8 +4,6 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.SingleRecipeInput;
-import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -54,10 +52,8 @@ public class OpenCrucibleTickProcedure {
 						{
 							Entity _ent = entityiterator;
 							if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-								_ent.getServer().getCommands().performPrefixedCommand(
-										new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(),
-												_ent.getDisplayName(), _ent.level().getServer(), _ent),
-										("data merge item " + (BuiltInRegistries.ITEM.getKey((entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getItem()).toString()) + " age 0"));
+								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "data merge entity @s {Age:-60}");
 							}
 						}
 						if ((entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getItem() == Items.RAW_COPPER) {
@@ -76,11 +72,10 @@ public class OpenCrucibleTickProcedure {
 								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.blastfurnace.fire_crackle")), SoundSource.BLOCKS, 1, (float) Mth.nextDouble(RandomSource.create(), 1.3, 1.6), false);
 							}
 						}
-						if (entityiterator.getPersistentData().getDoubleOr("cookinTime", 0) >= 1000) {
+						if (entityiterator.getPersistentData().getDoubleOr("cookinTime", 0) >= 60 * (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount()) {
 							for (int index0 = 0; index0 < (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount(); index0++) {
 								if (world instanceof ServerLevel _level) {
-									ItemEntity entityToSpawn = new ItemEntity(_level, (entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()),
-											(getItemStackFromItemStackSlot(world, (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY))));
+									ItemEntity entityToSpawn = new ItemEntity(_level, (entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()), smeltingResult);
 									entityToSpawn.setPickUpDelay(10);
 									_level.addFreshEntity(entityToSpawn);
 								}
@@ -97,17 +92,16 @@ public class OpenCrucibleTickProcedure {
 					if (entityiterator.getPersistentData().getDoubleOr("cookinTime", 0) == 0) {
 						Vec3 motion = entityiterator.getDeltaMovement().scale(0);
 						entityiterator.setDeltaMovement(motion);
+						{
+							Entity _ent = entityiterator;
+							if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "data merge entity @s {Age:-600}");
+							}
+						}
 					}
 				}
 			}
 		}
-	}
-
-	private static ItemStack getItemStackFromItemStackSlot(LevelAccessor level, ItemStack input) {
-		SingleRecipeInput recipeInput = new SingleRecipeInput(input);
-		if (level instanceof ServerLevel serverLevel) {
-			return serverLevel.recipeAccess().getRecipeFor(RecipeType.SMELTING, recipeInput, serverLevel).map(recipe -> recipe.value().assemble(recipeInput, serverLevel.registryAccess()).copy()).orElse(ItemStack.EMPTY);
-		}
-		return ItemStack.EMPTY;
 	}
 }
