@@ -193,7 +193,8 @@
           "src/main/java/net/mcreator/messinaround/item/SharpRockItem.java",
           "src/main/resources/assets/messinaround/items/sharp_rock.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "Rock",
@@ -327,7 +328,8 @@
           "src/main/resources/assets/messinaround/models/item/pointy_stick.json",
           "src/main/java/net/mcreator/messinaround/item/PointyStickItem.java"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "BoneKnife",
@@ -341,7 +343,8 @@
           "src/main/java/net/mcreator/messinaround/item/BoneKnifeItem.java",
           "src/main/resources/assets/messinaround/items/bone_knife.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "StickToPointyStick",
@@ -354,7 +357,8 @@
           "src/main/resources/data/messinaround/recipe/stick_to_pointy_stick.json",
           "src/main/resources/data/messinaround/advancement/recipes/stick_to_pointy_stick.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "PrimToolsCrafted",
@@ -384,7 +388,8 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/PrimToolsCraftedProcedure.java"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "PlayerDebuffs",
@@ -1520,7 +1525,8 @@
           "src/main/java/net/mcreator/messinaround/item/BoneAxeItem.java",
           "src/main/resources/assets/messinaround/models/item/bone_axe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "BonePickaxe",
@@ -1534,7 +1540,8 @@
           "src/main/java/net/mcreator/messinaround/item/BonePickaxeItem.java",
           "src/main/resources/assets/messinaround/items/bone_pickaxe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "BoneHoe",
@@ -1548,7 +1555,8 @@
           "src/main/resources/assets/messinaround/items/bone_hoe.json",
           "src/main/resources/assets/messinaround/models/item/bone_hoe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "DeepRock",
@@ -1590,7 +1598,8 @@
           "src/main/resources/assets/messinaround/models/item/leather_strip.json",
           "src/main/resources/assets/messinaround/items/leather_strip.json"
         ]
-      }
+      },
+      "path": "~/Ingredients"
     },
     {
       "name": "BottleOfRainbow",
@@ -1604,7 +1613,8 @@
           "src/main/resources/assets/messinaround/items/bottle_of_rainbow.json",
           "src/main/resources/assets/messinaround/models/item/bottle_of_rainbow.json"
         ]
-      }
+      },
+      "path": "~/Ingredients"
     },
     {
       "name": "BoneAxeRecipe",
@@ -1617,7 +1627,8 @@
           "src/main/resources/data/messinaround/advancement/recipes/bone_axe_recipe.json",
           "src/main/resources/data/messinaround/recipe/bone_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "GrassGear",
@@ -1639,7 +1650,8 @@
           "src/main/resources/assets/messinaround/items/grass_gear_helmet.json",
           "src/main/java/net/mcreator/messinaround/item/GrassGearItem.java"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "GrassHatRecipe",
@@ -1652,7 +1664,8 @@
           "src/main/resources/data/messinaround/recipe/grass_hat_recipe.json",
           "src/main/resources/data/messinaround/advancement/recipes/grass_hat_recipe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "GrassPonchoRecipe",
@@ -1665,7 +1678,8 @@
           "src/main/resources/data/messinaround/recipe/grass_poncho_recipe.json",
           "src/main/resources/data/messinaround/advancement/recipes/grass_poncho_recipe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "GrassPantiesRecipe",
@@ -1678,7 +1692,8 @@
           "src/main/resources/data/messinaround/advancement/recipes/grass_panties_recipe.json",
           "src/main/resources/data/messinaround/recipe/grass_panties_recipe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "GrassBootiesRecipe",
@@ -1691,7 +1706,8 @@
           "src/main/resources/data/messinaround/recipe/grass_booties_recipe.json",
           "src/main/resources/data/messinaround/advancement/recipes/grass_booties_recipe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     },
     {
       "name": "LeatherStripCutting",
@@ -1726,7 +1742,8 @@
           "src/main/resources/assets/messinaround/items/coocible.json",
           "src/main/resources/assets/messinaround/models/block/coocible.json"
         ]
-      }
+      },
+      "path": "~/FunctionalBlocks/Crucible"
     },
     {
       "name": "HempSeeds",
@@ -1854,7 +1871,8 @@
           "src/main/java/net/mcreator/messinaround/block/ExperimentalSteakCookerBlock.java",
           "src/main/java/net/mcreator/messinaround/block/entity/ExperimentalSteakCookerBlockEntity.java"
         ]
-      }
+      },
+      "path": "~/FunctionalBlocks"
     },
     {
       "name": "ExperimentalSteakCookerTickUpdate",
@@ -1884,7 +1902,8 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/ExperimentalSteakCookerTickUpdateProcedure.java"
         ]
-      }
+      },
+      "path": "~/FunctionalBlocks"
     },
     {
       "name": "OpenCuck",
@@ -1901,7 +1920,8 @@
           "src/main/resources/assets/messinaround/models/block/open_cuck.json",
           "src/main/resources/assets/messinaround/items/open_cuck.json"
         ]
-      }
+      },
+      "path": "~/FunctionalBlocks/Crucible"
     },
     {
       "name": "BreakingStage8",
@@ -1936,7 +1956,8 @@
           "src/main/resources/assets/messinaround/blockstates/pipe_empty.json",
           "src/main/java/net/mcreator/messinaround/block/PipeEmptyBlock.java"
         ]
-      }
+      },
+      "path": "~/FunctionalBlocks/Pipes"
     },
     {
       "name": "PipeFull",
@@ -1953,7 +1974,8 @@
           "src/main/resources/assets/messinaround/models/item/pipe_full.json",
           "src/main/resources/assets/messinaround/models/block/pipe_full.json"
         ]
-      }
+      },
+      "path": "~/FunctionalBlocks/Pipes"
     },
     {
       "name": "OpenCrucibleTick",
@@ -1983,7 +2005,8 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/OpenCrucibleTickProcedure.java"
         ]
-      }
+      },
+      "path": "~/FunctionalBlocks/Crucible"
     },
     {
       "name": "CopperNugget",
@@ -1997,7 +2020,8 @@
           "src/main/resources/assets/messinaround/items/copper_nugget.json",
           "src/main/java/net/mcreator/messinaround/item/CopperNuggetItem.java"
         ]
-      }
+      },
+      "path": "~/Ingredients"
     },
     {
       "name": "CopperIngotFromNuggets",
@@ -2010,7 +2034,8 @@
           "src/main/resources/data/messinaround/recipe/copper_ingot_from_nuggets.json",
           "src/main/resources/data/messinaround/advancement/recipes/copper_ingot_from_nuggets.json"
         ]
-      }
+      },
+      "path": "~/Ingredients"
     },
     {
       "name": "CopperNuggetsFromIngot",
@@ -2023,7 +2048,8 @@
           "src/main/resources/data/messinaround/recipe/copper_nuggets_from_ingot.json",
           "src/main/resources/data/messinaround/advancement/recipes/copper_nuggets_from_ingot.json"
         ]
-      }
+      },
+      "path": "~/Ingredients"
     },
     {
       "name": "GrassAnDirtFall",
@@ -2069,7 +2095,8 @@
         "files": [
           "src/main/resources/data/minecraft/loot_table/blocks/grass_block.json"
         ]
-      }
+      },
+      "path": "~/MiscLootTables"
     },
     {
       "name": "Dirt",
@@ -2081,7 +2108,8 @@
         "files": [
           "src/main/resources/data/minecraft/loot_table/blocks/dirt.json"
         ]
-      }
+      },
+      "path": "~/MiscLootTables"
     },
     {
       "name": "CoarseDirt",
@@ -2093,7 +2121,8 @@
         "files": [
           "src/main/resources/data/minecraft/loot_table/blocks/coarse_dirt.json"
         ]
-      }
+      },
+      "path": "~/MiscLootTables"
     },
     {
       "name": "Podzol",
@@ -2105,7 +2134,8 @@
         "files": [
           "src/main/resources/data/minecraft/loot_table/blocks/podzol.json"
         ]
-      }
+      },
+      "path": "~/MiscLootTables"
     },
     {
       "name": "NoOakPlanks",
@@ -2117,7 +2147,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipe/oak_planks.json"
         ]
-      }
+      },
+      "path": "~/MiscRecipes"
     },
     {
       "name": "NoSprucePlanks",
@@ -2129,7 +2160,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipe/spruce_planks.json"
         ]
-      }
+      },
+      "path": "~/MiscRecipes"
     },
     {
       "name": "NoDarkOakPlanks",
@@ -2141,7 +2173,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipe/dark_oak_planks.json"
         ]
-      }
+      },
+      "path": "~/MiscRecipes"
     },
     {
       "name": "NoPaleOakPlanks",
@@ -2153,7 +2186,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipe/pale_oak_planks.json"
         ]
-      }
+      },
+      "path": "~/MiscRecipes"
     },
     {
       "name": "NoMangrovePlanks",
@@ -2165,7 +2199,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipe/mangrove_planks.json"
         ]
-      }
+      },
+      "path": "~/MiscRecipes"
     },
     {
       "name": "NoBirchPlanks",
@@ -2177,7 +2212,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipe/birch_planks.json"
         ]
-      }
+      },
+      "path": "~/MiscRecipes"
     },
     {
       "name": "NoAcaciaPlanks",
@@ -2189,7 +2225,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipe/acacia_planks.json"
         ]
-      }
+      },
+      "path": "~/MiscRecipes"
     },
     {
       "name": "NoCherryPlanks",
@@ -2201,7 +2238,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipe/cherry_planks.json"
         ]
-      }
+      },
+      "path": "~/MiscRecipes"
     },
     {
       "name": "NoJunglePlanks",
@@ -2213,7 +2251,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipe/jungle_planks.json"
         ]
-      }
+      },
+      "path": "~/MiscRecipes"
     },
     {
       "name": "ChopWoodPrimitive",
@@ -2247,7 +2286,8 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/ChopWoodPrimitiveProcedure.java"
         ]
-      }
+      },
+      "path": "~/Tools/Primitive"
     }
   ],
   "variable_elements": [],
@@ -2501,6 +2541,49 @@
       },
       {
         "name": "StoneBreaking",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Primitive",
+            "children": []
+          },
+          {
+            "name": "Copper",
+            "children": [
+              {
+                "name": "Heads",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ingredients",
+        "children": []
+      },
+      {
+        "name": "FunctionalBlocks",
+        "children": [
+          {
+            "name": "Crucible",
+            "children": []
+          },
+          {
+            "name": "Pipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "MiscRecipes",
+        "children": []
+      },
+      {
+        "name": "MiscLootTables",
         "children": []
       }
     ]
