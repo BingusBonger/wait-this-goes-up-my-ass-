@@ -2202,6 +2202,18 @@
           "src/main/resources/data/minecraft/recipe/cherry_planks.json"
         ]
       }
+    },
+    {
+      "name": "NoJunglePlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_jungle_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/jungle_planks.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
