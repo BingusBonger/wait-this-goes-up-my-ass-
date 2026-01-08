@@ -2214,6 +2214,40 @@
           "src/main/resources/data/minecraft/recipe/jungle_planks.json"
         ]
       }
+    },
+    {
+      "name": "ChopWoodPrimitive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chop_wood_primitive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/ChopWoodPrimitiveProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
