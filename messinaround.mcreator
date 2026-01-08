@@ -2379,7 +2379,8 @@
           "src/main/resources/assets/messinaround/models/block/grimstone.json",
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneLayer",
@@ -2393,7 +2394,8 @@
           "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_layer.json",
           "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_layer.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneDiamondOre",
@@ -2409,7 +2411,8 @@
           "src/main/resources/assets/messinaround/models/item/grimstone_diamond_ore.json",
           "src/main/resources/assets/messinaround/models/block/grimstone_diamond_ore.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneGoldOre",
@@ -2425,7 +2428,8 @@
           "src/main/resources/assets/messinaround/models/item/grimstone_gold_ore.json",
           "src/main/resources/assets/messinaround/items/grimstone_gold_ore.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneLapisOre",
@@ -2441,7 +2445,8 @@
           "src/main/resources/assets/messinaround/models/item/grimstone_lapis_ore.json",
           "src/main/resources/assets/messinaround/models/block/grimstone_lapis_ore.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneRedstoneOre",
@@ -2457,7 +2462,8 @@
           "src/main/resources/assets/messinaround/models/block/grimstone_redstone_ore.json",
           "src/main/resources/assets/messinaround/blockstates/grimstone_redstone_ore.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneDiamondOreLoot",
@@ -2469,7 +2475,8 @@
         "files": [
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_diamond_ore.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneGoldOreLoot",
@@ -2481,7 +2488,8 @@
         "files": [
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_gold_ore.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneRedstoneOreLoot",
@@ -2493,7 +2501,8 @@
         "files": [
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_redstone_ore.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneLapisOreLoot",
@@ -2505,7 +2514,8 @@
         "files": [
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_lapis_ore.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneDiamondOreGen",
@@ -2519,7 +2529,8 @@
           "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_diamond_ore_gen.json",
           "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_diamond_ore_gen.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneGoldOreGen",
@@ -2533,7 +2544,8 @@
           "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_gold_ore_gen.json",
           "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_gold_ore_gen.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneLapisOreGen",
@@ -2547,7 +2559,8 @@
           "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_lapis_ore_gen.json",
           "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_lapis_ore_gen_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneRedstoneOreGen",
@@ -2561,7 +2574,8 @@
           "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_redstone_ore_gen.json",
           "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_redstone_ore_gen_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "CobbledGrimstone",
@@ -2578,7 +2592,8 @@
           "src/main/resources/assets/messinaround/items/cobbled_grimstone.json",
           "src/main/resources/assets/messinaround/models/item/cobbled_grimstone.json"
         ]
-      }
+      },
+      "path": "~/GrimstoneLayer"
     },
     {
       "name": "GrimstoneBreakingStage1",
@@ -2593,7 +2608,8 @@
           "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_1.json",
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_1.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "GrimstoneBreakingStage2",
@@ -2608,7 +2624,8 @@
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_2.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "GrimstoneBreakingStage3",
@@ -2623,7 +2640,8 @@
           "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_3.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "GrimstoneBreakingStage4",
@@ -2638,7 +2656,8 @@
           "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_4.json",
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_4.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "GrimstoneBreakingStage5",
@@ -2653,7 +2672,8 @@
           "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_5.json",
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_5.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "GrimstoneBreakingStage6",
@@ -2668,7 +2688,8 @@
           "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage6Block.java",
           "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_6.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "GrimstoneBreakingStage7",
@@ -2683,7 +2704,8 @@
           "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage7Block.java",
           "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_7.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "GrimstoneBreakingStage8",
@@ -2698,7 +2720,8 @@
           "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_8.json",
           "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_8.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "DeepslateBreakingStage1",
@@ -2713,7 +2736,8 @@
           "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_1.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "DeepslateBreakingStage2",
@@ -2728,7 +2752,8 @@
           "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage2Block.java",
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_2.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "DeepslateBreakingStage3",
@@ -2743,7 +2768,8 @@
           "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_3.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "DeepslateBreakingStage4",
@@ -2758,7 +2784,8 @@
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_4.json",
           "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_4.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "DeepslateBreakingStage5",
@@ -2773,7 +2800,8 @@
           "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_5.json",
           "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage5Block.java"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "DeepslateBreakingStage6",
@@ -2788,7 +2816,8 @@
           "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_6.json",
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_6.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "DeepslateBreakingStage7",
@@ -2803,7 +2832,8 @@
           "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage7Block.java",
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_7.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     },
     {
       "name": "DeepslateBreakingStage8",
@@ -2818,7 +2848,8 @@
           "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_8.json",
           "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_8.json"
         ]
-      }
+      },
+      "path": "~/StoneBreaking"
     }
   ],
   "variable_elements": [],
@@ -3213,6 +3244,10 @@
       },
       {
         "name": "MiscLootTables",
+        "children": []
+      },
+      {
+        "name": "GrimstoneLayer",
         "children": []
       }
     ]
