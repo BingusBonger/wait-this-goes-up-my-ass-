@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.messinaround.item.*;
+import net.mcreator.messinaround.block.OpenCuckBlock;
 import net.mcreator.messinaround.block.ExperimentalSteakCookerBlock;
 import net.mcreator.messinaround.MessinaroundMod;
 
@@ -92,6 +93,7 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> BREAKING_STAGE_8;
 	public static final DeferredItem<Item> PIPE_EMPTY;
 	public static final DeferredItem<Item> PIPE_FULL;
+	public static final DeferredItem<Item> COPPER_NUGGET;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -161,10 +163,11 @@ public class MessinaroundModItems {
 		HEMP_SEEDS = register("hemp_seeds", HempSeedsItem::new);
 		CHUNK_O_WOOD = register("chunk_o_wood", ChunkOWoodItem::new);
 		EXPERIMENTAL_STEAK_COOKER = register("experimental_steak_cooker", ExperimentalSteakCookerBlock.Item::new);
-		OPEN_CUCK = block(MessinaroundModBlocks.OPEN_CUCK, new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant());
+		OPEN_CUCK = register("open_cuck", properties -> new OpenCuckBlock.Item(properties.rarity(Rarity.UNCOMMON).fireResistant()));
 		BREAKING_STAGE_8 = block(MessinaroundModBlocks.BREAKING_STAGE_8);
 		PIPE_EMPTY = block(MessinaroundModBlocks.PIPE_EMPTY);
 		PIPE_FULL = block(MessinaroundModBlocks.PIPE_FULL);
+		COPPER_NUGGET = register("copper_nugget", CopperNuggetItem::new);
 	}
 
 	// Start of user code block custom items
