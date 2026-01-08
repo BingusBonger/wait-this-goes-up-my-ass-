@@ -63,5 +63,10 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.COPPER_PICKAXE.get());
 				tabData.accept(MessinaroundModItems.COPPER_SHOVEL.get());
 				tabData.accept(MessinaroundModItems.COPPER_HOE.get());
+				tabData.accept(MessinaroundModBlocks.GRIMSTONE.get().asItem());
+				tabData.accept(MessinaroundModBlocks.GRIMSTONE_DIAMOND_ORE.get().asItem());
+				tabData.accept(MessinaroundModBlocks.GRIMSTONE_GOLD_ORE.get().asItem());
+				tabData.accept(MessinaroundModBlocks.GRIMSTONE_LAPIS_ORE.get().asItem());
+				tabData.accept(MessinaroundModBlocks.GRIMSTONE_REDSTONE_ORE.get().asItem());
 			}).build());
 }

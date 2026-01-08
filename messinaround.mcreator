@@ -2363,6 +2363,205 @@
         ]
       },
       "path": "~/Tools/Copper"
+    },
+    {
+      "name": "Grimstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/grimstone.json",
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneBlock.java",
+          "src/main/resources/assets/messinaround/items/grimstone.json",
+          "src/main/resources/assets/messinaround/blockstates/grimstone.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/grimstone.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneLayer",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_layer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_layer_biome_modifier.json",
+          "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_layer.json",
+          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_layer.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneDiamondOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_diamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/blockstates/grimstone_diamond_ore.json",
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneDiamondOreBlock.java",
+          "src/main/resources/assets/messinaround/items/grimstone_diamond_ore.json",
+          "src/main/resources/assets/messinaround/models/item/grimstone_diamond_ore.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone_diamond_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneGoldOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_gold_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/blockstates/grimstone_gold_ore.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone_gold_ore.json",
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneGoldOreBlock.java",
+          "src/main/resources/assets/messinaround/models/item/grimstone_gold_ore.json",
+          "src/main/resources/assets/messinaround/items/grimstone_gold_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneLapisOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_lapis_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/grimstone_lapis_ore.json",
+          "src/main/resources/assets/messinaround/blockstates/grimstone_lapis_ore.json",
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneLapisOreBlock.java",
+          "src/main/resources/assets/messinaround/models/item/grimstone_lapis_ore.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone_lapis_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneRedstoneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_redstone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/grimstone_redstone_ore.json",
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneRedstoneOreBlock.java",
+          "src/main/resources/assets/messinaround/models/item/grimstone_redstone_ore.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone_redstone_ore.json",
+          "src/main/resources/assets/messinaround/blockstates/grimstone_redstone_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneDiamondOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_diamond_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_diamond_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneGoldOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_gold_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_gold_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneRedstoneOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_redstone_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_redstone_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneLapisOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_lapis_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_lapis_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneDiamondOreGen",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_diamond_ore_gen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_diamond_ore_gen_biome_modifier.json",
+          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_diamond_ore_gen.json",
+          "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_diamond_ore_gen.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneGoldOreGen",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_gold_ore_gen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_gold_ore_gen_biome_modifier.json",
+          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_gold_ore_gen.json",
+          "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_gold_ore_gen.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneLapisOreGen",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_lapis_ore_gen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_lapis_ore_gen.json",
+          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_lapis_ore_gen.json",
+          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_lapis_ore_gen_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "GrimstoneRedstoneOreGen",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimstone_redstone_ore_gen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_redstone_ore_gen.json",
+          "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_redstone_ore_gen.json",
+          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_redstone_ore_gen_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2494,6 +2693,11 @@
       "~CUSTOM:GrassGear.boots"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GrimstoneRedstoneOre",
+      "~CUSTOM:GrimstoneLapisOre",
+      "~CUSTOM:GrimstoneGoldOre",
+      "~CUSTOM:GrimstoneDiamondOre",
+      "~CUSTOM:Grimstone",
       "~CUSTOM:PipeFull",
       "~CUSTOM:PipeEmpty",
       "~CUSTOM:OpenCuck",
@@ -2525,6 +2729,13 @@
     ],
     "ITEMS:messinaround:copper_hoe_repair_items": [
       "~CUSTOM:CopperNugget"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:GrimstoneRedstoneOre",
+      "~CUSTOM:GrimstoneLapisOre",
+      "~CUSTOM:GrimstoneGoldOre",
+      "~CUSTOM:GrimstoneDiamondOre",
+      "~CUSTOM:Grimstone"
     ]
   },
   "tab_element_order": {},
@@ -2618,7 +2829,12 @@
       "item.messinaround.copper_axe": "Copper Axe",
       "item.messinaround.copper_pickaxe": "Copper Pickaxe",
       "item.messinaround.copper_shovel": "Copper Shovel",
-      "item.messinaround.copper_hoe": "Copper Hoe"
+      "item.messinaround.copper_hoe": "Copper Hoe",
+      "item.messinaround.grimstone": "Grimstone",
+      "item.messinaround.grimstone_diamond_ore": "Grimstone Diamond Ore",
+      "item.messinaround.grimstone_gold_ore": "Grimstone Gold Ore",
+      "item.messinaround.grimstone_lapis_ore": "Grimstone Lapis Ore",
+      "item.messinaround.grimstone_redstone_ore": "Grimstone Redstone Ore"
     }
   },
   "metadata": {
@@ -2631,6 +2847,7 @@
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/pack.mcmeta"
     ]
   },

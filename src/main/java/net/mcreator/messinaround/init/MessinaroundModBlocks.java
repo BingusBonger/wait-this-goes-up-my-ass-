@@ -58,6 +58,11 @@ public class MessinaroundModBlocks {
 	public static final DeferredBlock<Block> BREAKING_STAGE_8;
 	public static final DeferredBlock<Block> PIPE_EMPTY;
 	public static final DeferredBlock<Block> PIPE_FULL;
+	public static final DeferredBlock<Block> GRIMSTONE;
+	public static final DeferredBlock<Block> GRIMSTONE_DIAMOND_ORE;
+	public static final DeferredBlock<Block> GRIMSTONE_GOLD_ORE;
+	public static final DeferredBlock<Block> GRIMSTONE_LAPIS_ORE;
+	public static final DeferredBlock<Block> GRIMSTONE_REDSTONE_ORE;
 	static {
 		LOOSE_DIRT_SLAB = register("loose_dirt_slab", LooseDirtSlabBlock::new);
 		LOOSE_DIRT_BLOCK = register("loose_dirt_block", LooseDirtBlockBlock::new);
@@ -101,6 +106,11 @@ public class MessinaroundModBlocks {
 		BREAKING_STAGE_8 = register("breaking_stage_8", BreakingStage8Block::new);
 		PIPE_EMPTY = register("pipe_empty", PipeEmptyBlock::new);
 		PIPE_FULL = register("pipe_full", PipeFullBlock::new);
+		GRIMSTONE = register("grimstone", GrimstoneBlock::new);
+		GRIMSTONE_DIAMOND_ORE = register("grimstone_diamond_ore", GrimstoneDiamondOreBlock::new);
+		GRIMSTONE_GOLD_ORE = register("grimstone_gold_ore", GrimstoneGoldOreBlock::new);
+		GRIMSTONE_LAPIS_ORE = register("grimstone_lapis_ore", GrimstoneLapisOreBlock::new);
+		GRIMSTONE_REDSTONE_ORE = register("grimstone_redstone_ore", GrimstoneRedstoneOreBlock::new);
 	}
 
 	// Start of user code block custom blocks

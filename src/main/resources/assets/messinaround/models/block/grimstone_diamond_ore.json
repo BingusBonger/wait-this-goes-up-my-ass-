@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "messinaround:block/grimstone_diamond_ore",
+    "up": "messinaround:block/grimstone_diamond_ore",
+    "north": "messinaround:block/grimstone_diamond_ore",
+    "east": "messinaround:block/grimstone_diamond_ore",
+    "south": "messinaround:block/grimstone_diamond_ore",
+    "west": "messinaround:block/grimstone_diamond_ore",
+    "particle": "messinaround:block/grimstone_diamond_ore"
+  },
+  "render_type": "solid"
+}

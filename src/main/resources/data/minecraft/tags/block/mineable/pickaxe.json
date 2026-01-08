@@ -1,10 +1,15 @@
 {
   "replace": false,
   "values": [
+    "messinaround:grimstone_lapis_ore",
     "messinaround:pipe_empty",
     "messinaround:coocible",
+    "messinaround:grimstone",
     "messinaround:pipe_full",
+    "messinaround:grimstone_redstone_ore",
     "messinaround:open_cuck",
+    "messinaround:grimstone_diamond_ore",
+    "messinaround:grimstone_gold_ore",
     "messinaround:experimental_steak_cooker"
   ]
 }

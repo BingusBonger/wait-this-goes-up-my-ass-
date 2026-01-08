@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "messinaround:grimstone_lapis_ore",
+    "messinaround:grimstone",
+    "messinaround:grimstone_redstone_ore",
+    "messinaround:grimstone_diamond_ore",
+    "messinaround:grimstone_gold_ore"
+  ]
+}

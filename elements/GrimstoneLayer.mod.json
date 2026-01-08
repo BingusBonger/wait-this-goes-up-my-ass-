@@ -1,0 +1,14 @@
+{
+  "_fv": 79,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "RAW_GENERATION",
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_overworld"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_simple_random_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"2\"></mutation><value name=\"feature0\"><block type=\"feature_replace_sphere\"><value name=\"targetState\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">Blocks.DEEPSLATE</field></block></value><value name=\"newState\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:Grimstone</field></block></value><value name=\"radius\"><block type=\"int_provider_constant\"><field name=\"value\">12</field></block></value></block></value><value name=\"feature1\"><block type=\"feature_disk_simple\"><field name=\"half_height\">4</field><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:Grimstone</field></block></value><value name=\"target\"><block type=\"block_predicate_matching_blocks\"><field name=\"x\">0</field><field name=\"y\">0</field><field name=\"z\">0</field><value name=\"blockSet\"><block type=\"block_holderset_list\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"2\"></mutation><field name=\"block0\">Blocks.TUFF</field><field name=\"block1\">Blocks.DEEPSLATE</field></block></value></block></value><value name=\"radius\"><block type=\"int_provider_uniform\"><field name=\"min\">2</field><field name=\"max\">3</field></block></value></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">18</field></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_height_range\"><value name=\"height\"><block type=\"height_provider_uniform\"><value name=\"min\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">-64</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">-32</field></block></value></block></value></block></next></block></next></block></next></block></xml>"
+  }
+}
