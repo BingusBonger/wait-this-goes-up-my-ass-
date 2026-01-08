@@ -16,7 +16,7 @@ public class BoneKnifeItem extends ShearsItem {
 
 	@Override
 	public float getDestroySpeed(ItemStack stack, BlockState blockstate) {
-		return 0f;
+		return 2f;
 	}
 
 	@Override
