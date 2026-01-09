@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "campfire",
+        "1": "firesfire"
+      }
+    }
+  }
+}
