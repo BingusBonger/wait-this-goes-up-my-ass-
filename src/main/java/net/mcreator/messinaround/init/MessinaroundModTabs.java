@@ -86,5 +86,6 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.MAKESHIFT_MATCH_UNLIT.get());
 				tabData.accept(MessinaroundModItems.MAKESHIFT_MATCH_LIT.get());
 				tabData.accept(MessinaroundModBlocks.COOKING_PLATFORM.get().asItem());
+				tabData.accept(MessinaroundModItems.BURNT_FOOD.get());
 			}).build());
 }

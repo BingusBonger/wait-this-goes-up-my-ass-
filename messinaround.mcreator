@@ -3685,6 +3685,79 @@
         ]
       },
       "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "CampfireRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/campfire_recipe.json",
+          "src/main/resources/data/messinaround/recipe/campfire.json"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "CampfireCooking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_cooking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/CampfireCookingProcedure.java"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "BurntFood",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_food",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/BurntFoodItem.java",
+          "src/main/resources/assets/messinaround/items/burnt_food.json",
+          "src/main/resources/assets/messinaround/models/item/burnt_food.json"
+        ]
+      }
+    },
+    {
+      "name": "BurntFoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_food_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/burnt_food.json",
+          "src/main/resources/data/messinaround/advancement/recipes/burnt_food_recipe.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
     }
   ],
   "variable_elements": [],
@@ -4071,6 +4144,35 @@
       "CUSTOM:DeepslateBreakingStage6",
       "CUSTOM:DeepslateBreakingStage7",
       "CUSTOM:DeepslateBreakingStage8"
+    ],
+    "ITEMS:mod:rocks": [
+      "CUSTOM:Rock",
+      "CUSTOM:DeepRock",
+      "CUSTOM:BlackRock"
+    ],
+    "ITEMS:mod:cookable_food": [
+      "Items.FISH#0",
+      "Items.FISH#1",
+      "Items.PORKCHOP",
+      "Items.BEEF",
+      "Items.CHICKEN",
+      "Items.RABBIT",
+      "Items.MUTTON",
+      "Items.COOKED_FISH#0",
+      "TAG:mod:cooked_food",
+      "Blocks.KELP",
+      "Items.POTATO"
+    ],
+    "ITEMS:mod:cooked_food": [
+      "Items.COOKED_FISH#0",
+      "Items.COOKED_FISH#1",
+      "Items.COOKED_PORKCHOP",
+      "Items.COOKED_BEEF",
+      "Items.COOKED_CHICKEN",
+      "Items.COOKED_RABBIT",
+      "Items.COOKED_MUTTON",
+      "Items.BAKED_POTATO",
+      "Items.BREAD"
     ]
   },
   "tab_element_order": {},
@@ -4212,7 +4314,10 @@
       "block.messinaround.cooking_platform.description_2": "im really bad at modeling so please dont judge this too hard lez xd",
       "block.messinaround.cooking_platform.description_0": "Place above a campfire to allow for safe cooking",
       "block.messinaround.cooking_platform.description_1": "",
-      "item.messinaround.cooking_platform": "Cooking Platform"
+      "item.messinaround.cooking_platform": "Cooking Platform",
+      "item.messinaround.burnt_food": "Burnt Food",
+      "block.messinaround.unlit_campfire.description_0": "Lasts for 30 seconds before burning out",
+      "block.messinaround.unlit_campfire.description_1": "Throw wood or coal on it to add more fuel"
     }
   },
   "metadata": {

@@ -41,7 +41,10 @@
     "customProperties": [],
     "name": "Unlit Campfire",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Lasts for 30 seconds before burning out",
+        "Throw wood or coal on it to add more fuel"
+      ]
     },
     "hardness": 1.5,
     "resistance": 5.0,

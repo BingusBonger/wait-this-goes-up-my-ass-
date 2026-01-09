@@ -39,7 +39,7 @@ public class CampfireTickUpdateProcedure {
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null) {
 					_blockEntity.getPersistentData().putBoolean("initialized", true);
-					_blockEntity.getPersistentData().putDouble("fuel", 20);
+					_blockEntity.getPersistentData().putDouble("fuel", 30);
 				}
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
@@ -177,7 +177,7 @@ public class CampfireTickUpdateProcedure {
 					}
 				}
 			}
-			world.addParticle(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, y, z, (Mth.nextDouble(RandomSource.create(), -0.01, 0.01)), 0.2, (Mth.nextDouble(RandomSource.create(), -0.01, 0.01)));
+			world.addParticle(ParticleTypes.CAMPFIRE_SIGNAL_SMOKE, (x + 0.5), (y + 0.25), (z + 0.5), (Mth.nextDouble(RandomSource.create(), -0.01, 0.01)), 0.2, (Mth.nextDouble(RandomSource.create(), -0.01, 0.01)));
 			if (Math.random() < 0.2) {
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
@@ -189,7 +189,7 @@ public class CampfireTickUpdateProcedure {
 				}
 			}
 			{
-				final Vec3 _center = new Vec3(x, y, z);
+				final Vec3 _center = new Vec3((x + 0.5), y, (z + 0.5));
 				for (Entity entityiterator : world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList()) {
 					if (entityiterator instanceof ItemEntity) {
 						if ((entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:campfire_valid_fuels")))) {
@@ -210,7 +210,7 @@ public class CampfireTickUpdateProcedure {
 								addedFuel = addedFuel + 5 * (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount();
 							}
 							if (world instanceof ServerLevel _level)
-								_level.sendParticles(ParticleTypes.LARGE_SMOKE, x, y, z, 2, 0.1, 0.1, 0.1, 0.01);
+								_level.sendParticles(ParticleTypes.LARGE_SMOKE, (x + 0.5), y, (z + 0.5), 2, 0.1, 0.1, 0.1, 0.01);
 							if (!entityiterator.level().isClientSide())
 								entityiterator.discard();
 							if (!world.isClientSide()) {
@@ -257,6 +257,9 @@ public class CampfireTickUpdateProcedure {
 						}
 					}
 				}
+			}
+			if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == MessinaroundModBlocks.COOKING_PLATFORM.get()) {
+				CampfireCookingProcedure.execute(world, x, y, z);
 			}
 		}
 	}

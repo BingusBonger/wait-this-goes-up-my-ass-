@@ -135,5 +135,8 @@
   "block.messinaround.cooking_platform.description_2": "im really bad at modeling so please dont judge this too hard lez xd",
   "block.messinaround.cooking_platform.description_0": "Place above a campfire to allow for safe cooking",
   "block.messinaround.cooking_platform.description_1": "",
-  "item.messinaround.cooking_platform": "Cooking Platform"
+  "item.messinaround.cooking_platform": "Cooking Platform",
+  "item.messinaround.burnt_food": "Burnt Food",
+  "block.messinaround.unlit_campfire.description_0": "Lasts for 30 seconds before burning out",
+  "block.messinaround.unlit_campfire.description_1": "Throw wood or coal on it to add more fuel"
 }

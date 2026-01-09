@@ -47,7 +47,7 @@ public class CookingPlatformBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(2, 0, 0, 14, 1, 14);
+		return box(2, 0, 2, 14, 1, 14);
 	}
 
 	@Override

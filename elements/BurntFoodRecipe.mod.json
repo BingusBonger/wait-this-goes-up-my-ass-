@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "TAG:mod:cooked_food"
+      }
+    ],
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "TAG:mod:cooked_food"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:BurntFood"
+    },
+    "name": "burnt_food",
+    "namespace": "mod"
+  }
+}
