@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "messinaround:grass_gear_chestplate"
+    "messinaround:grass_gear_chestplate",
+    "messinaround:copper_chestplate"
   ]
 }
