@@ -3331,6 +3331,60 @@
         ]
       },
       "path": "~/Tools"
+    },
+    {
+      "name": "UnlitCampfire",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlit_campfire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/entity/UnlitCampfireBlockEntity.java",
+          "src/main/resources/assets/messinaround/models/item/unlit_campfire.json",
+          "src/main/resources/assets/messinaround/items/unlit_campfire.json",
+          "src/main/resources/assets/messinaround/blockstates/unlit_campfire.json",
+          "src/main/resources/assets/messinaround/models/block/unlit_campfire.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/unlit_campfire.json",
+          "src/main/java/net/mcreator/messinaround/block/UnlitCampfireBlock.java"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "CampfireTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/CampfireTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Crucible"
     }
   ],
   "variable_elements": [],
@@ -3472,14 +3526,6 @@
       "~CUSTOM:GrassGear.boots"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:BreakingStage8",
-      "~CUSTOM:BreakingStage7",
-      "~CUSTOM:BreakingStage6",
-      "~CUSTOM:BreakingStage5",
-      "~CUSTOM:BreakingStage4",
-      "~CUSTOM:BreakingStage3",
-      "~CUSTOM:BreakingStage2",
-      "~CUSTOM:BreakingStage1",
       "~CUSTOM:DeepslateBreakingStage8",
       "~CUSTOM:DeepslateBreakingStage7",
       "~CUSTOM:DeepslateBreakingStage6",
@@ -3504,9 +3550,17 @@
       "~CUSTOM:Grimstone",
       "~CUSTOM:PipeFull",
       "~CUSTOM:PipeEmpty",
+      "~CUSTOM:BreakingStage8",
       "~CUSTOM:OpenCuck",
       "~CUSTOM:ExperimentalSteakCooker",
-      "~CUSTOM:Coocible"
+      "~CUSTOM:Coocible",
+      "~CUSTOM:BreakingStage7",
+      "~CUSTOM:BreakingStage6",
+      "~CUSTOM:BreakingStage5",
+      "~CUSTOM:BreakingStage4",
+      "~CUSTOM:BreakingStage3",
+      "~CUSTOM:BreakingStage2",
+      "~CUSTOM:BreakingStage1"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Coocible"
@@ -3667,7 +3721,21 @@
     ],
     "BLOCKS:minecraft:lapis_ores": [
       "CUSTOM:GrimstoneLapisOre"
-    ]
+    ],
+    "ITEMS:mod:campfire_valid_fuels": [
+      "TAG:mod:bark",
+      "TAG:minecraft:logs",
+      "CUSTOM:ChunkOWood",
+      "CUSTOM:CoalDust",
+      "Items.COAL#0",
+      "TAG:minecraft:planks",
+      "Items.STICK"
+    ],
+    "BLOCKS:minecraft:dirt": [],
+    "BLOCKS:minecraft:sand": [],
+    "BLOCKS:minecraft:logs": [],
+    "ITEMS:minecraft:planks": [],
+    "BIOMES:minecraft:is_overworld": []
   },
   "tab_element_order": {},
   "language_map": {
@@ -3795,7 +3863,8 @@
       "item.messinaround.copper_helmet": "Copper Helmet",
       "item.messinaround.coal_dust": "Coal Dust",
       "item.messinaround.diamond_shard": "Diamond Shard",
-      "item.messinaround.diamond_pickaxe": "Diamond Pickaxe"
+      "item.messinaround.diamond_pickaxe": "Diamond Pickaxe",
+      "item.messinaround.unlit_campfire": "Unlit Campfire"
     }
   },
   "metadata": {
@@ -3863,6 +3932,10 @@
           },
           {
             "name": "Pipes",
+            "children": []
+          },
+          {
+            "name": "Campfire",
             "children": []
           }
         ]

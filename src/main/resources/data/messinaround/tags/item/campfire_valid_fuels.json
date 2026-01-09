@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stick",
+    {
+      "id": "#messinaround:bark",
+      "required": false
+    },
+    {
+      "id": "#minecraft:planks",
+      "required": false
+    },
+    {
+      "id": "#minecraft:logs",
+      "required": false
+    },
+    "messinaround:chunk_o_wood",
+    "minecraft:coal",
+    "messinaround:coal_dust"
+  ]
+}
