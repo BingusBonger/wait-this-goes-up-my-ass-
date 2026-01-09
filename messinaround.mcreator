@@ -3068,6 +3068,269 @@
         ]
       },
       "path": "~/OreBreaking"
+    },
+    {
+      "name": "CopperOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/copper_ore.json"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "DeepslateCopperOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_copper_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/deepslate_copper_ore.json"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "CoalDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/coal_dust.json",
+          "src/main/java/net/mcreator/messinaround/item/CoalDustItem.java",
+          "src/main/resources/assets/messinaround/items/coal_dust.json"
+        ]
+      },
+      "path": "~/Ingredients"
+    },
+    {
+      "name": "CoalOreBreaking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_ore_breaking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/CoalOreBreakingProcedure.java"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "DeepslateCoalOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_coal_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/deepslate_coal_ore.json"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "IronOreBreaking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ore_breaking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/IronOreBreakingProcedure.java"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "DeepslateIronOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_iron_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/deepslate_iron_ore.json"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "DiamondOreBreaking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ore_breaking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/DiamondOreBreakingProcedure.java"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "DiamondShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/DiamondShardItem.java",
+          "src/main/resources/assets/messinaround/models/item/diamond_shard.json",
+          "src/main/resources/assets/messinaround/items/diamond_shard.json"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "DiamondOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/diamond_ore.json"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "DeepslateDiamondOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_diamond_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/deepslate_diamond_ore.json"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "GoldOreBreaking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_ore_breaking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/GoldOreBreakingProcedure.java"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "DiamondPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/DiamondPickaxeItem.java",
+          "src/main/resources/assets/messinaround/models/item/diamond_pickaxe.json",
+          "src/main/resources/assets/messinaround/items/diamond_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -3107,6 +3370,7 @@
       "~CUSTOM:Axle"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:DiamondPickaxe",
       "~CUSTOM:GaydonPickaxe",
       "~CUSTOM:IronPickaxe",
       "~CUSTOM:CopperPickaxe",
@@ -3208,6 +3472,14 @@
       "~CUSTOM:GrassGear.boots"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BreakingStage8",
+      "~CUSTOM:BreakingStage7",
+      "~CUSTOM:BreakingStage6",
+      "~CUSTOM:BreakingStage5",
+      "~CUSTOM:BreakingStage4",
+      "~CUSTOM:BreakingStage3",
+      "~CUSTOM:BreakingStage2",
+      "~CUSTOM:BreakingStage1",
       "~CUSTOM:DeepslateBreakingStage8",
       "~CUSTOM:DeepslateBreakingStage7",
       "~CUSTOM:DeepslateBreakingStage6",
@@ -3358,7 +3630,6 @@
       "CUSTOM:BonePickaxe",
       "CUSTOM:BoneHoe"
     ],
-    "ITEMS:mod:diamond_tier": [],
     "ITEMS:messinaround:copper_repair_items": [
       "~CUSTOM:CopperNugget"
     ],
@@ -3378,6 +3649,18 @@
       "CUSTOM:IronShovel",
       "CUSTOM:IronHoe",
       "CUSTOM:GaydonPickaxe"
+    ],
+    "ITEMS:messinaround:diamond_pickaxe_repair_items": [
+      "~Items.DIAMOND"
+    ],
+    "ITEMS:mod:diamond_tier": [
+      "CUSTOM:DiamondPickaxe"
+    ],
+    "BLOCKS:minecraft:diamond_ores": [
+      "CUSTOM:GrimstoneDiamondOre"
+    ],
+    "BLOCKS:minecraft:gold_ores": [
+      "CUSTOM:GrimstoneGoldOre"
     ]
   },
   "tab_element_order": {},
@@ -3503,7 +3786,10 @@
       "item.messinaround.copper_chestplate": "Copper Chestplate",
       "item.messinaround.copper_boots": "Copper Boots",
       "item.messinaround.copper_leggings": "Copper Leggings",
-      "item.messinaround.copper_helmet": "Copper Helmet"
+      "item.messinaround.copper_helmet": "Copper Helmet",
+      "item.messinaround.coal_dust": "Coal Dust",
+      "item.messinaround.diamond_shard": "Diamond Shard",
+      "item.messinaround.diamond_pickaxe": "Diamond Pickaxe"
     }
   },
   "metadata": {
