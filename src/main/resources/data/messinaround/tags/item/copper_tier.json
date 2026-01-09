@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "messinaround:diamond_pickaxe",
     "messinaround:iron_shovel",
     "messinaround:iron_sword",
     "messinaround:copper_axe",

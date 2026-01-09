@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.messinaround.item.*;
 import net.mcreator.messinaround.block.OpenCuckBlock;
 import net.mcreator.messinaround.block.ExperimentalSteakCookerBlock;
+import net.mcreator.messinaround.block.CookingPlatformBlock;
 import net.mcreator.messinaround.MessinaroundMod;
 
 import java.util.function.Function;
@@ -119,6 +120,9 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> DIAMOND_SHARD;
 	public static final DeferredItem<Item> DIAMOND_PICKAXE;
 	public static final DeferredItem<Item> UNLIT_CAMPFIRE;
+	public static final DeferredItem<Item> MAKESHIFT_MATCH_UNLIT;
+	public static final DeferredItem<Item> MAKESHIFT_MATCH_LIT;
+	public static final DeferredItem<Item> COOKING_PLATFORM;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -218,6 +222,9 @@ public class MessinaroundModItems {
 		DIAMOND_SHARD = register("diamond_shard", DiamondShardItem::new);
 		DIAMOND_PICKAXE = register("diamond_pickaxe", DiamondPickaxeItem::new);
 		UNLIT_CAMPFIRE = block(MessinaroundModBlocks.UNLIT_CAMPFIRE);
+		MAKESHIFT_MATCH_UNLIT = register("makeshift_match_unlit", MakeshiftMatchUnlitItem::new);
+		MAKESHIFT_MATCH_LIT = register("makeshift_match_lit", MakeshiftMatchLitItem::new);
+		COOKING_PLATFORM = register("cooking_platform", CookingPlatformBlock.Item::new);
 	}
 
 	// Start of user code block custom items

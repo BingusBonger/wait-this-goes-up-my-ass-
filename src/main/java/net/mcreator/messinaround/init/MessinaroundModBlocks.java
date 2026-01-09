@@ -81,6 +81,9 @@ public class MessinaroundModBlocks {
 	public static final DeferredBlock<Block> DEEPSLATE_BREAKING_STAGE_7;
 	public static final DeferredBlock<Block> DEEPSLATE_BREAKING_STAGE_8;
 	public static final DeferredBlock<Block> UNLIT_CAMPFIRE;
+	public static final DeferredBlock<Block> LIT_CAMPFIRE_0;
+	public static final DeferredBlock<Block> LIT_CAMPFIRE_1;
+	public static final DeferredBlock<Block> COOKING_PLATFORM;
 	static {
 		LOOSE_DIRT_SLAB = register("loose_dirt_slab", LooseDirtSlabBlock::new);
 		LOOSE_DIRT_BLOCK = register("loose_dirt_block", LooseDirtBlockBlock::new);
@@ -147,6 +150,9 @@ public class MessinaroundModBlocks {
 		DEEPSLATE_BREAKING_STAGE_7 = register("deepslate_breaking_stage_7", DeepslateBreakingStage7Block::new);
 		DEEPSLATE_BREAKING_STAGE_8 = register("deepslate_breaking_stage_8", DeepslateBreakingStage8Block::new);
 		UNLIT_CAMPFIRE = register("unlit_campfire", UnlitCampfireBlock::new);
+		LIT_CAMPFIRE_0 = register("lit_campfire_0", LitCampfire0Block::new);
+		LIT_CAMPFIRE_1 = register("lit_campfire_1", LitCampfire1Block::new);
+		COOKING_PLATFORM = register("cooking_platform", CookingPlatformBlock::new);
 	}
 
 	// Start of user code block custom blocks

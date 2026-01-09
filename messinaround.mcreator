@@ -3360,10 +3360,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -3384,17 +3380,325 @@
           "src/main/java/net/mcreator/messinaround/procedures/CampfireTickUpdateProcedure.java"
         ]
       },
-      "path": "~/FunctionalBlocks/Crucible"
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "CampfireEntityWalksOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_entity_walks_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/CampfireEntityWalksOnProcedure.java"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "LitCampfire0",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lit_campfire_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/LitCampfire0Block.java",
+          "src/main/java/net/mcreator/messinaround/block/entity/LitCampfire0BlockEntity.java",
+          "src/main/resources/assets/messinaround/models/block/lit_campfire_0.json",
+          "src/main/resources/assets/messinaround/blockstates/lit_campfire_0.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/lit_campfire_0.json"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "LitCampfire1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lit_campfire_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/LitCampfire1Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/lit_campfire_1.json",
+          "src/main/java/net/mcreator/messinaround/block/entity/LitCampfire1BlockEntity.java",
+          "src/main/resources/assets/messinaround/blockstates/lit_campfire_1.json",
+          "src/main/resources/assets/messinaround/models/block/lit_campfire_1.json"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "MakeshiftMatchUnlit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "makeshift_match_unlit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/MakeshiftMatchUnlitItem.java",
+          "src/main/resources/assets/messinaround/models/item/makeshift_match_unlit.json",
+          "src/main/resources/assets/messinaround/items/makeshift_match_unlit.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "MakeshiftMatchRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "makeshift_match_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/makeshift_match_recipe.json",
+          "src/main/resources/data/messinaround/recipe/makeshift_match.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CoalFromCoalDust",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_from_coal_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/coal_from_coal_dust.json",
+          "src/main/resources/data/messinaround/recipe/coal_from_coal_dust.json"
+        ]
+      },
+      "path": "~/Ingredients"
+    },
+    {
+      "name": "MakeshiftMatchLit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "makeshift_match_lit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/makeshift_match_lit.json",
+          "src/main/java/net/mcreator/messinaround/item/MakeshiftMatchLitItem.java",
+          "src/main/resources/assets/messinaround/models/item/makeshift_match_lit.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "UnlitCampfireRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlit_campfire_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/UnlitCampfireRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "LitMatchInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lit_match_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/LitMatchInInventoryTickProcedure.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "LitMatchInHand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lit_match_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/LitMatchInHandProcedure.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "MakeshiftMatchRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "makeshift_match_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/MakeshiftMatchRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CookingPlatform",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooking_platform",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/CookingPlatformBlock.java",
+          "src/main/resources/assets/messinaround/models/item/cooking_platform.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/cooking_platform.json",
+          "src/main/resources/assets/messinaround/items/cooking_platform.json",
+          "src/main/resources/assets/messinaround/models/block/cooking_platform.json",
+          "src/main/resources/assets/messinaround/blockstates/cooking_platform.json"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "CookingPlatformCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooking_platform_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/CookingPlatformCheckProcedure.java"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:LitCampfire1",
+      "~CUSTOM:LitCampfire0",
+      "~CUSTOM:UnlitCampfire",
       "~CUSTOM:LooseDirtBlock",
       "~CUSTOM:LooseDirtSlab"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:CookingPlatform",
       "~CUSTOM:StrippedMangroveLogBreakingStage3",
       "~CUSTOM:StrippedMangroveLogBreakingStage2",
       "~CUSTOM:StrippedMangroveLogBreakingStage1",
@@ -3444,6 +3748,7 @@
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:MakeshiftMatchLit",
       "~CUSTOM:WickerinMyBasket",
       "~CUSTOM:PileOfRocks"
     ],
@@ -3665,7 +3970,8 @@
       "CUSTOM:IronPickaxe",
       "CUSTOM:IronShovel",
       "CUSTOM:IronHoe",
-      "CUSTOM:GaydonPickaxe"
+      "CUSTOM:GaydonPickaxe",
+      "CUSTOM:DiamondPickaxe"
     ],
     "ITEMS:mod:iron_tier": [
       "CUSTOM:IronSword",
@@ -3735,7 +4041,37 @@
     "BLOCKS:minecraft:sand": [],
     "BLOCKS:minecraft:logs": [],
     "ITEMS:minecraft:planks": [],
-    "BIOMES:minecraft:is_overworld": []
+    "BIOMES:minecraft:is_overworld": [],
+    "ITEMS:mod:can_ignite_things": [
+      "CUSTOM:MakeshiftMatchLit",
+      "Items.FLINT_AND_STEEL"
+    ],
+    "BLOCKS:mod:can_strike_match_on": [
+      "TAG:minecraft:logs",
+      "CUSTOM:BreakingStage1",
+      "CUSTOM:BreakingStage2",
+      "CUSTOM:BreakingStage3",
+      "CUSTOM:BreakingStage4",
+      "CUSTOM:BreakingStage5",
+      "CUSTOM:BreakingStage6",
+      "CUSTOM:BreakingStage7",
+      "CUSTOM:GrimstoneBreakingStage1",
+      "CUSTOM:GrimstoneBreakingStage2",
+      "CUSTOM:GrimstoneBreakingStage3",
+      "CUSTOM:GrimstoneBreakingStage4",
+      "CUSTOM:GrimstoneBreakingStage5",
+      "CUSTOM:GrimstoneBreakingStage6",
+      "CUSTOM:GrimstoneBreakingStage7",
+      "CUSTOM:GrimstoneBreakingStage8",
+      "CUSTOM:DeepslateBreakingStage1",
+      "CUSTOM:DeepslateBreakingStage2",
+      "CUSTOM:DeepslateBreakingStage3",
+      "CUSTOM:DeepslateBreakingStage4",
+      "CUSTOM:DeepslateBreakingStage5",
+      "CUSTOM:DeepslateBreakingStage6",
+      "CUSTOM:DeepslateBreakingStage7",
+      "CUSTOM:DeepslateBreakingStage8"
+    ]
   },
   "tab_element_order": {},
   "language_map": {
@@ -3864,7 +4200,19 @@
       "item.messinaround.coal_dust": "Coal Dust",
       "item.messinaround.diamond_shard": "Diamond Shard",
       "item.messinaround.diamond_pickaxe": "Diamond Pickaxe",
-      "item.messinaround.unlit_campfire": "Unlit Campfire"
+      "item.messinaround.unlit_campfire": "Unlit Campfire",
+      "item.messinaround.lit_campfire_0": "Lit Campfire",
+      "item.messinaround.lit_campfire_1": "Lit Campfire",
+      "item.messinaround.makeshift_match_unlit": "Makeshift Match",
+      "item.messinaround.makeshift_match_unlit.description_0": "Use on a log or a broken stone to ignite",
+      "item.messinaround.makeshift_match_unlit.description_1": "Use quickly!",
+      "item.messinaround.makeshift_match_lit": "Lit Match",
+      "item.messinaround.makeshift_match_lit.description_1": "Use quickly!",
+      "item.messinaround.makeshift_match_lit.description_0": "Use on campfires or torches to light",
+      "block.messinaround.cooking_platform.description_2": "im really bad at modeling so please dont judge this too hard lez xd",
+      "block.messinaround.cooking_platform.description_0": "Place above a campfire to allow for safe cooking",
+      "block.messinaround.cooking_platform.description_1": "",
+      "item.messinaround.cooking_platform": "Cooking Platform"
     }
   },
   "metadata": {

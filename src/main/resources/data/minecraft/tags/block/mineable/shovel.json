@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
+    "messinaround:lit_campfire_0",
     "messinaround:loose_dirt_slab",
-    "messinaround:loose_dirt_block"
+    "messinaround:unlit_campfire",
+    "messinaround:loose_dirt_block",
+    "messinaround:lit_campfire_1"
   ]
 }

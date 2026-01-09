@@ -2,17 +2,17 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "campfire",
+    "texture": "campfire_fire",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "campfire:default",
+    "customModelName": "campfire:campfire_lit_1",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "animations": [],
     "itemTexture": "",
@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Unlit Campfire",
+    "name": "Lit Campfire",
     "specialInformation": {
       "fixedValue": []
     },
@@ -47,7 +47,7 @@
     "resistance": 5.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "hasBlockItem": true,
+    "hasBlockItem": false,
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
@@ -114,7 +114,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 14,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
@@ -139,11 +139,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "UnlitCampfireRightclicked"
-    },
     "onTickUpdate": {
       "name": "CampfireTickUpdate"
+    },
+    "onEntityWalksOn": {
+      "name": "CampfireEntityWalksOn"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

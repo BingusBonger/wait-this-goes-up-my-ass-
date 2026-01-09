@@ -76,11 +76,13 @@ public class CoalOreBreakingProcedure {
 								world.setBlock(_bp, _bs, 3);
 							}
 							sideBroken = entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(5)), ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, entity)).getDirection();
-							if (world instanceof ServerLevel _level) {
-								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5 + sideBroken.getStepX() * 0.75), (y + 0.5 + sideBroken.getStepY() * 0.75), (z + 0.5 + sideBroken.getStepZ() * 0.75),
-										new ItemStack(MessinaroundModItems.COAL_DUST.get()));
-								entityToSpawn.setPickUpDelay(10);
-								_level.addFreshEntity(entityToSpawn);
+							for (int index0 = 0; index0 < Mth.nextInt(RandomSource.create(), 2, 3); index0++) {
+								if (world instanceof ServerLevel _level) {
+									ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5 + sideBroken.getStepX() * 0.75), (y + 0.5 + sideBroken.getStepY() * 0.75), (z + 0.5 + sideBroken.getStepZ() * 0.75),
+											new ItemStack(MessinaroundModItems.COAL_DUST.get()));
+									entityToSpawn.setPickUpDelay(10);
+									_level.addFreshEntity(entityToSpawn);
+								}
 							}
 							if (world instanceof Level _level) {
 								if (!_level.isClientSide()) {
@@ -133,7 +135,7 @@ public class CoalOreBreakingProcedure {
 								world.setBlock(_bp, _bs, 3);
 							}
 							sideBroken = entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(5)), ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, entity)).getDirection();
-							for (int index0 = 0; index0 < 2; index0++) {
+							for (int index1 = 0; index1 < 2; index1++) {
 								if (world instanceof ServerLevel _level) {
 									ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5 + sideBroken.getStepX() * 0.75), (y + 0.5 + sideBroken.getStepY() * 0.75), (z + 0.5 + sideBroken.getStepZ() * 0.75), new ItemStack(Items.COAL));
 									entityToSpawn.setPickUpDelay(10);

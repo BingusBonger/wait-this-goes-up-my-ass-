@@ -83,5 +83,8 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.DIAMOND_SHARD.get());
 				tabData.accept(MessinaroundModItems.DIAMOND_PICKAXE.get());
 				tabData.accept(MessinaroundModBlocks.UNLIT_CAMPFIRE.get().asItem());
+				tabData.accept(MessinaroundModItems.MAKESHIFT_MATCH_UNLIT.get());
+				tabData.accept(MessinaroundModItems.MAKESHIFT_MATCH_LIT.get());
+				tabData.accept(MessinaroundModBlocks.COOKING_PLATFORM.get().asItem());
 			}).build());
 }
