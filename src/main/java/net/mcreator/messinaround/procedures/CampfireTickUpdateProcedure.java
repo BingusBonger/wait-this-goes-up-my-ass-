@@ -258,7 +258,7 @@ public class CampfireTickUpdateProcedure {
 					}
 				}
 			}
-			if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == MessinaroundModBlocks.COOKING_PLATFORM.get()) {
+			if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == MessinaroundModBlocks.COPPER_SKILLET.get()) {
 				CampfireCookingProcedure.execute(world, x, y, z);
 			}
 		}

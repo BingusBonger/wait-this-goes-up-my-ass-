@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "messinaround:block/copper_skillet"
+    },
+    "facing=east": {
+      "model": "messinaround:block/copper_skillet",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "messinaround:block/copper_skillet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "messinaround:block/copper_skillet",
+      "y": 270
+    }
+  }
+}

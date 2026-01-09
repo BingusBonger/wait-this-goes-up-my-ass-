@@ -16,6 +16,7 @@ import net.mcreator.messinaround.item.*;
 import net.mcreator.messinaround.block.UnlitCampfireBlock;
 import net.mcreator.messinaround.block.OpenCuckBlock;
 import net.mcreator.messinaround.block.ExperimentalSteakCookerBlock;
+import net.mcreator.messinaround.block.CopperSkilletBlock;
 import net.mcreator.messinaround.block.CookingPlatformBlock;
 import net.mcreator.messinaround.MessinaroundMod;
 
@@ -125,6 +126,7 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> MAKESHIFT_MATCH_LIT;
 	public static final DeferredItem<Item> COOKING_PLATFORM;
 	public static final DeferredItem<Item> BURNT_FOOD;
+	public static final DeferredItem<Item> COPPER_SKILLET;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -228,6 +230,7 @@ public class MessinaroundModItems {
 		MAKESHIFT_MATCH_LIT = register("makeshift_match_lit", MakeshiftMatchLitItem::new);
 		COOKING_PLATFORM = register("cooking_platform", CookingPlatformBlock.Item::new);
 		BURNT_FOOD = register("burnt_food", BurntFoodItem::new);
+		COPPER_SKILLET = register("copper_skillet", CopperSkilletBlock.Item::new);
 	}
 
 	// Start of user code block custom items

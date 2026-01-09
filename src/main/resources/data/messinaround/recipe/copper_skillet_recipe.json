@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": "messinaround:copper_nugget",
+    "b": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "messinaround:copper_skillet",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "messinaround:custom/cooking_skillet",
+  "textures": {
+    "all": "messinaround:block/bicks",
+    "particle": "messinaround:block/bicks",
+    "0": "messinaround:block/skillet",
+    "1": "messinaround:block/bicks"
+  },
+  "render_type": "solid"
+}

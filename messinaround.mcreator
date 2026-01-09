@@ -3758,6 +3758,38 @@
         ]
       },
       "path": "~/MiscRecipes"
+    },
+    {
+      "name": "CopperSkillet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_skillet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/copper_skillet.json",
+          "src/main/resources/assets/messinaround/blockstates/copper_skillet.json",
+          "src/main/resources/assets/messinaround/models/block/copper_skillet.json",
+          "src/main/resources/assets/messinaround/models/item/copper_skillet.json",
+          "src/main/resources/assets/messinaround/items/copper_skillet.json",
+          "src/main/java/net/mcreator/messinaround/block/CopperSkilletBlock.java"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "CopperSkilletRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_skillet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/copper_skillet_recipe.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_skillet_recipe.json"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
     }
   ],
   "variable_elements": [],
@@ -3904,6 +3936,7 @@
       "~CUSTOM:GrassGear.boots"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CopperSkillet",
       "~CUSTOM:DeepslateBreakingStage8",
       "~CUSTOM:DeepslateBreakingStage7",
       "~CUSTOM:DeepslateBreakingStage6",
@@ -4317,7 +4350,12 @@
       "item.messinaround.cooking_platform": "Cooking Platform",
       "item.messinaround.burnt_food": "Burnt Food",
       "block.messinaround.unlit_campfire.description_0": "Lasts for 30 seconds before burning out",
-      "block.messinaround.unlit_campfire.description_1": "Throw wood or coal on it to add more fuel"
+      "block.messinaround.unlit_campfire.description_1": "Throw wood or coal on it to add more fuel",
+      "item.messinaround.copper_skillet": "Copper Skillet",
+      "block.messinaround.copper_skillet.description_3": "Must be placed above a campfire or burning coals in order to cook",
+      "block.messinaround.copper_skillet.description_2": "Limit of 3 food per skillet",
+      "block.messinaround.copper_skillet.description_1": "",
+      "block.messinaround.copper_skillet.description_0": "Throw food onto the skillet and let it cook handsfree! "
     }
   },
   "metadata": {
