@@ -3033,6 +3033,41 @@
         ]
       },
       "path": "~/Tools/Copper"
+    },
+    {
+      "name": "CopperOreBreaking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore_breaking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/CopperOreBreakingProcedure.java"
+        ]
+      },
+      "path": "~/OreBreaking"
     }
   ],
   "variable_elements": [],
@@ -3326,6 +3361,23 @@
     "ITEMS:mod:diamond_tier": [],
     "ITEMS:messinaround:copper_repair_items": [
       "~CUSTOM:CopperNugget"
+    ],
+    "ITEMS:mod:primitive_tier": [
+      "CUSTOM:BoneKnife",
+      "CUSTOM:BoneAxe",
+      "CUSTOM:BonePickaxe",
+      "CUSTOM:BoneHoe",
+      "CUSTOM:CopperSword",
+      "CUSTOM:CopperAxe",
+      "CUSTOM:CopperPickaxe",
+      "CUSTOM:CopperShovel",
+      "CUSTOM:CopperHoe",
+      "CUSTOM:IronSword",
+      "CUSTOM:IronAxe",
+      "CUSTOM:IronPickaxe",
+      "CUSTOM:IronShovel",
+      "CUSTOM:IronHoe",
+      "CUSTOM:GaydonPickaxe"
     ]
   },
   "tab_element_order": {},
