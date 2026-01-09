@@ -115,6 +115,9 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> COPPER_CHESTPLATE;
 	public static final DeferredItem<Item> COPPER_LEGGINGS;
 	public static final DeferredItem<Item> COPPER_BOOTS;
+	public static final DeferredItem<Item> COAL_DUST;
+	public static final DeferredItem<Item> DIAMOND_SHARD;
+	public static final DeferredItem<Item> DIAMOND_PICKAXE;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -210,6 +213,9 @@ public class MessinaroundModItems {
 		COPPER_CHESTPLATE = register("copper_chestplate", CopperItem.Chestplate::new);
 		COPPER_LEGGINGS = register("copper_leggings", CopperItem.Leggings::new);
 		COPPER_BOOTS = register("copper_boots", CopperItem.Boots::new);
+		COAL_DUST = register("coal_dust", CoalDustItem::new);
+		DIAMOND_SHARD = register("diamond_shard", DiamondShardItem::new);
+		DIAMOND_PICKAXE = register("diamond_pickaxe", DiamondPickaxeItem::new);
 	}
 
 	// Start of user code block custom items
