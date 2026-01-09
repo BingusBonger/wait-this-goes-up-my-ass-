@@ -11,7 +11,9 @@
     "guiTexture": "",
     "name": "Bone Knife",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Use with leather in the offhand to cut it into strips"
+      ]
     },
     "creativeTabs": [
       {

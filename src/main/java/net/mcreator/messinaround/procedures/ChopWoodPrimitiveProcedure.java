@@ -46,7 +46,8 @@ public class ChopWoodPrimitiveProcedure {
 		if (entity == null)
 			return;
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("minecraft:logs")))
-				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.BONE_AXE.get() && entity.isShiftKeyDown()) {
+				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.BONE_AXE.get() && entity.isShiftKeyDown()
+				&& !(entity instanceof Player _plrCldCheck6 && _plrCldCheck6.getCooldowns().isOnCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)))) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (world instanceof Level _level) {
@@ -71,6 +72,8 @@ public class ChopWoodPrimitiveProcedure {
 					_level.addFreshEntity(entityToSpawn);
 				}
 			}
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY), 40);
 			if (!(getEntityGameType(entity) == GameType.CREATIVE)) {
 				if (world instanceof ServerLevel _level) {
 					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).hurtAndBreak(1, _level, null, _stkprov -> {

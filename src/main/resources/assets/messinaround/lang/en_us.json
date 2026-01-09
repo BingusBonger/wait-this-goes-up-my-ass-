@@ -151,5 +151,8 @@
   "advancements.rock_advancement.title": "Mmmm- looks tasty..",
   "advancements.rock_advancement.descr": "Pry a rock out of stone with a sharpened stick. You should take a bite..",
   "advancements.primitive_tool_advancement.descr": "Craft a primitive bone tool.",
-  "advancements.primitive_tool_advancement.title": "Ooga Booga"
+  "advancements.primitive_tool_advancement.title": "Ooga Booga",
+  "item.messinaround.bone_knife.description_0": "Use with leather in the offhand to cut it into strips",
+  "advancements.bone_advancement.descr": "\"Borrow\" a bone. Punch a stone block with a bone to shape it into a knife!",
+  "advancements.bone_advancement.title": "Y\u0027know what? The only thing I am worried about.."
 }

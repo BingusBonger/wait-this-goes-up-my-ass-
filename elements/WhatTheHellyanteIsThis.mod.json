@@ -7,7 +7,7 @@
     "achievementIcon": {
       "value": "CUSTOM:DirtPile"
     },
-    "background": "breaking_stage_1.png",
+    "background": "grimstone_alt.png",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
@@ -17,7 +17,7 @@
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {
-      "value": "story/root"
+      "value": "No parent: root"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"498\" y=\"175\"><next><block type=\"tick\"></block></next></block></xml>"
   }

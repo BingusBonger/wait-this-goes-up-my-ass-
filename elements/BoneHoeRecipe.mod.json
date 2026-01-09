@@ -29,7 +29,7 @@
         "value": ""
       },
       {
-        "value": "TAG:mod:rocks"
+        "value": ""
       },
       {
         "value": "Items.BONE"
@@ -48,9 +48,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BoneAxe"
+      "value": "CUSTOM:BonePickaxe"
     },
-    "name": "bone_axe_recipe",
+    "name": "bone_hoe_recipe",
     "namespace": "mod"
   }
 }

@@ -3,7 +3,7 @@
   "category": "equipment",
   "pattern": [
     "ab",
-    "ac"
+    " c"
   ],
   "key": {
     "a": "#messinaround:rocks",
@@ -11,7 +11,7 @@
     "c": "minecraft:bone"
   },
   "result": {
-    "id": "messinaround:bone_axe",
+    "id": "messinaround:bone_pickaxe",
     "count": 1
   }
 }

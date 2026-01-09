@@ -33,11 +33,11 @@ public class CopperSkilletCookingProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		ItemStack smeltingResult = ItemStack.EMPTY;
 		double itemCount = 0;
-		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == MessinaroundModBlocks.LIT_CAMPFIRE_0.get() || (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == MessinaroundModBlocks.LIT_CAMPFIRE_1.get()
-				|| (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.COAL_BLOCK) {
+		if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == MessinaroundModBlocks.LIT_CAMPFIRE_0.get() || (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == MessinaroundModBlocks.LIT_CAMPFIRE_1.get()
+				|| (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.COAL_BLOCK) {
 			itemCount = 0;
 			{
-				final Vec3 _center = new Vec3((x + 0.5), (y + 1), (z + 0.5));
+				final Vec3 _center = new Vec3((x + 0.5), y, (z + 0.5));
 				for (Entity entityiterator : world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList()) {
 					if (entityiterator instanceof LivingEntity) {
 						entityiterator.hurt(new DamageSource(world.holderOrThrow(DamageTypes.IN_FIRE)), 1);
@@ -49,7 +49,7 @@ public class CopperSkilletCookingProcedure {
 			}
 			if (itemCount <= 3) {
 				{
-					final Vec3 _center = new Vec3((x + 0.5), (y + 1), (z + 0.5));
+					final Vec3 _center = new Vec3((x + 0.5), y, (z + 0.5));
 					for (Entity entityiterator : world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList()) {
 						if (entityiterator instanceof ItemEntity && (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:cookable_food")))) {
 							{
@@ -95,7 +95,7 @@ public class CopperSkilletCookingProcedure {
 					}
 				}
 				{
-					final Vec3 _center = new Vec3((x + 0.5), (y + 1), (z + 0.5));
+					final Vec3 _center = new Vec3((x + 0.5), y, (z + 0.5));
 					for (Entity entityiterator : world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList()) {
 						if (entityiterator.getPersistentData().getDoubleOr("cookinTime", 0) == 0) {
 							Vec3 motion = entityiterator.getDeltaMovement().scale(0);

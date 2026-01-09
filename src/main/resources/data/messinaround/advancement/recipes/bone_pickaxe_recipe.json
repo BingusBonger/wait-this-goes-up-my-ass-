@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "messinaround:bone_axe_recipe"
+        "recipe": "messinaround:bone_pickaxe_recipe"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "messinaround:bone_axe_recipe"
+      "messinaround:bone_pickaxe_recipe"
     ]
   }
 }

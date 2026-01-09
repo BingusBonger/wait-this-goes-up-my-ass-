@@ -1730,12 +1730,29 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
           "src/main/java/net/mcreator/messinaround/procedures/LeatherStripCuttingProcedure.java"
         ]
-      }
+      },
+      "path": "~/Ingredients"
     },
     {
       "name": "Coocible",
@@ -3785,7 +3802,7 @@
           "src/main/java/net/mcreator/messinaround/block/CopperSkilletBlock.java"
         ]
       },
-      "path": "~/FunctionalBlocks/Campfire"
+      "path": "~/FunctionalBlocks/CopperSkillet"
     },
     {
       "name": "CopperSkilletRecipe",
@@ -3799,7 +3816,7 @@
           "src/main/resources/data/messinaround/advancement/recipes/copper_skillet_recipe.json"
         ]
       },
-      "path": "~/FunctionalBlocks/Campfire"
+      "path": "~/FunctionalBlocks/CopperSkillet"
     },
     {
       "name": "CopperSkilletCooking",
@@ -3830,7 +3847,7 @@
           "src/main/java/net/mcreator/messinaround/procedures/CopperSkilletCookingProcedure.java"
         ]
       },
-      "path": "~/FunctionalBlocks/Campfire"
+      "path": "~/FunctionalBlocks/CopperSkillet"
     },
     {
       "name": "MatchAdvancement",
@@ -3880,6 +3897,47 @@
       "metadata": {
         "files": [
           "src/main/resources/data/messinaround/advancement/primitive_tool_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BonePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/bone_pickaxe_recipe.json",
+          "src/main/resources/data/messinaround/recipe/bone_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "BoneHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/bone_hoe_recipe.json",
+          "src/main/resources/data/messinaround/advancement/recipes/bone_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "BoneAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/bone_advancement.json"
         ]
       },
       "path": "~/Advancements"
@@ -4456,7 +4514,10 @@
       "advancements.rock_advancement.title": "Mmmm- looks tasty..",
       "advancements.rock_advancement.descr": "Pry a rock out of stone with a sharpened stick. You should take a bite..",
       "advancements.primitive_tool_advancement.descr": "Craft a primitive bone tool.",
-      "advancements.primitive_tool_advancement.title": "Ooga Booga"
+      "advancements.primitive_tool_advancement.title": "Ooga Booga",
+      "item.messinaround.bone_knife.description_0": "Use with leather in the offhand to cut it into strips",
+      "advancements.bone_advancement.descr": "\"Borrow\" a bone. Punch a stone block with a bone to shape it into a knife!",
+      "advancements.bone_advancement.title": "Y\u0027know what? The only thing I am worried about.."
     }
   },
   "metadata": {
@@ -4528,6 +4589,10 @@
           },
           {
             "name": "Campfire",
+            "children": []
+          },
+          {
+            "name": "CopperSkillet",
             "children": []
           }
         ]

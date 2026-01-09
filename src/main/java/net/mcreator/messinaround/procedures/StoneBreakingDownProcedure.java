@@ -134,6 +134,22 @@ public class StoneBreakingDownProcedure {
 					}
 				}
 			}
+			if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.COBBLESTONE
+					&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:primitive_tools")))
+					&& ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:can_chip_stone")))
+							|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.PICKAXES))) {
+				if (event instanceof ICancellableEvent _cancellable) {
+					_cancellable.setCanceled(true);
+				}
+				world.destroyBlock(BlockPos.containing(x, y, z), false);
+				for (int index0 = 0; index0 < Mth.nextInt(RandomSource.create(), 3, 5); index0++) {
+					if (world instanceof ServerLevel _level) {
+						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(MessinaroundModItems.ROCK.get()));
+						entityToSpawn.setPickUpDelay(10);
+						_level.addFreshEntity(entityToSpawn);
+					}
+				}
+			}
 		}
 	}
 
