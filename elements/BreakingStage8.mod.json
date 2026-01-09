@@ -52,7 +52,7 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:Rock"
     },

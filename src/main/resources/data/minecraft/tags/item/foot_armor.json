@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "messinaround:grass_gear_boots"
+    "messinaround:grass_gear_boots",
+    "messinaround:copper_boots"
   ]
 }
