@@ -1,7 +1,7 @@
 {
   "parent": "messinaround:custom/campfire",
   "textures": {
-    "all": "messinaround:block/stone_breaking_stage_1",
+    "all": "messinaround:block/campfire",
     "particle": "messinaround:block/stone_breaking_stage_1",
     "0": "messinaround:block/campfire",
     "1": "messinaround:block/transparent"

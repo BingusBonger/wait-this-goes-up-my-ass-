@@ -3,6 +3,7 @@ package net.mcreator.messinaround.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -11,19 +12,32 @@ import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.component.TooltipDisplay;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.MenuProvider;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.Containers;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.messinaround.procedures.UnlitCampfireRightclickedProcedure;
 import net.mcreator.messinaround.procedures.CampfireTickUpdateProcedure;
+import net.mcreator.messinaround.init.MessinaroundModBlocks;
 import net.mcreator.messinaround.block.entity.UnlitCampfireBlockEntity;
+
+import java.util.function.Consumer;
 
 public class UnlitCampfireBlock extends Block implements EntityBlock {
 	public UnlitCampfireBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(1.5f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.sound(SoundType.WOOD).strength(1.5f, 5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -55,8 +69,22 @@ public class UnlitCampfireBlock extends Block implements EntityBlock {
 	@Override
 	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
-		CampfireTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+		CampfireTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		world.scheduleTick(pos, this, 10);
+	}
+
+	@Override
+	public InteractionResult useWithoutItem(BlockState blockstate, Level world, BlockPos pos, Player entity, BlockHitResult hit) {
+		super.useWithoutItem(blockstate, world, pos, entity, hit);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		double hitX = hit.getLocation().x;
+		double hitY = hit.getLocation().y;
+		double hitZ = hit.getLocation().z;
+		Direction direction = hit.getDirection();
+		UnlitCampfireRightclickedProcedure.execute(world, x, y, z, entity);
+		return InteractionResult.SUCCESS;
 	}
 
 	@Override
@@ -94,5 +122,18 @@ public class UnlitCampfireBlock extends Block implements EntityBlock {
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;
+	}
+
+	public static class Item extends BlockItem {
+		public Item(Item.Properties properties) {
+			super(MessinaroundModBlocks.UNLIT_CAMPFIRE.get(), properties);
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> componentConsumer, TooltipFlag flag) {
+			super.appendHoverText(itemstack, context, tooltipDisplay, componentConsumer, flag);
+			componentConsumer.accept(Component.translatable("block.messinaround.unlit_campfire.description_0"));
+			componentConsumer.accept(Component.translatable("block.messinaround.unlit_campfire.description_1"));
+		}
 	}
 }

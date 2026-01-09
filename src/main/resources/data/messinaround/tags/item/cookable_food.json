@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cooked_cod",
+    "minecraft:mutton",
+    "minecraft:kelp",
+    "minecraft:beef",
+    "minecraft:rabbit",
+    "minecraft:chicken",
+    "minecraft:cod",
+    "minecraft:porkchop",
+    {
+      "id": "#messinaround:cooked_food",
+      "required": false
+    },
+    "minecraft:potato",
+    "minecraft:salmon"
+  ]
+}

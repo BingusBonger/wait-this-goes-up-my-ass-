@@ -122,5 +122,21 @@
   "item.messinaround.copper_helmet": "Copper Helmet",
   "item.messinaround.coal_dust": "Coal Dust",
   "item.messinaround.diamond_shard": "Diamond Shard",
-  "item.messinaround.diamond_pickaxe": "Diamond Pickaxe"
+  "item.messinaround.diamond_pickaxe": "Diamond Pickaxe",
+  "item.messinaround.unlit_campfire": "Unlit Campfire",
+  "item.messinaround.lit_campfire_0": "Lit Campfire",
+  "item.messinaround.lit_campfire_1": "Lit Campfire",
+  "item.messinaround.makeshift_match_unlit": "Makeshift Match",
+  "item.messinaround.makeshift_match_unlit.description_0": "Use on a log or a broken stone to ignite",
+  "item.messinaround.makeshift_match_unlit.description_1": "Use quickly!",
+  "item.messinaround.makeshift_match_lit": "Lit Match",
+  "item.messinaround.makeshift_match_lit.description_1": "Use quickly!",
+  "item.messinaround.makeshift_match_lit.description_0": "Use on campfires or torches to light",
+  "block.messinaround.cooking_platform.description_2": "im really bad at modeling so please dont judge this too hard lez xd",
+  "block.messinaround.cooking_platform.description_0": "Place above a campfire to allow for safe cooking",
+  "block.messinaround.cooking_platform.description_1": "",
+  "item.messinaround.cooking_platform": "Cooking Platform",
+  "item.messinaround.burnt_food": "Burnt Food",
+  "block.messinaround.unlit_campfire.description_0": "Lasts for 30 seconds before burning out",
+  "block.messinaround.unlit_campfire.description_1": "Throw wood or coal on it to add more fuel"
 }

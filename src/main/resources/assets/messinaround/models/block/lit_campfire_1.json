@@ -1,0 +1,10 @@
+{
+  "parent": "messinaround:custom/campfire",
+  "textures": {
+    "all": "messinaround:block/campfire_fire",
+    "particle": "messinaround:block/stone_breaking_stage_1",
+    "0": "messinaround:block/campfire",
+    "1": "messinaround:block/campfire_fire"
+  },
+  "render_type": "cutout_mipped"
+}
