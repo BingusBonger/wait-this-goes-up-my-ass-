@@ -3010,6 +3010,29 @@
         ]
       },
       "path": "~/StoneBreaking"
+    },
+    {
+      "name": "Copper",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/client/renderer/item/CopperArmor.java",
+          "src/main/resources/assets/messinaround/items/copper_helmet.json",
+          "src/main/resources/assets/messinaround/items/copper_boots.json",
+          "src/main/resources/assets/messinaround/models/item/copper_helmet.json",
+          "src/main/resources/assets/messinaround/models/item/copper_chestplate.json",
+          "src/main/resources/assets/messinaround/models/item/copper_leggings.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperItem.java",
+          "src/main/resources/assets/messinaround/items/copper_leggings.json",
+          "src/main/resources/assets/messinaround/equipment/copper.json",
+          "src/main/resources/assets/messinaround/items/copper_chestplate.json",
+          "src/main/resources/assets/messinaround/models/item/copper_boots.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
     }
   ],
   "variable_elements": [],
@@ -3134,15 +3157,19 @@
       "CUSTOM:BlackRock"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Copper.helmet",
       "~CUSTOM:GrassGear.helmet"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Copper.body",
       "~CUSTOM:GrassGear.body"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Copper.legs",
       "~CUSTOM:GrassGear.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Copper.boots",
       "~CUSTOM:GrassGear.boots"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
@@ -3296,7 +3323,10 @@
       "CUSTOM:BonePickaxe",
       "CUSTOM:BoneHoe"
     ],
-    "ITEMS:mod:diamond_tier": []
+    "ITEMS:mod:diamond_tier": [],
+    "ITEMS:messinaround:copper_repair_items": [
+      "~CUSTOM:CopperNugget"
+    ]
   },
   "tab_element_order": {},
   "language_map": {
@@ -3417,7 +3447,11 @@
       "item.messinaround.iron_pickaxe": "Iron Pickaxe",
       "item.messinaround.iron_shovel": "Iron Shovel",
       "item.messinaround.iron_hoe": "Iron Hoe",
-      "item.messinaround.gaydon_pickaxe": "Gaydon Pickaxe"
+      "item.messinaround.gaydon_pickaxe": "Gaydon Pickaxe",
+      "item.messinaround.copper_chestplate": "Copper Chestplate",
+      "item.messinaround.copper_boots": "Copper Boots",
+      "item.messinaround.copper_leggings": "Copper Leggings",
+      "item.messinaround.copper_helmet": "Copper Helmet"
     }
   },
   "metadata": {
