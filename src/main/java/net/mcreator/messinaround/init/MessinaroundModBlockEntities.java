@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.messinaround.block.entity.UnlitCampfireBlockEntity;
 import net.mcreator.messinaround.block.entity.ExperimentalSteakCookerBlockEntity;
 import net.mcreator.messinaround.MessinaroundMod;
 
@@ -24,6 +25,7 @@ public class MessinaroundModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, MessinaroundMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ExperimentalSteakCookerBlockEntity>> EXPERIMENTAL_STEAK_COOKER = register("experimental_steak_cooker", MessinaroundModBlocks.EXPERIMENTAL_STEAK_COOKER,
 			ExperimentalSteakCookerBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<UnlitCampfireBlockEntity>> UNLIT_CAMPFIRE = register("unlit_campfire", MessinaroundModBlocks.UNLIT_CAMPFIRE, UnlitCampfireBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -34,5 +36,6 @@ public class MessinaroundModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, EXPERIMENTAL_STEAK_COOKER.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, UNLIT_CAMPFIRE.get(), SidedInvWrapper::new);
 	}
 }

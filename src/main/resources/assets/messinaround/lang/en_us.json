@@ -115,5 +115,13 @@
   "item.messinaround.iron_pickaxe": "Iron Pickaxe",
   "item.messinaround.iron_shovel": "Iron Shovel",
   "item.messinaround.iron_hoe": "Iron Hoe",
-  "item.messinaround.gaydon_pickaxe": "Gaydon Pickaxe"
+  "item.messinaround.gaydon_pickaxe": "Gaydon Pickaxe",
+  "item.messinaround.copper_chestplate": "Copper Chestplate",
+  "item.messinaround.copper_boots": "Copper Boots",
+  "item.messinaround.copper_leggings": "Copper Leggings",
+  "item.messinaround.copper_helmet": "Copper Helmet",
+  "item.messinaround.coal_dust": "Coal Dust",
+  "item.messinaround.diamond_shard": "Diamond Shard",
+  "item.messinaround.diamond_pickaxe": "Diamond Pickaxe",
+  "item.messinaround.unlit_campfire": "Unlit Campfire"
 }

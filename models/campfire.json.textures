@@ -4,7 +4,21 @@
       "name": "default",
       "map": {
         "0": "campfire",
-        "1": "firesfire"
+        "1": "transparent"
+      }
+    },
+    "campfire_lit_1": {
+      "name": "campfire_lit_1",
+      "map": {
+        "0": "campfire",
+        "1": "campfire_fire"
+      }
+    },
+    "campfire_lit_small": {
+      "name": "campfire_lit_small",
+      "map": {
+        "0": "campfire",
+        "1": "campfire_fire_small"
       }
     }
   }

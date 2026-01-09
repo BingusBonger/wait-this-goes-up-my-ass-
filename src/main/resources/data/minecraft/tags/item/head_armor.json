@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "messinaround:copper_helmet",
     "messinaround:grass_gear_helmet"
   ]
 }
