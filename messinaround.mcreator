@@ -3661,6 +3661,12 @@
     ],
     "BLOCKS:minecraft:gold_ores": [
       "CUSTOM:GrimstoneGoldOre"
+    ],
+    "BLOCKS:minecraft:redstone_ores": [
+      "CUSTOM:GrimstoneRedstoneOre"
+    ],
+    "BLOCKS:minecraft:lapis_ores": [
+      "CUSTOM:GrimstoneLapisOre"
     ]
   },
   "tab_element_order": {},
