@@ -3010,6 +3010,64 @@
         ]
       },
       "path": "~/StoneBreaking"
+    },
+    {
+      "name": "CopperOreBreaking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore_breaking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/CopperOreBreakingProcedure.java"
+        ]
+      },
+      "path": "~/OreBreaking"
+    },
+    {
+      "name": "Copper",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/copper_chestplate.json",
+          "src/main/resources/assets/messinaround/models/item/copper_chestplate.json",
+          "src/main/resources/assets/messinaround/models/item/copper_helmet.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperItem.java",
+          "src/main/resources/assets/messinaround/models/item/copper_leggings.json",
+          "src/main/resources/assets/messinaround/models/item/copper_boots.json",
+          "src/main/java/net/mcreator/messinaround/client/renderer/item/CopperArmor.java",
+          "src/main/resources/assets/messinaround/items/copper_leggings.json",
+          "src/main/resources/assets/messinaround/items/copper_helmet.json",
+          "src/main/resources/assets/messinaround/items/copper_boots.json",
+          "src/main/resources/assets/messinaround/equipment/copper.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
     }
   ],
   "variable_elements": [],
@@ -3134,15 +3192,19 @@
       "CUSTOM:BlackRock"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Copper.helmet",
       "~CUSTOM:GrassGear.helmet"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Copper.body",
       "~CUSTOM:GrassGear.body"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Copper.legs",
       "~CUSTOM:GrassGear.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Copper.boots",
       "~CUSTOM:GrassGear.boots"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
@@ -3295,6 +3357,10 @@
       "CUSTOM:BoneAxe",
       "CUSTOM:BonePickaxe",
       "CUSTOM:BoneHoe"
+    ],
+    "ITEMS:mod:diamond_tier": [],
+    "ITEMS:messinaround:copper_repair_items": [
+      "~CUSTOM:CopperNugget"
     ]
   },
   "tab_element_order": {},
@@ -3416,7 +3482,11 @@
       "item.messinaround.iron_pickaxe": "Iron Pickaxe",
       "item.messinaround.iron_shovel": "Iron Shovel",
       "item.messinaround.iron_hoe": "Iron Hoe",
-      "item.messinaround.gaydon_pickaxe": "Gaydon Pickaxe"
+      "item.messinaround.gaydon_pickaxe": "Gaydon Pickaxe",
+      "item.messinaround.copper_chestplate": "Copper Chestplate",
+      "item.messinaround.copper_boots": "Copper Boots",
+      "item.messinaround.copper_leggings": "Copper Leggings",
+      "item.messinaround.copper_helmet": "Copper Helmet"
     }
   },
   "metadata": {
@@ -3424,29 +3494,34 @@
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlockEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
       "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "TreeBreaking",
-        "children": []
-      },
-      {
-        "name": "StoneBreaking",
+        "name": "Ingredients",
         "children": []
       },
       {
         "name": "Tools",
         "children": [
+          {
+            "name": "Iron",
+            "children": [
+              {
+                "name": "Heads",
+                "children": []
+              }
+            ]
+          },
           {
             "name": "Primitive",
             "children": []
@@ -3459,34 +3534,12 @@
                 "children": []
               }
             ]
-          },
-          {
-            "name": "Iron",
-            "children": [
-              {
-                "name": "Heads",
-                "children": []
-              }
-            ]
           }
         ]
       },
       {
-        "name": "Ingredients",
+        "name": "StoneBreaking",
         "children": []
-      },
-      {
-        "name": "FunctionalBlocks",
-        "children": [
-          {
-            "name": "Crucible",
-            "children": []
-          },
-          {
-            "name": "Pipes",
-            "children": []
-          }
-        ]
       },
       {
         "name": "MiscRecipes",
@@ -3497,11 +3550,28 @@
         "children": []
       },
       {
-        "name": "GrimstoneLayer",
+        "name": "TreeBreaking",
         "children": []
       },
       {
         "name": "OreBreaking",
+        "children": []
+      },
+      {
+        "name": "FunctionalBlocks",
+        "children": [
+          {
+            "name": "Pipes",
+            "children": []
+          },
+          {
+            "name": "Crucible",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "GrimstoneLayer",
         "children": []
       }
     ]

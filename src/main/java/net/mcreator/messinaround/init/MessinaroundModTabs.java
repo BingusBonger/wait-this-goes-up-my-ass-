@@ -75,5 +75,9 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.IRON_SHOVEL.get());
 				tabData.accept(MessinaroundModItems.IRON_HOE.get());
 				tabData.accept(MessinaroundModItems.GAYDON_PICKAXE.get());
+				tabData.accept(MessinaroundModItems.COPPER_HELMET.get());
+				tabData.accept(MessinaroundModItems.COPPER_CHESTPLATE.get());
+				tabData.accept(MessinaroundModItems.COPPER_LEGGINGS.get());
+				tabData.accept(MessinaroundModItems.COPPER_BOOTS.get());
 			}).build());
 }
