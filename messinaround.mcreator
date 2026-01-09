@@ -369,6 +369,14 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -673,7 +681,8 @@
         "files": [
           "src/main/resources/data/messinaround/advancement/what_the_hellyante_is_this.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "HereWeGoAgain",
@@ -685,7 +694,8 @@
         "files": [
           "src/main/resources/data/messinaround/advancement/here_we_go_again.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "GrassFabric",
@@ -3790,6 +3800,89 @@
         ]
       },
       "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "CopperSkilletCooking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_skillet_cooking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/CopperSkilletCookingProcedure.java"
+        ]
+      },
+      "path": "~/FunctionalBlocks/Campfire"
+    },
+    {
+      "name": "MatchAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "match_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/match_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MatchAdvancement2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "match_advancement_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/match_advancement_2.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "RockAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/rock_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "PrimitiveToolAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primitive_tool_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/primitive_tool_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -4345,7 +4438,7 @@
       "item.messinaround.makeshift_match_lit.description_1": "Use quickly!",
       "item.messinaround.makeshift_match_lit.description_0": "Use on campfires or torches to light",
       "block.messinaround.cooking_platform.description_2": "im really bad at modeling so please dont judge this too hard lez xd",
-      "block.messinaround.cooking_platform.description_0": "Place above a campfire to allow for safe cooking",
+      "block.messinaround.cooking_platform.description_0": "this is the worst thing i have ever made. i cannot bare to remove it, so hidden in the files it remains :3",
       "block.messinaround.cooking_platform.description_1": "",
       "item.messinaround.cooking_platform": "Cooking Platform",
       "item.messinaround.burnt_food": "Burnt Food",
@@ -4355,7 +4448,15 @@
       "block.messinaround.copper_skillet.description_3": "Must be placed above a campfire or burning coals in order to cook",
       "block.messinaround.copper_skillet.description_2": "Limit of 3 food per skillet",
       "block.messinaround.copper_skillet.description_1": "",
-      "block.messinaround.copper_skillet.description_0": "Throw food onto the skillet and let it cook handsfree! "
+      "block.messinaround.copper_skillet.description_0": "Throw food onto the skillet and let it cook handsfree! ",
+      "advancements.match_advancement.descr": "Craft a makeshift match to light your first campfire.",
+      "advancements.match_advancement.title": "You\u0027re buying the wrong matches.",
+      "advancements.match_advancement_2.title": "Stay out of my territory.",
+      "advancements.match_advancement_2.descr": "Have 16 matches at once. (why would you do this???)",
+      "advancements.rock_advancement.title": "Mmmm- looks tasty..",
+      "advancements.rock_advancement.descr": "Pry a rock out of stone with a sharpened stick. You should take a bite..",
+      "advancements.primitive_tool_advancement.descr": "Craft a primitive bone tool.",
+      "advancements.primitive_tool_advancement.title": "Ooga Booga"
     }
   },
   "metadata": {
@@ -4445,6 +4546,10 @@
       },
       {
         "name": "OreBreaking",
+        "children": []
+      },
+      {
+        "name": "Advancements",
         "children": []
       }
     ]

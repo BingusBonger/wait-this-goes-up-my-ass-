@@ -6,6 +6,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class BurntFoodItem extends Item {
 	public BurntFoodItem(Item.Properties properties) {
-		super(properties.food((new FoodProperties.Builder()).nutrition(3).saturationModifier(1f).build(), Consumables.defaultFood().consumeSeconds(2F).build()));
+		super(properties.food((new FoodProperties.Builder()).nutrition(4).saturationModifier(2f).build(), Consumables.defaultFood().consumeSeconds(2F).build()));
 	}
 }

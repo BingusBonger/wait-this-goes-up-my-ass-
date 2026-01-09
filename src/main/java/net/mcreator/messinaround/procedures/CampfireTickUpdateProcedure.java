@@ -32,6 +32,9 @@ import java.util.Comparator;
 public class CampfireTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double addedFuel = 0;
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == MessinaroundModBlocks.LIT_CAMPFIRE_0.get() || (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == MessinaroundModBlocks.LIT_CAMPFIRE_1.get()) {
+			world.addParticle(ParticleTypes.CAMPFIRE_SIGNAL_SMOKE, (x + 0.5), (y + 0.25), (z + 0.5), (Mth.nextDouble(RandomSource.create(), -0.01, 0.01)), 0.2, (Mth.nextDouble(RandomSource.create(), -0.01, 0.01)));
+		}
 		if (!getBlockNBTLogic(world, BlockPos.containing(x, y, z), "initialized")) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = BlockPos.containing(x, y, z);
@@ -177,7 +180,6 @@ public class CampfireTickUpdateProcedure {
 					}
 				}
 			}
-			world.addParticle(ParticleTypes.CAMPFIRE_SIGNAL_SMOKE, (x + 0.5), (y + 0.25), (z + 0.5), (Mth.nextDouble(RandomSource.create(), -0.01, 0.01)), 0.2, (Mth.nextDouble(RandomSource.create(), -0.01, 0.01)));
 			if (Math.random() < 0.2) {
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
@@ -195,13 +197,13 @@ public class CampfireTickUpdateProcedure {
 						if ((entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:campfire_valid_fuels")))) {
 							addedFuel = 0;
 							if ((entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("minecraft:logs")))) {
-								addedFuel = addedFuel + 240 * (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount();
+								addedFuel = addedFuel + 200 * (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount();
 							} else if ((entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getItem() == Items.COAL) {
-								addedFuel = addedFuel + 720 * (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount();
+								addedFuel = addedFuel + 600 * (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount();
 							} else if ((entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.COAL_DUST.get()) {
-								addedFuel = addedFuel + 360 * (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount();
+								addedFuel = addedFuel + 150 * (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount();
 							} else if ((entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("minecraft:planks")))) {
-								addedFuel = addedFuel + 60 * (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount();
+								addedFuel = addedFuel + 50 * (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getCount();
 							} else if ((entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("messinaround:bark")))
 									|| (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.CHUNK_O_WOOD.get()
 									|| (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getItem() == Items.STICK) {
@@ -223,13 +225,13 @@ public class CampfireTickUpdateProcedure {
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
-							if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "fuel") >= 720) {
+							if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "fuel") >= 600) {
 								if (!world.isClientSide()) {
 									BlockPos _bp = BlockPos.containing(x, y, z);
 									BlockEntity _blockEntity = world.getBlockEntity(_bp);
 									BlockState _bs = world.getBlockState(_bp);
 									if (_blockEntity != null) {
-										_blockEntity.getPersistentData().putDouble("fuel", 720);
+										_blockEntity.getPersistentData().putDouble("fuel", 600);
 									}
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
@@ -257,9 +259,6 @@ public class CampfireTickUpdateProcedure {
 						}
 					}
 				}
-			}
-			if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == MessinaroundModBlocks.COPPER_SKILLET.get()) {
-				CampfireCookingProcedure.execute(world, x, y, z);
 			}
 		}
 	}

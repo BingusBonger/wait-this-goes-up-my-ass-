@@ -71,8 +71,6 @@ public class CookingPlatformBlock extends Block {
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> componentConsumer, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, tooltipDisplay, componentConsumer, flag);
 			componentConsumer.accept(Component.translatable("block.messinaround.cooking_platform.description_0"));
-			componentConsumer.accept(Component.translatable("block.messinaround.cooking_platform.description_1"));
-			componentConsumer.accept(Component.translatable("block.messinaround.cooking_platform.description_2"));
 		}
 	}
 }

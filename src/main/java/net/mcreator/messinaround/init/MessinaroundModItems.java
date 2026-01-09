@@ -228,7 +228,7 @@ public class MessinaroundModItems {
 		UNLIT_CAMPFIRE = register("unlit_campfire", UnlitCampfireBlock.Item::new);
 		MAKESHIFT_MATCH_UNLIT = register("makeshift_match_unlit", MakeshiftMatchUnlitItem::new);
 		MAKESHIFT_MATCH_LIT = register("makeshift_match_lit", MakeshiftMatchLitItem::new);
-		COOKING_PLATFORM = register("cooking_platform", CookingPlatformBlock.Item::new);
+		COOKING_PLATFORM = register("cooking_platform", properties -> new CookingPlatformBlock.Item(properties.rarity(Rarity.EPIC)));
 		BURNT_FOOD = register("burnt_food", BurntFoodItem::new);
 		COPPER_SKILLET = register("copper_skillet", CopperSkilletBlock.Item::new);
 	}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "messinaround:rock"
+    },
+    "title": {
+      "translate": "advancements.rock_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.rock_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rock_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "messinaround:rock"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "messinaround:here_we_go_again"
+}

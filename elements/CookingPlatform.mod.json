@@ -42,9 +42,7 @@
     "name": "Cooking Platform",
     "specialInformation": {
       "fixedValue": [
-        "Place above a campfire to allow for safe cooking",
-        "",
-        "im really bad at modeling so please dont judge this too hard lez xd"
+        "this is the worst thing i have ever made. i cannot bare to remove it, so hidden in the files it remains :3"
       ]
     },
     "hardness": 3.0,
@@ -53,13 +51,9 @@
     "isWaterloggable": false,
     "hasBlockItem": true,
     "maxStackSize": 64,
-    "rarity": "COMMON",
+    "rarity": "EPIC",
     "immuneToFire": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:JusMessinAroundTab"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "axe",
     "customDrop": {
       "value": ""

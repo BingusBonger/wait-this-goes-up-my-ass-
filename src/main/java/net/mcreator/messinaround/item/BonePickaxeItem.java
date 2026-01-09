@@ -21,6 +21,6 @@ public class BonePickaxeItem extends Item {
 	@Override
 	public void onCraftedBy(ItemStack itemstack, Player entity) {
 		super.onCraftedBy(itemstack, entity);
-		PrimToolsCraftedProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		PrimToolsCraftedProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
 	}
 }
