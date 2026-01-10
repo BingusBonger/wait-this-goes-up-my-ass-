@@ -8,12 +8,12 @@
       "registry_name": "loose_dirt_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_slab.json",
           "src/main/resources/assets/messinaround/models/block/loose_dirt_slab.json",
           "src/main/java/net/mcreator/messinaround/block/LooseDirtSlabBlock.java",
-          "src/main/resources/assets/messinaround/models/item/loose_dirt_slab.json",
-          "src/main/resources/assets/messinaround/blockstates/loose_dirt_slab.json"
+          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/items/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/blockstates/loose_dirt_slab.json",
+          "src/main/resources/assets/messinaround/models/item/loose_dirt_slab.json"
         ]
       }
     },
@@ -61,10 +61,10 @@
         "files": [
           "src/main/resources/assets/messinaround/models/block/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/items/loose_dirt_block.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/models/item/loose_dirt_block.json",
           "src/main/resources/assets/messinaround/blockstates/loose_dirt_block.json",
-          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/loose_dirt_block.json"
+          "src/main/java/net/mcreator/messinaround/block/LooseDirtBlockBlock.java"
         ]
       }
     },
@@ -106,8 +106,8 @@
       "registry_name": "dirt_pile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/DirtPileItem.java",
           "src/main/resources/assets/messinaround/models/item/dirt_pile.json",
+          "src/main/java/net/mcreator/messinaround/item/DirtPileItem.java",
           "src/main/resources/assets/messinaround/items/dirt_pile.json"
         ]
       }
@@ -120,12 +120,12 @@
       "registry_name": "axle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/axle.json",
           "src/main/resources/data/messinaround/loot_table/blocks/axle.json",
           "src/main/resources/assets/messinaround/items/axle.json",
+          "src/main/resources/assets/messinaround/blockstates/axle.json",
           "src/main/resources/assets/messinaround/models/block/axle.json",
-          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java",
-          "src/main/resources/assets/messinaround/blockstates/axle.json"
+          "src/main/resources/assets/messinaround/models/item/axle.json",
+          "src/main/java/net/mcreator/messinaround/block/AxleBlock.java"
         ]
       }
     },
@@ -137,8 +137,8 @@
       "registry_name": "loose_dirt_slab_from_dirt_piles",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/recipe/loose_dirt_slab_from_dirt_piles.json",
-          "src/main/resources/data/messinaround/advancement/recipes/loose_dirt_slab_from_dirt_piles.json"
+          "src/main/resources/data/messinaround/advancement/recipes/loose_dirt_slab_from_dirt_piles.json",
+          "src/main/resources/data/messinaround/recipe/loose_dirt_slab_from_dirt_piles.json"
         ]
       }
     },
@@ -163,8 +163,8 @@
       "registry_name": "dirt_piles_from_loose_dirt_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_slab.json",
-          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_slab.json"
+          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_slab.json",
+          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_slab.json"
         ]
       }
     },
@@ -176,8 +176,8 @@
       "registry_name": "dirt_piles_from_loose_dirt_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_block.json",
-          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_block.json"
+          "src/main/resources/data/messinaround/recipe/dirt_piles_from_loose_dirt_block.json",
+          "src/main/resources/data/messinaround/advancement/recipes/dirt_piles_from_loose_dirt_block.json"
         ]
       }
     },
@@ -189,8 +189,8 @@
       "registry_name": "sharp_rock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/SharpRockItem.java",
           "src/main/resources/assets/messinaround/models/item/sharp_rock.json",
+          "src/main/java/net/mcreator/messinaround/item/SharpRockItem.java",
           "src/main/resources/assets/messinaround/items/sharp_rock.json"
         ]
       },
@@ -205,8 +205,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/models/item/rock.json",
-          "src/main/java/net/mcreator/messinaround/item/RockItem.java",
-          "src/main/resources/assets/messinaround/items/rock.json"
+          "src/main/resources/assets/messinaround/items/rock.json",
+          "src/main/java/net/mcreator/messinaround/item/RockItem.java"
         ]
       }
     },
@@ -218,9 +218,9 @@
       "registry_name": "pile_of_rocks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/pile_of_rocks.json",
           "src/main/java/net/mcreator/messinaround/item/PileOfRocksItem.java",
-          "src/main/resources/assets/messinaround/models/item/pile_of_rocks.json"
+          "src/main/resources/assets/messinaround/models/item/pile_of_rocks.json",
+          "src/main/resources/assets/messinaround/items/pile_of_rocks.json"
         ]
       }
     },
@@ -254,9 +254,9 @@
       "registry_name": "wickerin_my_basket",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/WickerinMyBasketItem.java",
+          "src/main/resources/assets/messinaround/models/item/wickerin_my_basket.json",
           "src/main/resources/assets/messinaround/items/wickerin_my_basket.json",
-          "src/main/resources/assets/messinaround/models/item/wickerin_my_basket.json"
+          "src/main/java/net/mcreator/messinaround/item/WickerinMyBasketItem.java"
         ]
       }
     },
@@ -324,8 +324,8 @@
       "registry_name": "pointy_stick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/pointy_stick.json",
           "src/main/resources/assets/messinaround/items/pointy_stick.json",
+          "src/main/resources/assets/messinaround/models/item/pointy_stick.json",
           "src/main/java/net/mcreator/messinaround/item/PointyStickItem.java"
         ]
       },
@@ -339,8 +339,8 @@
       "registry_name": "bone_knife",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/BoneKnifeItem.java",
           "src/main/resources/assets/messinaround/models/item/bone_knife.json",
+          "src/main/java/net/mcreator/messinaround/item/BoneKnifeItem.java",
           "src/main/resources/assets/messinaround/items/bone_knife.json"
         ]
       },
@@ -425,12 +425,12 @@
       "registry_name": "axle_powered",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/AxlePoweredBlock.java",
-          "src/main/resources/assets/messinaround/models/block/axle_powered.json",
-          "src/main/resources/assets/messinaround/models/item/axle_powered.json",
           "src/main/resources/assets/messinaround/blockstates/axle_powered.json",
+          "src/main/java/net/mcreator/messinaround/block/AxlePoweredBlock.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/axle_powered.json",
           "src/main/resources/assets/messinaround/items/axle_powered.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/axle_powered.json"
+          "src/main/resources/assets/messinaround/models/block/axle_powered.json",
+          "src/main/resources/assets/messinaround/models/item/axle_powered.json"
         ]
       }
     },
@@ -445,8 +445,8 @@
           "src/main/resources/data/messinaround/loot_table/blocks/generator.json",
           "src/main/resources/assets/messinaround/items/generator.json",
           "src/main/resources/assets/messinaround/blockstates/generator.json",
-          "src/main/resources/assets/messinaround/models/item/generator.json",
           "src/main/resources/assets/messinaround/models/block/generator.json",
+          "src/main/resources/assets/messinaround/models/item/generator.json",
           "src/main/java/net/mcreator/messinaround/block/GeneratorBlock.java"
         ]
       }
@@ -553,12 +553,12 @@
       "registry_name": "breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/breaking_stage_1.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_1.json",
           "src/main/resources/assets/messinaround/items/breaking_stage_1.json",
           "src/main/resources/assets/messinaround/models/item/breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage1Block.java",
           "src/main/resources/assets/messinaround/models/block/breaking_stage_1.json",
-          "src/main/java/net/mcreator/messinaround/block/BreakingStage1Block.java"
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_1.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -571,12 +571,12 @@
       "registry_name": "breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_2.json",
           "src/main/java/net/mcreator/messinaround/block/BreakingStage2Block.java",
-          "src/main/resources/assets/messinaround/models/item/breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/breaking_stage_2.json",
           "src/main/resources/assets/messinaround/models/block/breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/blockstates/breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_2.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -589,12 +589,12 @@
       "registry_name": "breaking_stage_3",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/items/breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_3.json",
           "src/main/resources/assets/messinaround/blockstates/breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/BreakingStage3Block.java",
           "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_3.json",
           "src/main/resources/assets/messinaround/models/item/breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/items/breaking_stage_3.json"
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage3Block.java"
         ]
       },
       "path": "~/StoneBreaking"
@@ -607,12 +607,12 @@
       "registry_name": "breaking_stage_4",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/BreakingStage4Block.java",
           "src/main/resources/assets/messinaround/items/breaking_stage_4.json",
-          "src/main/resources/assets/messinaround/blockstates/breaking_stage_4.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_4.json",
           "src/main/resources/assets/messinaround/models/block/breaking_stage_4.json",
-          "src/main/resources/assets/messinaround/models/item/breaking_stage_4.json"
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage4Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_4.json",
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_4.json",
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_4.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -625,11 +625,11 @@
       "registry_name": "breaking_stage_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/breaking_stage_5.json",
           "src/main/resources/assets/messinaround/blockstates/breaking_stage_5.json",
-          "src/main/java/net/mcreator/messinaround/block/BreakingStage5Block.java",
-          "src/main/resources/assets/messinaround/models/block/breaking_stage_5.json",
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_5.json",
           "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_5.json",
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_5.json",
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage5Block.java",
           "src/main/resources/assets/messinaround/items/breaking_stage_5.json"
         ]
       },
@@ -643,12 +643,12 @@
       "registry_name": "breaking_stage_6",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage6Block.java",
+          "src/main/resources/assets/messinaround/items/breaking_stage_6.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_6.json",
           "src/main/resources/assets/messinaround/models/block/breaking_stage_6.json",
           "src/main/resources/assets/messinaround/models/item/breaking_stage_6.json",
-          "src/main/resources/assets/messinaround/blockstates/breaking_stage_6.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_6.json",
-          "src/main/java/net/mcreator/messinaround/block/BreakingStage6Block.java",
-          "src/main/resources/assets/messinaround/items/breaking_stage_6.json"
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_6.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -662,11 +662,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/messinaround/block/BreakingStage7Block.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_7.json",
-          "src/main/resources/assets/messinaround/blockstates/breaking_stage_7.json",
-          "src/main/resources/assets/messinaround/models/item/breaking_stage_7.json",
           "src/main/resources/assets/messinaround/items/breaking_stage_7.json",
-          "src/main/resources/assets/messinaround/models/block/breaking_stage_7.json"
+          "src/main/resources/assets/messinaround/blockstates/breaking_stage_7.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_7.json",
+          "src/main/resources/assets/messinaround/models/block/breaking_stage_7.json",
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_7.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -754,9 +754,9 @@
       "registry_name": "oak_bark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/oak_bark.json",
+          "src/main/resources/assets/messinaround/models/item/oak_bark.json",
           "src/main/java/net/mcreator/messinaround/item/OakBarkItem.java",
-          "src/main/resources/assets/messinaround/models/item/oak_bark.json"
+          "src/main/resources/assets/messinaround/items/oak_bark.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -769,9 +769,9 @@
       "registry_name": "spruce_bark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/spruce_bark.json",
+          "src/main/resources/assets/messinaround/models/item/spruce_bark.json",
           "src/main/java/net/mcreator/messinaround/item/SpruceBarkItem.java",
-          "src/main/resources/assets/messinaround/models/item/spruce_bark.json"
+          "src/main/resources/assets/messinaround/items/spruce_bark.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -784,9 +784,9 @@
       "registry_name": "dark_oak_bark",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/DarkOakBarkItem.java",
+          "src/main/resources/assets/messinaround/items/dark_oak_bark.json",
           "src/main/resources/assets/messinaround/models/item/dark_oak_bark.json",
-          "src/main/resources/assets/messinaround/items/dark_oak_bark.json"
+          "src/main/java/net/mcreator/messinaround/item/DarkOakBarkItem.java"
         ]
       },
       "path": "~/TreeBreaking"
@@ -799,9 +799,9 @@
       "registry_name": "mangrove_bark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/mangrove_bark.json",
+          "src/main/resources/assets/messinaround/items/mangrove_bark.json",
           "src/main/java/net/mcreator/messinaround/item/MangroveBarkItem.java",
-          "src/main/resources/assets/messinaround/items/mangrove_bark.json"
+          "src/main/resources/assets/messinaround/models/item/mangrove_bark.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -814,8 +814,8 @@
       "registry_name": "jungle_bark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/jungle_bark.json",
           "src/main/resources/assets/messinaround/items/jungle_bark.json",
+          "src/main/resources/assets/messinaround/models/item/jungle_bark.json",
           "src/main/java/net/mcreator/messinaround/item/JungleBarkItem.java"
         ]
       },
@@ -829,9 +829,9 @@
       "registry_name": "pale_oak_bark",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/item/PaleOakBarkItem.java",
           "src/main/resources/assets/messinaround/models/item/pale_oak_bark.json",
-          "src/main/resources/assets/messinaround/items/pale_oak_bark.json",
-          "src/main/java/net/mcreator/messinaround/item/PaleOakBarkItem.java"
+          "src/main/resources/assets/messinaround/items/pale_oak_bark.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -844,9 +844,9 @@
       "registry_name": "acacia_bark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/acacia_bark.json",
           "src/main/java/net/mcreator/messinaround/item/AcaciaBarkItem.java",
-          "src/main/resources/assets/messinaround/models/item/acacia_bark.json"
+          "src/main/resources/assets/messinaround/models/item/acacia_bark.json",
+          "src/main/resources/assets/messinaround/items/acacia_bark.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -874,9 +874,9 @@
       "registry_name": "cherry_bark",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/CherryBarkItem.java",
+          "src/main/resources/assets/messinaround/models/item/cherry_bark.json",
           "src/main/resources/assets/messinaround/items/cherry_bark.json",
-          "src/main/resources/assets/messinaround/models/item/cherry_bark.json"
+          "src/main/java/net/mcreator/messinaround/item/CherryBarkItem.java"
         ]
       },
       "path": "~/TreeBreaking"
@@ -924,12 +924,12 @@
       "registry_name": "stripped_oak_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage1Block.java",
-          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_1.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage1Block.java",
+          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_1.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -942,12 +942,12 @@
       "registry_name": "stripped_oak_log_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_2.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage2Block.java",
           "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_2.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_2.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -960,12 +960,12 @@
       "registry_name": "stripped_oak_log_breaking_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_3.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedOakLogBreakingStage3Block.java",
-          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/items/stripped_oak_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_3.json"
+          "src/main/resources/assets/messinaround/blockstates/stripped_oak_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_oak_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -978,12 +978,12 @@
       "registry_name": "stripped_dark_oak_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage1Block.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_1.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -996,12 +996,12 @@
       "registry_name": "stripped_dark_oak_log_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage2Block.java",
-          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_2.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage2Block.java"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1014,12 +1014,12 @@
       "registry_name": "stripped_dark_oak_log_breaking_stage_3",
       "metadata": {
         "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/items/stripped_dark_oak_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/models/block/stripped_dark_oak_log_breaking_stage_3.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_dark_oak_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/models/item/stripped_dark_oak_log_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage3Block.java",
-          "src/main/resources/assets/messinaround/blockstates/stripped_dark_oak_log_breaking_stage_3.json"
+          "src/main/java/net/mcreator/messinaround/block/StrippedDarkOakLogBreakingStage3Block.java"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1032,11 +1032,11 @@
       "registry_name": "stripped_birch_log_breaking_stage_1",
       "metadata": {
         "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage1Block.java",
           "src/main/resources/assets/messinaround/models/item/stripped_birch_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_1.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_1.json"
         ]
       },
@@ -1050,12 +1050,12 @@
       "registry_name": "stripped_birch_log_breaking_stage_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/models/item/stripped_birch_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_2.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage2Block.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage2Block.java"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1068,12 +1068,12 @@
       "registry_name": "stripped_birch_log_breaking_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage3Block.java",
           "src/main/resources/assets/messinaround/models/item/stripped_birch_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_birch_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/items/stripped_birch_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedBirchLogBreakingStage3Block.java"
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_birch_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_birch_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1086,12 +1086,12 @@
       "registry_name": "stripped_acacia_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_1.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage1Block.java",
-          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_1.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1104,12 +1104,12 @@
       "registry_name": "stripped_acacia_log_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_2.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage2Block.java",
+          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_2.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_2.json"
+          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage2Block.java"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1122,12 +1122,12 @@
       "registry_name": "stripped_acacia_log_breaking_stage_3",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage3Block.java",
           "src/main/resources/assets/messinaround/models/item/stripped_acacia_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/models/block/stripped_acacia_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_3.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_acacia_log_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedAcaciaLogBreakingStage3Block.java"
+          "src/main/resources/assets/messinaround/items/stripped_acacia_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_acacia_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1140,12 +1140,12 @@
       "registry_name": "stripped_cherry_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage1Block.java",
-          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_1.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1158,12 +1158,12 @@
       "registry_name": "stripped_cherry_log_breaking_stage_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage2Block.java",
           "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_2.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage2Block.java",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_2.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1176,12 +1176,12 @@
       "registry_name": "stripped_cherry_log_breaking_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_3.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_cherry_log_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage3Block.java",
           "src/main/resources/assets/messinaround/models/item/stripped_cherry_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_cherry_log_breaking_stage_3.json"
+          "src/main/java/net/mcreator/messinaround/block/StrippedCherryLogBreakingStage3Block.java",
+          "src/main/resources/assets/messinaround/items/stripped_cherry_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_cherry_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1194,12 +1194,12 @@
       "registry_name": "stripped_jungle_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage1Block.java",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_1.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1213,11 +1213,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage2Block.java",
-          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_2.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_2.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_2.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1230,12 +1230,12 @@
       "registry_name": "stripped_jungle_log_breaking_stage_3",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage3Block.java",
           "src/main/resources/assets/messinaround/items/stripped_jungle_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_3.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/models/item/stripped_jungle_log_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedJungleLogBreakingStage3Block.java"
+          "src/main/resources/assets/messinaround/models/block/stripped_jungle_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_jungle_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_jungle_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1248,11 +1248,11 @@
       "registry_name": "stripped_spruce_log_breaking_stage_1",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_1.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage1Block.java"
         ]
       },
@@ -1266,12 +1266,12 @@
       "registry_name": "stripped_spruce_log_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_2.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage2Block.java",
           "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_2.json",
-          "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage2Block.java"
+          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_2.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1284,12 +1284,12 @@
       "registry_name": "stripped_spruce_log_breaking_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_3.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_3.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedSpruceLogBreakingStage3Block.java",
-          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_3.json"
+          "src/main/resources/assets/messinaround/models/item/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_spruce_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/items/stripped_spruce_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1302,11 +1302,11 @@
       "registry_name": "stripped_mangrove_log_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_1.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_1.json",
-          "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage1Block.java",
+          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_1.json",
+          "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_1.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_1.json"
         ]
       },
@@ -1320,12 +1320,12 @@
       "registry_name": "stripped_mangrove_log_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage2Block.java",
-          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_2.json",
           "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage2Block.java",
           "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_2.json",
-          "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_2.json"
+          "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_2.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1339,11 +1339,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/models/item/stripped_mangrove_log_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/items/stripped_mangrove_log_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/blockstates/stripped_mangrove_log_breaking_stage_3.json",
           "src/main/java/net/mcreator/messinaround/block/StrippedMangroveLogBreakingStage3Block.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/stripped_mangrove_log_breaking_stage_3.json"
+          "src/main/resources/data/messinaround/loot_table/blocks/stripped_mangrove_log_breaking_stage_3.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1531,8 +1531,8 @@
       "registry_name": "bone_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/BoneAxeItem.java",
           "src/main/resources/assets/messinaround/items/bone_axe.json",
+          "src/main/java/net/mcreator/messinaround/item/BoneAxeItem.java",
           "src/main/resources/assets/messinaround/models/item/bone_axe.json"
         ]
       },
@@ -1546,9 +1546,9 @@
       "registry_name": "bone_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/bone_pickaxe.json",
+          "src/main/resources/assets/messinaround/models/item/bone_pickaxe.json",
           "src/main/java/net/mcreator/messinaround/item/BonePickaxeItem.java",
-          "src/main/resources/assets/messinaround/models/item/bone_pickaxe.json"
+          "src/main/resources/assets/messinaround/items/bone_pickaxe.json"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -1561,9 +1561,9 @@
       "registry_name": "bone_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/bone_hoe.json",
+          "src/main/java/net/mcreator/messinaround/item/BoneHoeItem.java",
           "src/main/resources/assets/messinaround/items/bone_hoe.json",
-          "src/main/java/net/mcreator/messinaround/item/BoneHoeItem.java"
+          "src/main/resources/assets/messinaround/models/item/bone_hoe.json"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -1576,8 +1576,8 @@
       "registry_name": "deep_rock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/DeepRockItem.java",
           "src/main/resources/assets/messinaround/models/item/deep_rock.json",
+          "src/main/java/net/mcreator/messinaround/item/DeepRockItem.java",
           "src/main/resources/assets/messinaround/items/deep_rock.json"
         ]
       }
@@ -1591,8 +1591,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/models/item/black_rock.json",
-          "src/main/java/net/mcreator/messinaround/item/BlackRockItem.java",
-          "src/main/resources/assets/messinaround/items/black_rock.json"
+          "src/main/resources/assets/messinaround/items/black_rock.json",
+          "src/main/java/net/mcreator/messinaround/item/BlackRockItem.java"
         ]
       }
     },
@@ -1604,9 +1604,9 @@
       "registry_name": "leather_strip",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/leather_strip.json",
+          "src/main/java/net/mcreator/messinaround/item/LeatherStripItem.java",
           "src/main/resources/assets/messinaround/models/item/leather_strip.json",
-          "src/main/java/net/mcreator/messinaround/item/LeatherStripItem.java"
+          "src/main/resources/assets/messinaround/items/leather_strip.json"
         ]
       },
       "path": "~/Ingredients"
@@ -1619,8 +1619,8 @@
       "registry_name": "bottle_of_rainbow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/bottle_of_rainbow.json",
           "src/main/java/net/mcreator/messinaround/item/BottleOfRainbowItem.java",
+          "src/main/resources/assets/messinaround/items/bottle_of_rainbow.json",
           "src/main/resources/assets/messinaround/models/item/bottle_of_rainbow.json"
         ]
       },
@@ -1648,17 +1648,17 @@
       "registry_name": "grass_gear",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/equipment/grass_gear.json",
+          "src/main/resources/assets/messinaround/items/grass_gear_chestplate.json",
+          "src/main/resources/assets/messinaround/models/item/grass_gear_boots.json",
+          "src/main/resources/assets/messinaround/models/item/grass_gear_leggings.json",
           "src/main/resources/assets/messinaround/models/item/grass_gear_helmet.json",
           "src/main/resources/assets/messinaround/items/grass_gear_leggings.json",
           "src/main/resources/assets/messinaround/models/item/grass_gear_chestplate.json",
           "src/main/resources/assets/messinaround/items/grass_gear_boots.json",
-          "src/main/java/net/mcreator/messinaround/item/GrassGearItem.java",
-          "src/main/resources/assets/messinaround/models/item/grass_gear_boots.json",
-          "src/main/resources/assets/messinaround/items/grass_gear_helmet.json",
-          "src/main/resources/assets/messinaround/equipment/grass_gear.json",
-          "src/main/resources/assets/messinaround/models/item/grass_gear_leggings.json",
           "src/main/java/net/mcreator/messinaround/client/renderer/item/GrassGearArmor.java",
-          "src/main/resources/assets/messinaround/items/grass_gear_chestplate.json"
+          "src/main/resources/assets/messinaround/items/grass_gear_helmet.json",
+          "src/main/java/net/mcreator/messinaround/item/GrassGearItem.java"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -1699,8 +1699,8 @@
       "registry_name": "grass_panties_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/recipe/grass_panties_recipe.json",
-          "src/main/resources/data/messinaround/advancement/recipes/grass_panties_recipe.json"
+          "src/main/resources/data/messinaround/advancement/recipes/grass_panties_recipe.json",
+          "src/main/resources/data/messinaround/recipe/grass_panties_recipe.json"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -1713,8 +1713,8 @@
       "registry_name": "grass_booties_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/advancement/recipes/grass_booties_recipe.json",
-          "src/main/resources/data/messinaround/recipe/grass_booties_recipe.json"
+          "src/main/resources/data/messinaround/recipe/grass_booties_recipe.json",
+          "src/main/resources/data/messinaround/advancement/recipes/grass_booties_recipe.json"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -1762,12 +1762,12 @@
       "registry_name": "coocible",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/block/coocible.json",
-          "src/main/resources/assets/messinaround/models/item/coocible.json",
           "src/main/java/net/mcreator/messinaround/block/CoocibleBlock.java",
+          "src/main/resources/assets/messinaround/models/item/coocible.json",
           "src/main/resources/assets/messinaround/blockstates/coocible.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/coocible.json",
           "src/main/resources/assets/messinaround/items/coocible.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/coocible.json"
+          "src/main/resources/assets/messinaround/models/block/coocible.json"
         ]
       },
       "path": "~/FunctionalBlocks/Crucible"
@@ -1875,9 +1875,9 @@
       "registry_name": "chunk_o_wood",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/models/item/chunk_o_wood.json",
           "src/main/java/net/mcreator/messinaround/item/ChunkOWoodItem.java",
-          "src/main/resources/assets/messinaround/items/chunk_o_wood.json",
-          "src/main/resources/assets/messinaround/models/item/chunk_o_wood.json"
+          "src/main/resources/assets/messinaround/items/chunk_o_wood.json"
         ]
       },
       "path": "~/TreeBreaking"
@@ -1890,13 +1890,13 @@
       "registry_name": "experimental_steak_cooker",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/entity/ExperimentalSteakCookerBlockEntity.java",
-          "src/main/java/net/mcreator/messinaround/block/ExperimentalSteakCookerBlock.java",
-          "src/main/resources/assets/messinaround/models/item/experimental_steak_cooker.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/experimental_steak_cooker.json",
+          "src/main/resources/assets/messinaround/items/experimental_steak_cooker.json",
           "src/main/resources/assets/messinaround/models/block/experimental_steak_cooker.json",
           "src/main/resources/assets/messinaround/blockstates/experimental_steak_cooker.json",
-          "src/main/resources/assets/messinaround/items/experimental_steak_cooker.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/experimental_steak_cooker.json"
+          "src/main/resources/assets/messinaround/models/item/experimental_steak_cooker.json",
+          "src/main/java/net/mcreator/messinaround/block/ExperimentalSteakCookerBlock.java",
+          "src/main/java/net/mcreator/messinaround/block/entity/ExperimentalSteakCookerBlockEntity.java"
         ]
       },
       "path": "~/FunctionalBlocks"
@@ -1940,12 +1940,12 @@
       "registry_name": "open_cuck",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/block/OpenCuckBlock.java",
           "src/main/resources/data/messinaround/loot_table/blocks/open_cuck.json",
           "src/main/resources/assets/messinaround/models/item/open_cuck.json",
+          "src/main/resources/assets/messinaround/blockstates/open_cuck.json",
           "src/main/resources/assets/messinaround/models/block/open_cuck.json",
-          "src/main/resources/assets/messinaround/items/open_cuck.json",
-          "src/main/java/net/mcreator/messinaround/block/OpenCuckBlock.java",
-          "src/main/resources/assets/messinaround/blockstates/open_cuck.json"
+          "src/main/resources/assets/messinaround/items/open_cuck.json"
         ]
       },
       "path": "~/FunctionalBlocks/Crucible"
@@ -1958,12 +1958,12 @@
       "registry_name": "breaking_stage_8",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/BreakingStage8Block.java",
+          "src/main/resources/assets/messinaround/models/item/breaking_stage_8.json",
           "src/main/resources/assets/messinaround/blockstates/breaking_stage_8.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_8.json",
-          "src/main/resources/assets/messinaround/items/breaking_stage_8.json",
           "src/main/resources/assets/messinaround/models/block/breaking_stage_8.json",
-          "src/main/resources/assets/messinaround/models/item/breaking_stage_8.json"
+          "src/main/resources/assets/messinaround/items/breaking_stage_8.json",
+          "src/main/java/net/mcreator/messinaround/block/BreakingStage8Block.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/breaking_stage_8.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -1976,12 +1976,12 @@
       "registry_name": "pipe_empty",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/PipeEmptyBlock.java",
+          "src/main/resources/data/messinaround/loot_table/blocks/pipe_empty.json",
+          "src/main/resources/assets/messinaround/models/block/pipe_empty.json",
           "src/main/resources/assets/messinaround/items/pipe_empty.json",
           "src/main/resources/assets/messinaround/models/item/pipe_empty.json",
           "src/main/resources/assets/messinaround/blockstates/pipe_empty.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/pipe_empty.json",
-          "src/main/resources/assets/messinaround/models/block/pipe_empty.json"
+          "src/main/java/net/mcreator/messinaround/block/PipeEmptyBlock.java"
         ]
       },
       "path": "~/FunctionalBlocks/Pipes"
@@ -1994,12 +1994,12 @@
       "registry_name": "pipe_full",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/pipe_full.json",
-          "src/main/resources/assets/messinaround/models/block/pipe_full.json",
-          "src/main/resources/assets/messinaround/blockstates/pipe_full.json",
           "src/main/resources/assets/messinaround/items/pipe_full.json",
+          "src/main/java/net/mcreator/messinaround/block/PipeFullBlock.java",
           "src/main/resources/data/messinaround/loot_table/blocks/pipe_full.json",
-          "src/main/java/net/mcreator/messinaround/block/PipeFullBlock.java"
+          "src/main/resources/assets/messinaround/blockstates/pipe_full.json",
+          "src/main/resources/assets/messinaround/models/item/pipe_full.json",
+          "src/main/resources/assets/messinaround/models/block/pipe_full.json"
         ]
       },
       "path": "~/FunctionalBlocks/Pipes"
@@ -2043,9 +2043,9 @@
       "registry_name": "copper_nugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/CopperNuggetItem.java",
+          "src/main/resources/assets/messinaround/models/item/copper_nugget.json",
           "src/main/resources/assets/messinaround/items/copper_nugget.json",
-          "src/main/resources/assets/messinaround/models/item/copper_nugget.json"
+          "src/main/java/net/mcreator/messinaround/item/CopperNuggetItem.java"
         ]
       },
       "path": "~/Ingredients"
@@ -2058,8 +2058,8 @@
       "registry_name": "copper_ingot_from_nuggets",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/advancement/recipes/copper_ingot_from_nuggets.json",
-          "src/main/resources/data/messinaround/recipe/copper_ingot_from_nuggets.json"
+          "src/main/resources/data/messinaround/recipe/copper_ingot_from_nuggets.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_ingot_from_nuggets.json"
         ]
       },
       "path": "~/Ingredients"
@@ -2072,8 +2072,8 @@
       "registry_name": "copper_nuggets_from_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/advancement/recipes/copper_nuggets_from_ingot.json",
-          "src/main/resources/data/messinaround/recipe/copper_nuggets_from_ingot.json"
+          "src/main/resources/data/messinaround/recipe/copper_nuggets_from_ingot.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_nuggets_from_ingot.json"
         ]
       },
       "path": "~/Ingredients"
@@ -2324,9 +2324,9 @@
       "registry_name": "copper_sword",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/item/CopperSwordItem.java",
           "src/main/resources/assets/messinaround/models/item/copper_sword.json",
-          "src/main/resources/assets/messinaround/items/copper_sword.json",
-          "src/main/java/net/mcreator/messinaround/item/CopperSwordItem.java"
+          "src/main/resources/assets/messinaround/items/copper_sword.json"
         ]
       },
       "path": "~/Tools/Copper"
@@ -2339,9 +2339,9 @@
       "registry_name": "copper_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/CopperAxeItem.java",
           "src/main/resources/assets/messinaround/items/copper_axe.json",
-          "src/main/resources/assets/messinaround/models/item/copper_axe.json"
+          "src/main/resources/assets/messinaround/models/item/copper_axe.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperAxeItem.java"
         ]
       },
       "path": "~/Tools/Copper"
@@ -2369,9 +2369,9 @@
       "registry_name": "copper_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/copper_shovel.json",
           "src/main/java/net/mcreator/messinaround/item/CopperShovelItem.java",
-          "src/main/resources/assets/messinaround/models/item/copper_shovel.json"
+          "src/main/resources/assets/messinaround/models/item/copper_shovel.json",
+          "src/main/resources/assets/messinaround/items/copper_shovel.json"
         ]
       },
       "path": "~/Tools/Copper"
@@ -2384,9 +2384,9 @@
       "registry_name": "copper_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/CopperHoeItem.java",
           "src/main/resources/assets/messinaround/items/copper_hoe.json",
-          "src/main/resources/assets/messinaround/models/item/copper_hoe.json"
+          "src/main/resources/assets/messinaround/models/item/copper_hoe.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperHoeItem.java"
         ]
       },
       "path": "~/Tools/Copper"
@@ -2399,12 +2399,12 @@
       "registry_name": "grimstone",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/models/item/grimstone.json",
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneBlock.java",
           "src/main/resources/assets/messinaround/items/grimstone.json",
           "src/main/resources/assets/messinaround/blockstates/grimstone.json",
-          "src/main/java/net/mcreator/messinaround/block/GrimstoneBlock.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/grimstone.json",
           "src/main/resources/assets/messinaround/models/block/grimstone.json",
-          "src/main/resources/assets/messinaround/models/item/grimstone.json"
+          "src/main/resources/data/messinaround/loot_table/blocks/grimstone.json"
         ]
       },
       "path": "~/GrimstoneLayer"
@@ -2418,8 +2418,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_layer_biome_modifier.json",
-          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_layer.json",
-          "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_layer.json"
+          "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_layer.json",
+          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_layer.json"
         ]
       },
       "path": "~/GrimstoneLayer"
@@ -2432,11 +2432,11 @@
       "registry_name": "grimstone_diamond_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/GrimstoneDiamondOreBlock.java",
-          "src/main/resources/assets/messinaround/models/item/grimstone_diamond_ore.json",
-          "src/main/resources/assets/messinaround/models/block/grimstone_diamond_ore.json",
           "src/main/resources/assets/messinaround/blockstates/grimstone_diamond_ore.json",
-          "src/main/resources/assets/messinaround/items/grimstone_diamond_ore.json"
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneDiamondOreBlock.java",
+          "src/main/resources/assets/messinaround/items/grimstone_diamond_ore.json",
+          "src/main/resources/assets/messinaround/models/item/grimstone_diamond_ore.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone_diamond_ore.json"
         ]
       },
       "path": "~/GrimstoneLayer"
@@ -2449,11 +2449,11 @@
       "registry_name": "grimstone_gold_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/grimstone_gold_ore.json",
-          "src/main/resources/assets/messinaround/items/grimstone_gold_ore.json",
           "src/main/resources/assets/messinaround/blockstates/grimstone_gold_ore.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone_gold_ore.json",
           "src/main/java/net/mcreator/messinaround/block/GrimstoneGoldOreBlock.java",
-          "src/main/resources/assets/messinaround/models/block/grimstone_gold_ore.json"
+          "src/main/resources/assets/messinaround/models/item/grimstone_gold_ore.json",
+          "src/main/resources/assets/messinaround/items/grimstone_gold_ore.json"
         ]
       },
       "path": "~/GrimstoneLayer"
@@ -2466,10 +2466,10 @@
       "registry_name": "grimstone_lapis_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/grimstone_lapis_ore.json",
-          "src/main/resources/assets/messinaround/models/item/grimstone_lapis_ore.json",
-          "src/main/java/net/mcreator/messinaround/block/GrimstoneLapisOreBlock.java",
           "src/main/resources/assets/messinaround/items/grimstone_lapis_ore.json",
+          "src/main/resources/assets/messinaround/blockstates/grimstone_lapis_ore.json",
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneLapisOreBlock.java",
+          "src/main/resources/assets/messinaround/models/item/grimstone_lapis_ore.json",
           "src/main/resources/assets/messinaround/models/block/grimstone_lapis_ore.json"
         ]
       },
@@ -2483,10 +2483,10 @@
       "registry_name": "grimstone_redstone_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/block/grimstone_redstone_ore.json",
           "src/main/resources/assets/messinaround/items/grimstone_redstone_ore.json",
-          "src/main/resources/assets/messinaround/models/item/grimstone_redstone_ore.json",
           "src/main/java/net/mcreator/messinaround/block/GrimstoneRedstoneOreBlock.java",
+          "src/main/resources/assets/messinaround/models/item/grimstone_redstone_ore.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone_redstone_ore.json",
           "src/main/resources/assets/messinaround/blockstates/grimstone_redstone_ore.json"
         ]
       },
@@ -2552,9 +2552,9 @@
       "registry_name": "grimstone_diamond_ore_gen",
       "metadata": {
         "files": [
+          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_diamond_ore_gen_biome_modifier.json",
           "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_diamond_ore_gen.json",
-          "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_diamond_ore_gen.json",
-          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_diamond_ore_gen_biome_modifier.json"
+          "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_diamond_ore_gen.json"
         ]
       },
       "path": "~/GrimstoneLayer"
@@ -2567,8 +2567,8 @@
       "registry_name": "grimstone_gold_ore_gen",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_gold_ore_gen.json",
           "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_gold_ore_gen_biome_modifier.json",
+          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_gold_ore_gen.json",
           "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_gold_ore_gen.json"
         ]
       },
@@ -2582,9 +2582,9 @@
       "registry_name": "grimstone_lapis_ore_gen",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_lapis_ore_gen_biome_modifier.json",
           "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_lapis_ore_gen.json",
-          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_lapis_ore_gen.json"
+          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_lapis_ore_gen.json",
+          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_lapis_ore_gen_biome_modifier.json"
         ]
       },
       "path": "~/GrimstoneLayer"
@@ -2597,9 +2597,9 @@
       "registry_name": "grimstone_redstone_ore_gen",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_redstone_ore_gen_biome_modifier.json",
+          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_redstone_ore_gen.json",
           "src/main/resources/data/messinaround/worldgen/placed_feature/grimstone_redstone_ore_gen.json",
-          "src/main/resources/data/messinaround/worldgen/configured_feature/grimstone_redstone_ore_gen.json"
+          "src/main/resources/data/messinaround/neoforge/biome_modifier/grimstone_redstone_ore_gen_biome_modifier.json"
         ]
       },
       "path": "~/GrimstoneLayer"
@@ -2612,11 +2612,11 @@
       "registry_name": "cobbled_grimstone",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/cobbled_grimstone.json",
-          "src/main/java/net/mcreator/messinaround/block/CobbledGrimstoneBlock.java",
-          "src/main/resources/assets/messinaround/items/cobbled_grimstone.json",
           "src/main/resources/assets/messinaround/models/block/cobbled_grimstone.json",
+          "src/main/java/net/mcreator/messinaround/block/CobbledGrimstoneBlock.java",
           "src/main/resources/assets/messinaround/blockstates/cobbled_grimstone.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/cobbled_grimstone.json",
+          "src/main/resources/assets/messinaround/items/cobbled_grimstone.json",
           "src/main/resources/assets/messinaround/models/item/cobbled_grimstone.json"
         ]
       },
@@ -2630,10 +2630,10 @@
       "registry_name": "grimstone_breaking_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_1.json",
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage1Block.java",
           "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_1.json",
-          "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage1Block.java"
+          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_1.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2648,8 +2648,8 @@
         "files": [
           "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_2.json",
           "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage2Block.java",
-          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_2.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_2.json"
+          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_2.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2662,10 +2662,10 @@
       "registry_name": "grimstone_breaking_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_3.json",
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage3Block.java",
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_3.json",
-          "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage3Block.java"
+          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_3.json",
+          "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_3.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2678,10 +2678,10 @@
       "registry_name": "grimstone_breaking_stage_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_4.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_4.json",
           "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage4Block.java",
-          "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_4.json"
+          "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_4.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_4.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_4.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2694,10 +2694,10 @@
       "registry_name": "grimstone_breaking_stage_5",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_5.json",
           "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage5Block.java",
           "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_5.json",
-          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_5.json"
+          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_5.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_5.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2710,10 +2710,10 @@
       "registry_name": "grimstone_breaking_stage_6",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_6.json",
           "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_6.json",
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_6.json",
-          "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage6Block.java"
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage6Block.java",
+          "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_6.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2726,10 +2726,10 @@
       "registry_name": "grimstone_breaking_stage_7",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage7Block.java",
+          "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_7.json",
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_7.json",
-          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_7.json",
-          "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_7.json"
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage7Block.java",
+          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_7.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2742,10 +2742,10 @@
       "registry_name": "grimstone_breaking_stage_8",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_8.json",
+          "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage8Block.java",
           "src/main/resources/data/messinaround/loot_table/blocks/grimstone_breaking_stage_8.json",
-          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_8.json",
-          "src/main/java/net/mcreator/messinaround/block/GrimstoneBreakingStage8Block.java"
+          "src/main/resources/assets/messinaround/blockstates/grimstone_breaking_stage_8.json",
+          "src/main/resources/assets/messinaround/models/block/grimstone_breaking_stage_8.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2758,10 +2758,10 @@
       "registry_name": "deepslate_breaking_stage_1",
       "metadata": {
         "files": [
+          "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_1.json",
           "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage1Block.java",
-          "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_1.json",
           "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_1.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_1.json"
+          "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_1.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2774,9 +2774,9 @@
       "registry_name": "deepslate_breaking_stage_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage2Block.java",
-          "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_2.json",
           "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_2.json",
+          "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_2.json",
+          "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage2Block.java",
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_2.json"
         ]
       },
@@ -2790,9 +2790,9 @@
       "registry_name": "deepslate_breaking_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_3.json",
-          "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_3.json",
           "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage3Block.java",
+          "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_3.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_3.json",
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_3.json"
         ]
       },
@@ -2808,8 +2808,8 @@
         "files": [
           "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage4Block.java",
           "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_4.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_4.json",
-          "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_4.json"
+          "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_4.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_4.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2823,9 +2823,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_5.json",
-          "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage5Block.java",
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_5.json",
-          "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_5.json"
+          "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_5.json",
+          "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage5Block.java"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2838,10 +2838,10 @@
       "registry_name": "deepslate_breaking_stage_6",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_6.json",
+          "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage6Block.java",
           "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_6.json",
           "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_6.json",
-          "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage6Block.java"
+          "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_6.json"
         ]
       },
       "path": "~/StoneBreaking"
@@ -2854,9 +2854,9 @@
       "registry_name": "deepslate_breaking_stage_7",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_7.json",
           "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_7.json",
           "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage7Block.java",
-          "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_7.json",
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_7.json"
         ]
       },
@@ -2870,9 +2870,9 @@
       "registry_name": "deepslate_breaking_stage_8",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_8.json",
           "src/main/java/net/mcreator/messinaround/block/DeepslateBreakingStage8Block.java",
           "src/main/resources/assets/messinaround/blockstates/deepslate_breaking_stage_8.json",
+          "src/main/resources/assets/messinaround/models/block/deepslate_breaking_stage_8.json",
           "src/main/resources/data/messinaround/loot_table/blocks/deepslate_breaking_stage_8.json"
         ]
       },
@@ -2886,9 +2886,9 @@
       "registry_name": "iron_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/iron_sword.json",
+          "src/main/resources/assets/messinaround/models/item/iron_sword.json",
           "src/main/java/net/mcreator/messinaround/item/IronSwordItem.java",
-          "src/main/resources/assets/messinaround/models/item/iron_sword.json"
+          "src/main/resources/assets/messinaround/items/iron_sword.json"
         ]
       },
       "path": "~/Tools/Iron"
@@ -2902,8 +2902,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/items/iron_axe.json",
-          "src/main/resources/assets/messinaround/models/item/iron_axe.json",
-          "src/main/java/net/mcreator/messinaround/item/IronAxeItem.java"
+          "src/main/java/net/mcreator/messinaround/item/IronAxeItem.java",
+          "src/main/resources/assets/messinaround/models/item/iron_axe.json"
         ]
       },
       "path": "~/Tools/Iron"
@@ -2916,9 +2916,9 @@
       "registry_name": "iron_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/iron_pickaxe.json",
           "src/main/java/net/mcreator/messinaround/item/IronPickaxeItem.java",
-          "src/main/resources/assets/messinaround/models/item/iron_pickaxe.json"
+          "src/main/resources/assets/messinaround/models/item/iron_pickaxe.json",
+          "src/main/resources/assets/messinaround/items/iron_pickaxe.json"
         ]
       },
       "path": "~/Tools/Iron"
@@ -2931,9 +2931,9 @@
       "registry_name": "iron_shovel",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/item/IronShovelItem.java",
           "src/main/resources/assets/messinaround/items/iron_shovel.json",
-          "src/main/resources/assets/messinaround/models/item/iron_shovel.json",
-          "src/main/java/net/mcreator/messinaround/item/IronShovelItem.java"
+          "src/main/resources/assets/messinaround/models/item/iron_shovel.json"
         ]
       },
       "path": "~/Tools/Iron"
@@ -2946,9 +2946,9 @@
       "registry_name": "iron_hoe",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/messinaround/item/IronHoeItem.java",
           "src/main/resources/assets/messinaround/items/iron_hoe.json",
-          "src/main/resources/assets/messinaround/models/item/iron_hoe.json",
-          "src/main/java/net/mcreator/messinaround/item/IronHoeItem.java"
+          "src/main/resources/assets/messinaround/models/item/iron_hoe.json"
         ]
       },
       "path": "~/Tools/Iron"
@@ -2996,9 +2996,9 @@
       "registry_name": "gaydon_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/GaydonPickaxeItem.java",
           "src/main/resources/assets/messinaround/models/item/gaydon_pickaxe.json",
-          "src/main/resources/assets/messinaround/items/gaydon_pickaxe.json"
+          "src/main/resources/assets/messinaround/items/gaydon_pickaxe.json",
+          "src/main/java/net/mcreator/messinaround/item/GaydonPickaxeItem.java"
         ]
       },
       "path": "~/Tools"
@@ -3046,17 +3046,17 @@
       "registry_name": "copper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/copper_chestplate.json",
-          "src/main/resources/assets/messinaround/models/item/copper_chestplate.json",
-          "src/main/resources/assets/messinaround/models/item/copper_helmet.json",
-          "src/main/java/net/mcreator/messinaround/item/CopperItem.java",
-          "src/main/resources/assets/messinaround/models/item/copper_leggings.json",
-          "src/main/resources/assets/messinaround/models/item/copper_boots.json",
           "src/main/java/net/mcreator/messinaround/client/renderer/item/CopperArmor.java",
-          "src/main/resources/assets/messinaround/items/copper_leggings.json",
           "src/main/resources/assets/messinaround/items/copper_helmet.json",
           "src/main/resources/assets/messinaround/items/copper_boots.json",
-          "src/main/resources/assets/messinaround/equipment/copper.json"
+          "src/main/resources/assets/messinaround/models/item/copper_helmet.json",
+          "src/main/resources/assets/messinaround/models/item/copper_chestplate.json",
+          "src/main/resources/assets/messinaround/models/item/copper_leggings.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperItem.java",
+          "src/main/resources/assets/messinaround/items/copper_leggings.json",
+          "src/main/resources/assets/messinaround/equipment/copper.json",
+          "src/main/resources/assets/messinaround/items/copper_chestplate.json",
+          "src/main/resources/assets/messinaround/models/item/copper_boots.json"
         ]
       },
       "path": "~/Tools/Copper"
@@ -3130,8 +3130,8 @@
       "registry_name": "coal_dust",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/CoalDustItem.java",
           "src/main/resources/assets/messinaround/models/item/coal_dust.json",
+          "src/main/java/net/mcreator/messinaround/item/CoalDustItem.java",
           "src/main/resources/assets/messinaround/items/coal_dust.json"
         ]
       },
@@ -3277,8 +3277,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/messinaround/item/DiamondShardItem.java",
-          "src/main/resources/assets/messinaround/items/diamond_shard.json",
-          "src/main/resources/assets/messinaround/models/item/diamond_shard.json"
+          "src/main/resources/assets/messinaround/models/item/diamond_shard.json",
+          "src/main/resources/assets/messinaround/items/diamond_shard.json"
         ]
       },
       "path": "~/OreBreaking"
@@ -3367,13 +3367,13 @@
       "registry_name": "unlit_campfire",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/UnlitCampfireBlock.java",
           "src/main/java/net/mcreator/messinaround/block/entity/UnlitCampfireBlockEntity.java",
-          "src/main/resources/data/messinaround/loot_table/blocks/unlit_campfire.json",
           "src/main/resources/assets/messinaround/models/item/unlit_campfire.json",
-          "src/main/resources/assets/messinaround/models/block/unlit_campfire.json",
+          "src/main/resources/assets/messinaround/items/unlit_campfire.json",
           "src/main/resources/assets/messinaround/blockstates/unlit_campfire.json",
-          "src/main/resources/assets/messinaround/items/unlit_campfire.json"
+          "src/main/resources/assets/messinaround/models/block/unlit_campfire.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/unlit_campfire.json",
+          "src/main/java/net/mcreator/messinaround/block/UnlitCampfireBlock.java"
         ]
       },
       "path": "~/FunctionalBlocks/Campfire"
@@ -3452,11 +3452,11 @@
       "registry_name": "lit_campfire_0",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/loot_table/blocks/lit_campfire_0.json",
-          "src/main/resources/assets/messinaround/models/block/lit_campfire_0.json",
+          "src/main/java/net/mcreator/messinaround/block/LitCampfire0Block.java",
           "src/main/java/net/mcreator/messinaround/block/entity/LitCampfire0BlockEntity.java",
+          "src/main/resources/assets/messinaround/models/block/lit_campfire_0.json",
           "src/main/resources/assets/messinaround/blockstates/lit_campfire_0.json",
-          "src/main/java/net/mcreator/messinaround/block/LitCampfire0Block.java"
+          "src/main/resources/data/messinaround/loot_table/blocks/lit_campfire_0.json"
         ]
       },
       "path": "~/FunctionalBlocks/Campfire"
@@ -3469,11 +3469,11 @@
       "registry_name": "lit_campfire_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/blockstates/lit_campfire_1.json",
-          "src/main/java/net/mcreator/messinaround/block/entity/LitCampfire1BlockEntity.java",
+          "src/main/java/net/mcreator/messinaround/block/LitCampfire1Block.java",
           "src/main/resources/data/messinaround/loot_table/blocks/lit_campfire_1.json",
-          "src/main/resources/assets/messinaround/models/block/lit_campfire_1.json",
-          "src/main/java/net/mcreator/messinaround/block/LitCampfire1Block.java"
+          "src/main/java/net/mcreator/messinaround/block/entity/LitCampfire1BlockEntity.java",
+          "src/main/resources/assets/messinaround/blockstates/lit_campfire_1.json",
+          "src/main/resources/assets/messinaround/models/block/lit_campfire_1.json"
         ]
       },
       "path": "~/FunctionalBlocks/Campfire"
@@ -3501,8 +3501,8 @@
       "registry_name": "makeshift_match_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/recipe/makeshift_match.json",
-          "src/main/resources/data/messinaround/advancement/recipes/makeshift_match_recipe.json"
+          "src/main/resources/data/messinaround/advancement/recipes/makeshift_match_recipe.json",
+          "src/main/resources/data/messinaround/recipe/makeshift_match.json"
         ]
       },
       "path": "~/Tools"
@@ -3515,8 +3515,8 @@
       "registry_name": "coal_from_coal_dust",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/recipe/coal_from_coal_dust.json",
-          "src/main/resources/data/messinaround/advancement/recipes/coal_from_coal_dust.json"
+          "src/main/resources/data/messinaround/advancement/recipes/coal_from_coal_dust.json",
+          "src/main/resources/data/messinaround/recipe/coal_from_coal_dust.json"
         ]
       },
       "path": "~/Ingredients"
@@ -3530,8 +3530,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/items/makeshift_match_lit.json",
-          "src/main/resources/assets/messinaround/models/item/makeshift_match_lit.json",
-          "src/main/java/net/mcreator/messinaround/item/MakeshiftMatchLitItem.java"
+          "src/main/java/net/mcreator/messinaround/item/MakeshiftMatchLitItem.java",
+          "src/main/resources/assets/messinaround/models/item/makeshift_match_lit.json"
         ]
       },
       "path": "~/Tools"
@@ -3672,12 +3672,12 @@
       "registry_name": "cooking_platform",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/cooking_platform.json",
           "src/main/java/net/mcreator/messinaround/block/CookingPlatformBlock.java",
-          "src/main/resources/assets/messinaround/models/block/cooking_platform.json",
+          "src/main/resources/assets/messinaround/models/item/cooking_platform.json",
           "src/main/resources/data/messinaround/loot_table/blocks/cooking_platform.json",
-          "src/main/resources/assets/messinaround/blockstates/cooking_platform.json",
-          "src/main/resources/assets/messinaround/items/cooking_platform.json"
+          "src/main/resources/assets/messinaround/items/cooking_platform.json",
+          "src/main/resources/assets/messinaround/models/block/cooking_platform.json",
+          "src/main/resources/assets/messinaround/blockstates/cooking_platform.json"
         ]
       },
       "path": "~/FunctionalBlocks/Campfire"
@@ -3721,8 +3721,8 @@
       "registry_name": "campfire_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/recipe/campfire.json",
-          "src/main/resources/data/messinaround/advancement/recipes/campfire_recipe.json"
+          "src/main/resources/data/messinaround/advancement/recipes/campfire_recipe.json",
+          "src/main/resources/data/messinaround/recipe/campfire.json"
         ]
       },
       "path": "~/FunctionalBlocks/Campfire"
@@ -3794,11 +3794,11 @@
       "registry_name": "copper_skillet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/copper_skillet.json",
           "src/main/resources/data/messinaround/loot_table/blocks/copper_skillet.json",
-          "src/main/resources/assets/messinaround/models/item/copper_skillet.json",
-          "src/main/resources/assets/messinaround/models/block/copper_skillet.json",
           "src/main/resources/assets/messinaround/blockstates/copper_skillet.json",
+          "src/main/resources/assets/messinaround/models/block/copper_skillet.json",
+          "src/main/resources/assets/messinaround/models/item/copper_skillet.json",
+          "src/main/resources/assets/messinaround/items/copper_skillet.json",
           "src/main/java/net/mcreator/messinaround/block/CopperSkilletBlock.java"
         ]
       },
@@ -3909,8 +3909,8 @@
       "registry_name": "bone_pickaxe_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/messinaround/recipe/bone_pickaxe_recipe.json",
-          "src/main/resources/data/messinaround/advancement/recipes/bone_pickaxe_recipe.json"
+          "src/main/resources/data/messinaround/advancement/recipes/bone_pickaxe_recipe.json",
+          "src/main/resources/data/messinaround/recipe/bone_pickaxe_recipe.json"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -3950,9 +3950,9 @@
       "registry_name": "skewered_pork",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/skewered_pork.json",
           "src/main/java/net/mcreator/messinaround/item/SkeweredPorkItem.java",
-          "src/main/resources/assets/messinaround/models/item/skewered_pork.json"
+          "src/main/resources/assets/messinaround/models/item/skewered_pork.json",
+          "src/main/resources/assets/messinaround/items/skewered_pork.json"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -4023,9 +4023,9 @@
       "registry_name": "skewered_beef",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/items/skewered_beef.json",
+          "src/main/resources/assets/messinaround/models/item/skewered_beef.json",
           "src/main/java/net/mcreator/messinaround/item/SkeweredBeefItem.java",
-          "src/main/resources/assets/messinaround/models/item/skewered_beef.json"
+          "src/main/resources/assets/messinaround/items/skewered_beef.json"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -4038,9 +4038,9 @@
       "registry_name": "skewered_chicken",
       "metadata": {
         "files": [
+          "src/main/resources/assets/messinaround/items/skewered_chicken.json",
           "src/main/java/net/mcreator/messinaround/item/SkeweredChickenItem.java",
-          "src/main/resources/assets/messinaround/models/item/skewered_chicken.json",
-          "src/main/resources/assets/messinaround/items/skewered_chicken.json"
+          "src/main/resources/assets/messinaround/models/item/skewered_chicken.json"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -4053,8 +4053,8 @@
       "registry_name": "skewered_cod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/SkeweredCodItem.java",
           "src/main/resources/assets/messinaround/items/skewered_cod.json",
+          "src/main/java/net/mcreator/messinaround/item/SkeweredCodItem.java",
           "src/main/resources/assets/messinaround/models/item/skewered_cod.json"
         ]
       },
@@ -4069,8 +4069,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/messinaround/items/skewered_mutton.json",
-          "src/main/java/net/mcreator/messinaround/item/SkeweredMuttonItem.java",
-          "src/main/resources/assets/messinaround/models/item/skewered_mutton.json"
+          "src/main/resources/assets/messinaround/models/item/skewered_mutton.json",
+          "src/main/java/net/mcreator/messinaround/item/SkeweredMuttonItem.java"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -4083,8 +4083,8 @@
       "registry_name": "skewered_potato",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/SkeweredPotatoItem.java",
           "src/main/resources/assets/messinaround/items/skewered_potato.json",
+          "src/main/java/net/mcreator/messinaround/item/SkeweredPotatoItem.java",
           "src/main/resources/assets/messinaround/models/item/skewered_potato.json"
         ]
       },
@@ -4098,9 +4098,9 @@
       "registry_name": "skewered_rabbit",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/item/SkeweredRabbitItem.java",
+          "src/main/resources/assets/messinaround/items/skewered_rabbit.json",
           "src/main/resources/assets/messinaround/models/item/skewered_rabbit.json",
-          "src/main/resources/assets/messinaround/items/skewered_rabbit.json"
+          "src/main/java/net/mcreator/messinaround/item/SkeweredRabbitItem.java"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -4113,9 +4113,9 @@
       "registry_name": "skewered_salmon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/skewered_salmon.json",
+          "src/main/java/net/mcreator/messinaround/item/SkeweredSalmonItem.java",
           "src/main/resources/assets/messinaround/items/skewered_salmon.json",
-          "src/main/java/net/mcreator/messinaround/item/SkeweredSalmonItem.java"
+          "src/main/resources/assets/messinaround/models/item/skewered_salmon.json"
         ]
       },
       "path": "~/Tools/Primitive"
@@ -4184,6 +4184,250 @@
           "src/main/java/net/mcreator/messinaround/procedures/HempCripAdditionalHarvestConditionProcedure.java"
         ]
       }
+    },
+    {
+      "name": "CopperHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/copper_hammer.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "MakeCraftingTable",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_crafting_table",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/MakeCraftingTableProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/copper_hammer.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperHammerItem.java",
+          "src/main/resources/assets/messinaround/items/copper_hammer.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "JunglePlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/jungle_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/recipe/jungle_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "BirchPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/birch_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/birch_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "MangrovePlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/mangrove_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/mangrove_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "PaleOakPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_oak_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/pale_oak_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/recipe/pale_oak_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "CraftingTableAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_table_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/crafting_table_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "OakPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/oak_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/oak_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "SprucePlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/spruce_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/spruce_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "CherryPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/cherry_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/recipe/cherry_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "DarkOakPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/dark_oak_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/dark_oak_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "CopperSaw",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/copper_saw.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperSawItem.java",
+          "src/main/resources/assets/messinaround/models/item/copper_saw.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "AcaciaPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/acacia_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/acacia_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "CopperSawRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_saw_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/copper_saw_recipe.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_saw_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "CoalOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/coal_ore.json"
+        ]
+      },
+      "path": "~/OreBreaking"
     }
   ],
   "variable_elements": [],
@@ -4545,6 +4789,11 @@
       "TAG:minecraft:planks",
       "Items.STICK"
     ],
+    "BLOCKS:minecraft:dirt": [],
+    "BLOCKS:minecraft:sand": [],
+    "BLOCKS:minecraft:logs": [],
+    "ITEMS:minecraft:planks": [],
+    "BIOMES:minecraft:is_overworld": [],
     "ITEMS:mod:can_ignite_things": [
       "CUSTOM:MakeshiftMatchLit",
       "Items.FLINT_AND_STEEL"
@@ -4796,13 +5045,13 @@
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlockEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
       "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
