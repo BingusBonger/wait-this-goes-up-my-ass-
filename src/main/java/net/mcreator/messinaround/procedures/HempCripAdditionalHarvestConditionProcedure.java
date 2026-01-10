@@ -1,6 +1,10 @@
 package net.mcreator.messinaround.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.resources.ResourceLocation;
 
 public class HempCripAdditionalHarvestConditionProcedure {
 	public static boolean execute(Entity entity) {

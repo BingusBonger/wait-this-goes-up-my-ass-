@@ -56,8 +56,6 @@ public class ExperimentalSteakCookerTickUpdateProcedure {
 		{
 			final Vec3 _center = new Vec3(x, (y + 1), z);
 			for (Entity entityiterator : world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList()) {
-				Vec3 motion = entityiterator.getDeltaMovement().scale(0);
-				entityiterator.setDeltaMovement(motion);
 			}
 		}
 	}

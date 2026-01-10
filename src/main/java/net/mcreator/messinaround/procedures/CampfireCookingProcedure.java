@@ -93,8 +93,6 @@ public class CampfireCookingProcedure {
 				final Vec3 _center = new Vec3((x + 0.5), (y + 1), (z + 0.5));
 				for (Entity entityiterator : world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList()) {
 					if (entityiterator.getPersistentData().getDoubleOr("cookinTime", 0) == 0) {
-						Vec3 motion = entityiterator.getDeltaMovement().scale(0);
-						entityiterator.setDeltaMovement(motion);
 						{
 							Entity _ent = entityiterator;
 							if (!_ent.level().isClientSide() && _ent.getServer() != null) {
