@@ -4,7 +4,7 @@
   "category": "building",
   "ingredients": [
     "#minecraft:birch_logs",
-    "messinaround:copper_saw"
+    "messinaround:deleted_mod_element"
   ],
   "result": {
     "id": "minecraft:birch_planks",
