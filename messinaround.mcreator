@@ -4119,6 +4119,71 @@
         ]
       },
       "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "ItsFuckingRaw",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_fucking_raw",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/ItsFuckingRawProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HempCripAdditionalHarvestCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_crip_additional_harvest_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/HempCripAdditionalHarvestConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HempCrip",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_crip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/HempCripBlock.java",
+          "src/main/resources/assets/messinaround/blockstates/hemp_crip.json",
+          "src/main/resources/assets/messinaround/models/block/hemp_crip.json"
+        ]
+      }
+    },
+    {
+      "name": "Hemp",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/hemp.json",
+          "src/main/java/net/mcreator/messinaround/item/HempItem.java",
+          "src/main/resources/assets/messinaround/items/hemp.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4556,6 +4621,9 @@
       "Items.RABBIT",
       "Items.MUTTON",
       "Items.POTATO"
+    ],
+    "ITEMS:mod:shears": [
+      "Items.SHEARS"
     ]
   },
   "tab_element_order": {},
@@ -4726,7 +4794,9 @@
       "item.messinaround.skewered_mutton": "Skewered Mutton",
       "item.messinaround.skewered_potato": "Skewered Potato",
       "item.messinaround.skewered_rabbit": "Skewered Rabbit",
-      "item.messinaround.skewered_salmon": "Skewered Salmon"
+      "item.messinaround.skewered_salmon": "Skewered Salmon",
+      "item.messinaround.hemp_crip": "Hemp Crip",
+      "item.messinaround.hemp": "Hemp"
     }
   },
   "metadata": {
@@ -4734,13 +4804,13 @@
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlockEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {

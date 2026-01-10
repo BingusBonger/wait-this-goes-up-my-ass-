@@ -95,5 +95,6 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.SKEWERED_POTATO.get());
 				tabData.accept(MessinaroundModItems.SKEWERED_RABBIT.get());
 				tabData.accept(MessinaroundModItems.SKEWERED_SALMON.get());
+				tabData.accept(MessinaroundModItems.HEMP.get());
 			}).build());
 }
