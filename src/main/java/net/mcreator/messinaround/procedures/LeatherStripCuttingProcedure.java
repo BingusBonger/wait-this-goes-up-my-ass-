@@ -53,9 +53,12 @@ public class LeatherStripCuttingProcedure {
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
-			if (entity instanceof Player _player) {
-				ItemStack _stktoremove = new ItemStack(Items.LEATHER);
-				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			if (entity instanceof LivingEntity _entity) {
+				ItemStack _setstack9 = new ItemStack(Items.LEATHER).copy();
+				_setstack9.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getCount() - 1);
+				_entity.setItemInHand(InteractionHand.OFF_HAND, _setstack9);
+				if (_entity instanceof Player _player)
+					_player.getInventory().setChanged();
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.OFF_HAND, true);

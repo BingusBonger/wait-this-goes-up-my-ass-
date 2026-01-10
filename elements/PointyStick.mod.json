@@ -11,7 +11,10 @@
     "guiTexture": "",
     "name": "Pointy Stick",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Use with meat in the offhand to skewer it",
+        "Hold skewered meat over a campfire to cook it"
+      ]
     },
     "creativeTabs": [
       {

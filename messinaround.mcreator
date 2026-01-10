@@ -4342,7 +4342,6 @@
       "Items.CHICKEN",
       "Items.RABBIT",
       "Items.MUTTON",
-      "Items.COOKED_FISH#0",
       "TAG:mod:cooked_food",
       "Blocks.KELP",
       "Items.POTATO"
@@ -4517,7 +4516,9 @@
       "advancements.primitive_tool_advancement.title": "Ooga Booga",
       "item.messinaround.bone_knife.description_0": "Use with leather in the offhand to cut it into strips",
       "advancements.bone_advancement.descr": "\"Borrow\" a bone. Punch a stone block with a bone to shape it into a knife!",
-      "advancements.bone_advancement.title": "Y\u0027know what? The only thing I am worried about.."
+      "advancements.bone_advancement.title": "Y\u0027know what? The only thing I am worried about..",
+      "item.messinaround.pointy_stick.description_1": "Hold skewered meat over a campfire to cook it",
+      "item.messinaround.pointy_stick.description_0": "Use with meat in the offhand to skewer it"
     }
   },
   "metadata": {
