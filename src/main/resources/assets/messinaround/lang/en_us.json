@@ -169,5 +169,7 @@
   "item.messinaround.copper_saw": "Copper Saw",
   "advancements.crafting_table_advancement.descr": "Use a copper hammer and saw on planks to convert them into a Crafting Table",
   "advancements.crafting_table_advancement.title": "Benchmarking",
-  "item.messinaround.copper_hammer.description_0": "Use on Planks with a saw in your other hand to make a Crafting Table"
+  "item.messinaround.copper_hammer.description_0": "Use on Planks with a saw in your other hand to make a Crafting Table",
+  "item.messinaround.unfired_cuck": "Unfired Crucible",
+  "block.messinaround.unfired_cuck.description_0": "Place atop a lit campfire for a day to fire into a Crucible"
 }

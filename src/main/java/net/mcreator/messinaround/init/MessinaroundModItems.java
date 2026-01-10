@@ -13,11 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.messinaround.item.*;
-import net.mcreator.messinaround.block.UnlitCampfireBlock;
-import net.mcreator.messinaround.block.OpenCuckBlock;
-import net.mcreator.messinaround.block.ExperimentalSteakCookerBlock;
-import net.mcreator.messinaround.block.CopperSkilletBlock;
-import net.mcreator.messinaround.block.CookingPlatformBlock;
+import net.mcreator.messinaround.block.*;
 import net.mcreator.messinaround.MessinaroundMod;
 
 import java.util.function.Function;
@@ -137,6 +133,7 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> SKEWERED_SALMON;
 	public static final DeferredItem<Item> COPPER_HAMMER;
 	public static final DeferredItem<Item> COPPER_SAW;
+	public static final DeferredItem<Item> UNFIRED_CUCK;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -251,6 +248,7 @@ public class MessinaroundModItems {
 		SKEWERED_SALMON = register("skewered_salmon", SkeweredSalmonItem::new);
 		COPPER_HAMMER = register("copper_hammer", CopperHammerItem::new);
 		COPPER_SAW = register("copper_saw", CopperSawItem::new);
+		UNFIRED_CUCK = register("unfired_cuck", UnfiredCuckBlock.Item::new);
 	}
 
 	// Start of user code block custom items

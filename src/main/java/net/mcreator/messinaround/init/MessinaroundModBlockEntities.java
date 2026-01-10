@@ -17,6 +17,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.messinaround.block.entity.UnlitCampfireBlockEntity;
+import net.mcreator.messinaround.block.entity.UnfiredCuckBlockEntity;
 import net.mcreator.messinaround.block.entity.LitCampfire1BlockEntity;
 import net.mcreator.messinaround.block.entity.LitCampfire0BlockEntity;
 import net.mcreator.messinaround.block.entity.ExperimentalSteakCookerBlockEntity;
@@ -30,6 +31,7 @@ public class MessinaroundModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<UnlitCampfireBlockEntity>> UNLIT_CAMPFIRE = register("unlit_campfire", MessinaroundModBlocks.UNLIT_CAMPFIRE, UnlitCampfireBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<LitCampfire0BlockEntity>> LIT_CAMPFIRE_0 = register("lit_campfire_0", MessinaroundModBlocks.LIT_CAMPFIRE_0, LitCampfire0BlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<LitCampfire1BlockEntity>> LIT_CAMPFIRE_1 = register("lit_campfire_1", MessinaroundModBlocks.LIT_CAMPFIRE_1, LitCampfire1BlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<UnfiredCuckBlockEntity>> UNFIRED_CUCK = register("unfired_cuck", MessinaroundModBlocks.UNFIRED_CUCK, UnfiredCuckBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -43,5 +45,6 @@ public class MessinaroundModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, UNLIT_CAMPFIRE.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, LIT_CAMPFIRE_0.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, LIT_CAMPFIRE_1.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, UNFIRED_CUCK.get(), SidedInvWrapper::new);
 	}
 }

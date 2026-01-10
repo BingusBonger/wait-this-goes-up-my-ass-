@@ -1,0 +1,9 @@
+{
+  "parent": "messinaround:custom/open_cuck",
+  "textures": {
+    "all": "messinaround:block/uncooked_cuck",
+    "particle": "minecraft:block/clay",
+    "0": "messinaround:block/uncooked_cuck"
+  },
+  "render_type": "solid"
+}

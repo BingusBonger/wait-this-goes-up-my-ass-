@@ -4363,6 +4363,54 @@
         ]
       },
       "path": "~/OreBreaking"
+    },
+    {
+      "name": "UnfiredCuck",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfired_cuck",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/unfired_cuck.json",
+          "src/main/resources/data/messinaround/loot_table/blocks/unfired_cuck.json",
+          "src/main/resources/assets/messinaround/blockstates/unfired_cuck.json",
+          "src/main/java/net/mcreator/messinaround/block/entity/UnfiredCuckBlockEntity.java",
+          "src/main/resources/assets/messinaround/items/unfired_cuck.json",
+          "src/main/java/net/mcreator/messinaround/block/UnfiredCuckBlock.java",
+          "src/main/resources/assets/messinaround/models/block/unfired_cuck.json"
+        ]
+      }
+    },
+    {
+      "name": "UnfiredCuckTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfired_cuck_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/UnfiredCuckTickUpdateProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4972,7 +5020,9 @@
       "item.messinaround.copper_saw": "Copper Saw",
       "advancements.crafting_table_advancement.descr": "Use a copper hammer and saw on planks to convert them into a Crafting Table",
       "advancements.crafting_table_advancement.title": "Benchmarking",
-      "item.messinaround.copper_hammer.description_0": "Use on Planks with a saw in your other hand to make a Crafting Table"
+      "item.messinaround.copper_hammer.description_0": "Use on Planks with a saw in your other hand to make a Crafting Table",
+      "item.messinaround.unfired_cuck": "Unfired Crucible",
+      "block.messinaround.unfired_cuck.description_0": "Place atop a lit campfire for a day to fire into a Crucible"
     }
   },
   "metadata": {

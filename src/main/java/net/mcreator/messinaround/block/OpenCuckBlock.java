@@ -7,7 +7,7 @@ import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.component.TooltipDisplay;
@@ -25,7 +25,21 @@ import net.mcreator.messinaround.init.MessinaroundModBlocks;
 
 import java.util.function.Consumer;
 
-public class OpenCuckBlock extends Block {
+import com.mojang.serialization.MapCodec;
+
+public class OpenCuckBlock extends FallingBlock {
+	public static final MapCodec<OpenCuckBlock> CODEC = simpleCodec(OpenCuckBlock::new);
+
+	@Override
+	public MapCodec<OpenCuckBlock> codec() {
+		return CODEC;
+	}
+
+	@Override
+	public int getDustColor(BlockState blockstate, BlockGetter world, BlockPos pos) {
+		return blockstate.getMapColor(world, pos).col;
+	}
+
 	public OpenCuckBlock(BlockBehaviour.Properties properties) {
 		super(properties.sound(SoundType.DECORATED_POT).strength(4f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}

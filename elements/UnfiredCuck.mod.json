@@ -2,21 +2,21 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "open_cuck",
+    "texture": "uncooked_cuck",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "open_cuck:default",
+    "customModelName": "open_cuck:unfired",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
     "itemTexture": "",
-    "particleTexture": "open_cuck_particles",
+    "particleTexture": "minecraft:clay",
     "blockSetType": "OAK",
     "pottedPlant": {
       "value": ""
@@ -48,27 +48,26 @@
       }
     ],
     "customProperties": [],
-    "name": "Crucible",
+    "name": "Unfired Crucible",
     "specialInformation": {
       "fixedValue": [
-        "Smelts metals with a low melting point into nuggets",
-        "Surround on four sides with fire or lava to heat it up"
+        "Place atop a lit campfire for a day to fire into a Crucible"
       ]
     },
-    "hardness": 4.0,
-    "resistance": 10.0,
-    "hasGravity": true,
+    "hardness": 1.0,
+    "resistance": 2.0,
+    "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
     "maxStackSize": 64,
-    "rarity": "UNCOMMON",
-    "immuneToFire": true,
+    "rarity": "COMMON",
+    "immuneToFire": false,
     "creativeTabs": [
       {
         "value": "CUSTOM:JusMessinAroundTab"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -81,7 +80,7 @@
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 0,
-    "tickRate": 10,
+    "tickRate": 20,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -109,7 +108,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "DECORATED_POT"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -135,7 +134,7 @@
     "vibrationSensitivityRadius": {
       "fixedValue": 7.0
     },
-    "hasInventory": false,
+    "hasInventory": true,
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 99,
@@ -152,7 +151,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "OpenCrucibleTick"
+      "name": "UnfiredCuckTickUpdate"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

@@ -5,19 +5,14 @@ package net.mcreator.messinaround.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.messinaround.MessinaroundMod;
 
-@EventBusSubscriber
 public class MessinaroundModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MessinaroundMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> JUS_MESSIN_AROUND_TAB = REGISTRY.register("jus_messin_around_tab",
@@ -100,13 +95,8 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.SKEWERED_POTATO.get());
 				tabData.accept(MessinaroundModItems.SKEWERED_RABBIT.get());
 				tabData.accept(MessinaroundModItems.SKEWERED_SALMON.get());
+				tabData.accept(MessinaroundModItems.COPPER_HAMMER.get());
 				tabData.accept(MessinaroundModItems.COPPER_SAW.get());
+				tabData.accept(MessinaroundModBlocks.UNFIRED_CUCK.get().asItem());
 			}).build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(MessinaroundModItems.COPPER_HAMMER.get());
-		}
-	}
 }
