@@ -4121,6 +4121,34 @@
       "path": "~/Tools/Primitive"
     },
     {
+      "name": "HempCrip",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_crip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/block/HempCripBlock.java",
+          "src/main/resources/assets/messinaround/blockstates/hemp_crip.json",
+          "src/main/resources/assets/messinaround/models/block/hemp_crip.json"
+        ]
+      }
+    },
+    {
+      "name": "Hemp",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/hemp.json",
+          "src/main/java/net/mcreator/messinaround/item/HempItem.java",
+          "src/main/resources/assets/messinaround/items/hemp.json"
+        ]
+      }
+    },
+    {
       "name": "ItsFuckingRaw",
       "type": "procedure",
       "compiles": true,
@@ -4158,32 +4186,248 @@
       }
     },
     {
-      "name": "HempCrip",
-      "type": "block",
+      "name": "CopperHammerRecipe",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hemp_crip",
+      "registry_name": "copper_hammer_recipe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/messinaround/block/HempCripBlock.java",
-          "src/main/resources/assets/messinaround/blockstates/hemp_crip.json",
-          "src/main/resources/assets/messinaround/models/block/hemp_crip.json"
+          "src/main/resources/data/messinaround/recipe/copper_hammer.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "MakeCraftingTable",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_crafting_table",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/MakeCraftingTableProcedure.java"
         ]
       }
     },
     {
-      "name": "Hemp",
+      "name": "CopperHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/copper_hammer.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperHammerItem.java",
+          "src/main/resources/assets/messinaround/items/copper_hammer.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "JunglePlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/jungle_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/recipe/jungle_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "BirchPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/birch_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/birch_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "MangrovePlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/mangrove_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/mangrove_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "PaleOakPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_oak_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/pale_oak_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/recipe/pale_oak_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "CraftingTableAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_table_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/crafting_table_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "OakPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/oak_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/oak_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "SprucePlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/spruce_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/spruce_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "CherryPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/cherry_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/recipe/cherry_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "DarkOakPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/dark_oak_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/dark_oak_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "CopperSaw",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hemp",
+      "registry_name": "copper_saw",
       "metadata": {
         "files": [
-          "src/main/resources/assets/messinaround/models/item/hemp.json",
-          "src/main/java/net/mcreator/messinaround/item/HempItem.java",
-          "src/main/resources/assets/messinaround/items/hemp.json"
+          "src/main/resources/assets/messinaround/items/copper_saw.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperSawItem.java",
+          "src/main/resources/assets/messinaround/models/item/copper_saw.json"
         ]
-      }
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "AcaciaPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/acacia_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/acacia_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "CopperSawRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_saw_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/copper_saw_recipe.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_saw_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "CoalOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/coal_ore.json"
+        ]
+      },
+      "path": "~/OreBreaking"
     }
   ],
   "variable_elements": [],
@@ -4621,9 +4865,6 @@
       "Items.RABBIT",
       "Items.MUTTON",
       "Items.POTATO"
-    ],
-    "ITEMS:mod:shears": [
-      "Items.SHEARS"
     ]
   },
   "tab_element_order": {},
@@ -4804,29 +5045,34 @@
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlocks.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModBlockEntities.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModItems.java",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntities.java",
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
       "src/main/java/net/mcreator/messinaround/MessinaroundMod.java",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/java/net/mcreator/messinaround/init/MessinaroundModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "TreeBreaking",
-        "children": []
-      },
-      {
-        "name": "StoneBreaking",
+        "name": "Ingredients",
         "children": []
       },
       {
         "name": "Tools",
         "children": [
+          {
+            "name": "Iron",
+            "children": [
+              {
+                "name": "Heads",
+                "children": []
+              }
+            ]
+          },
           {
             "name": "Primitive",
             "children": []
@@ -4839,42 +5085,16 @@
                 "children": []
               }
             ]
-          },
-          {
-            "name": "Iron",
-            "children": [
-              {
-                "name": "Heads",
-                "children": []
-              }
-            ]
           }
         ]
       },
       {
-        "name": "Ingredients",
+        "name": "Advancements",
         "children": []
       },
       {
-        "name": "FunctionalBlocks",
-        "children": [
-          {
-            "name": "Crucible",
-            "children": []
-          },
-          {
-            "name": "Pipes",
-            "children": []
-          },
-          {
-            "name": "Campfire",
-            "children": []
-          },
-          {
-            "name": "CopperSkillet",
-            "children": []
-          }
-        ]
+        "name": "StoneBreaking",
+        "children": []
       },
       {
         "name": "MiscRecipes",
@@ -4885,7 +5105,7 @@
         "children": []
       },
       {
-        "name": "GrimstoneLayer",
+        "name": "TreeBreaking",
         "children": []
       },
       {
@@ -4893,7 +5113,28 @@
         "children": []
       },
       {
-        "name": "Advancements",
+        "name": "FunctionalBlocks",
+        "children": [
+          {
+            "name": "Pipes",
+            "children": []
+          },
+          {
+            "name": "CopperSkillet",
+            "children": []
+          },
+          {
+            "name": "Campfire",
+            "children": []
+          },
+          {
+            "name": "Crucible",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "GrimstoneLayer",
         "children": []
       }
     ]
