@@ -165,9 +165,11 @@
   "item.messinaround.skewered_potato": "Skewered Potato",
   "item.messinaround.skewered_rabbit": "Skewered Rabbit",
   "item.messinaround.skewered_salmon": "Skewered Salmon",
+  "advancements.crafting_table_advancement.descr": "Use a copper hammer and saw on planks to convert them into a Crafting Table",
+  "item.messinaround.copper_hammer.description_0": "Use on Planks with a saw in your other hand to make a Crafting Table",
   "item.messinaround.copper_hammer": "Copper Hammer",
   "item.messinaround.copper_saw": "Copper Saw",
-  "advancements.crafting_table_advancement.descr": "Use a copper hammer and saw on planks to convert them into a Crafting Table",
   "advancements.crafting_table_advancement.title": "Benchmarking",
-  "item.messinaround.copper_hammer.description_0": "Use on Planks with a saw in your other hand to make a Crafting Table"
+  "item.messinaround.hemp_crip": "Hemp Crip",
+  "item.messinaround.hemp": "Hemp"
 }

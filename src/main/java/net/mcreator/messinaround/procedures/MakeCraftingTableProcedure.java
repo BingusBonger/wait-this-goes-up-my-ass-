@@ -1,34 +1,6 @@
 package net.mcreator.messinaround.procedures;
 
-import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
-
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.util.RandomSource;
-import net.minecraft.util.Mth;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.BlockPos;
-import net.minecraft.advancements.AdvancementProgress;
-import net.minecraft.advancements.AdvancementHolder;
-
-import net.mcreator.messinaround.init.MessinaroundModItems;
-
-import javax.annotation.Nullable;
 
 @EventBusSubscriber
 public class MakeCraftingTableProcedure {
@@ -47,10 +19,10 @@ public class MakeCraftingTableProcedure {
 		if (entity == null)
 			return;
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("minecraft:planks"))) && entity.isShiftKeyDown()) {
-			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.COPPER_HAMMER.get()
-					&& (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.COPPER_SAW.get()
-					|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.COPPER_SAW.get()
-							&& (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.COPPER_HAMMER.get()) {
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.DELETED_MOD_ELEMENT.get()
+					&& (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.DELETED_MOD_ELEMENT.get()
+					|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.DELETED_MOD_ELEMENT.get()
+							&& (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == MessinaroundModItems.DELETED_MOD_ELEMENT.get()) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.swing(InteractionHand.MAIN_HAND, true);
 				if (entity instanceof LivingEntity _entity)
@@ -75,7 +47,7 @@ public class MakeCraftingTableProcedure {
 					}
 				}
 				if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _level) {
-					AdvancementHolder _adv = _level.getServer().getAdvancements().get(ResourceLocation.parse("messinaround:crafting_table_advancement"));
+					AdvancementHolder _adv = _level.getServer().getAdvancements().get(ResourceLocation.parse("messinaround:deleted_mod_element"));
 					if (_adv != null) {
 						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 						if (!_ap.isDone()) {
