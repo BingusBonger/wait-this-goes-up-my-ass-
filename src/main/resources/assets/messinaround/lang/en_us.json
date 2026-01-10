@@ -156,5 +156,13 @@
   "advancements.bone_advancement.descr": "\"Borrow\" a bone. Punch a stone block with a bone to shape it into a knife!",
   "advancements.bone_advancement.title": "Y\u0027know what? The only thing I am worried about..",
   "item.messinaround.pointy_stick.description_1": "Hold skewered meat over a campfire to cook it",
-  "item.messinaround.pointy_stick.description_0": "Use with meat in the offhand to skewer it"
+  "item.messinaround.pointy_stick.description_0": "Use with meat in the offhand to skewer it",
+  "item.messinaround.skewered_pork": "Skewered Porkchop",
+  "item.messinaround.skewered_beef": "Skewered Beef",
+  "item.messinaround.skewered_chicken": "Skewered Chicken",
+  "item.messinaround.skewered_cod": "Skewered Cod",
+  "item.messinaround.skewered_mutton": "Skewered Mutton",
+  "item.messinaround.skewered_potato": "Skewered Potato",
+  "item.messinaround.skewered_rabbit": "Skewered Rabbit",
+  "item.messinaround.skewered_salmon": "Skewered Salmon"
 }

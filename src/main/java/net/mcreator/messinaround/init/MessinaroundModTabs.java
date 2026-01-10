@@ -87,5 +87,13 @@ public class MessinaroundModTabs {
 				tabData.accept(MessinaroundModItems.MAKESHIFT_MATCH_LIT.get());
 				tabData.accept(MessinaroundModItems.BURNT_FOOD.get());
 				tabData.accept(MessinaroundModBlocks.COPPER_SKILLET.get().asItem());
+				tabData.accept(MessinaroundModItems.SKEWERED_PORK.get());
+				tabData.accept(MessinaroundModItems.SKEWERED_BEEF.get());
+				tabData.accept(MessinaroundModItems.SKEWERED_CHICKEN.get());
+				tabData.accept(MessinaroundModItems.SKEWERED_COD.get());
+				tabData.accept(MessinaroundModItems.SKEWERED_MUTTON.get());
+				tabData.accept(MessinaroundModItems.SKEWERED_POTATO.get());
+				tabData.accept(MessinaroundModItems.SKEWERED_RABBIT.get());
+				tabData.accept(MessinaroundModItems.SKEWERED_SALMON.get());
 			}).build());
 }

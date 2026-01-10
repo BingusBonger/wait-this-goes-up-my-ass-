@@ -1,8 +1,16 @@
 {
   "replace": false,
   "values": [
+    "messinaround:skewered_beef",
+    "messinaround:skewered_potato",
+    "messinaround:skewered_chicken",
+    "messinaround:skewered_rabbit",
+    "messinaround:skewered_salmon",
     "messinaround:wickerin_my_basket",
     "messinaround:pile_of_rocks",
-    "messinaround:makeshift_match_lit"
+    "messinaround:skewered_mutton",
+    "messinaround:skewered_cod",
+    "messinaround:makeshift_match_lit",
+    "messinaround:skewered_pork"
   ]
 }

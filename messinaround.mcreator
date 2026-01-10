@@ -3941,6 +3941,184 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "SkeweredPork",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_pork",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/SkeweredPorkItem.java",
+          "src/main/resources/assets/messinaround/models/item/skewered_pork.json",
+          "src/main/resources/assets/messinaround/items/skewered_pork.json"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "SkeweredFoodWhileUsing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_food_while_using",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/SkeweredFoodWhileUsingProcedure.java"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "PointyStickSkewer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pointy_stick_skewer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/PointyStickSkewerProcedure.java"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "SkeweredBeef",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_beef",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/skewered_beef.json",
+          "src/main/java/net/mcreator/messinaround/item/SkeweredBeefItem.java",
+          "src/main/resources/assets/messinaround/items/skewered_beef.json"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "SkeweredChicken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_chicken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/skewered_chicken.json",
+          "src/main/java/net/mcreator/messinaround/item/SkeweredChickenItem.java",
+          "src/main/resources/assets/messinaround/models/item/skewered_chicken.json"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "SkeweredCod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_cod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/skewered_cod.json",
+          "src/main/java/net/mcreator/messinaround/item/SkeweredCodItem.java",
+          "src/main/resources/assets/messinaround/models/item/skewered_cod.json"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "SkeweredMutton",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_mutton",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/skewered_mutton.json",
+          "src/main/resources/assets/messinaround/models/item/skewered_mutton.json",
+          "src/main/java/net/mcreator/messinaround/item/SkeweredMuttonItem.java"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "SkeweredPotato",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_potato",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/skewered_potato.json",
+          "src/main/java/net/mcreator/messinaround/item/SkeweredPotatoItem.java",
+          "src/main/resources/assets/messinaround/models/item/skewered_potato.json"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "SkeweredRabbit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_rabbit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/skewered_rabbit.json",
+          "src/main/resources/assets/messinaround/models/item/skewered_rabbit.json",
+          "src/main/java/net/mcreator/messinaround/item/SkeweredRabbitItem.java"
+        ]
+      },
+      "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "SkeweredSalmon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_salmon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/messinaround/item/SkeweredSalmonItem.java",
+          "src/main/resources/assets/messinaround/items/skewered_salmon.json",
+          "src/main/resources/assets/messinaround/models/item/skewered_salmon.json"
+        ]
+      },
+      "path": "~/Tools/Primitive"
     }
   ],
   "variable_elements": [],
@@ -4004,6 +4182,14 @@
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:SkeweredSalmon",
+      "~CUSTOM:SkeweredRabbit",
+      "~CUSTOM:SkeweredPotato",
+      "~CUSTOM:SkeweredMutton",
+      "~CUSTOM:SkeweredCod",
+      "~CUSTOM:SkeweredChicken",
+      "~CUSTOM:SkeweredBeef",
+      "~CUSTOM:SkeweredPork",
       "~CUSTOM:MakeshiftMatchLit",
       "~CUSTOM:WickerinMyBasket",
       "~CUSTOM:PileOfRocks"
@@ -4356,6 +4542,20 @@
       "Items.COOKED_MUTTON",
       "Items.BAKED_POTATO",
       "Items.BREAD"
+    ],
+    "BLOCKS:mod:can_cook_skewered_food": [
+      "CUSTOM:LitCampfire0",
+      "CUSTOM:LitCampfire1"
+    ],
+    "ITEMS:mod:can_be_skewered": [
+      "Items.FISH#0",
+      "Items.FISH#1",
+      "Items.PORKCHOP",
+      "Items.BEEF",
+      "Items.CHICKEN",
+      "Items.RABBIT",
+      "Items.MUTTON",
+      "Items.POTATO"
     ]
   },
   "tab_element_order": {},
@@ -4518,7 +4718,15 @@
       "advancements.bone_advancement.descr": "\"Borrow\" a bone. Punch a stone block with a bone to shape it into a knife!",
       "advancements.bone_advancement.title": "Y\u0027know what? The only thing I am worried about..",
       "item.messinaround.pointy_stick.description_1": "Hold skewered meat over a campfire to cook it",
-      "item.messinaround.pointy_stick.description_0": "Use with meat in the offhand to skewer it"
+      "item.messinaround.pointy_stick.description_0": "Use with meat in the offhand to skewer it",
+      "item.messinaround.skewered_pork": "Skewered Porkchop",
+      "item.messinaround.skewered_beef": "Skewered Beef",
+      "item.messinaround.skewered_chicken": "Skewered Chicken",
+      "item.messinaround.skewered_cod": "Skewered Cod",
+      "item.messinaround.skewered_mutton": "Skewered Mutton",
+      "item.messinaround.skewered_potato": "Skewered Potato",
+      "item.messinaround.skewered_rabbit": "Skewered Rabbit",
+      "item.messinaround.skewered_salmon": "Skewered Salmon"
     }
   },
   "metadata": {

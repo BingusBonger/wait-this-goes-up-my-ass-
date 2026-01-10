@@ -127,6 +127,14 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> COOKING_PLATFORM;
 	public static final DeferredItem<Item> BURNT_FOOD;
 	public static final DeferredItem<Item> COPPER_SKILLET;
+	public static final DeferredItem<Item> SKEWERED_PORK;
+	public static final DeferredItem<Item> SKEWERED_BEEF;
+	public static final DeferredItem<Item> SKEWERED_CHICKEN;
+	public static final DeferredItem<Item> SKEWERED_COD;
+	public static final DeferredItem<Item> SKEWERED_MUTTON;
+	public static final DeferredItem<Item> SKEWERED_POTATO;
+	public static final DeferredItem<Item> SKEWERED_RABBIT;
+	public static final DeferredItem<Item> SKEWERED_SALMON;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -231,6 +239,14 @@ public class MessinaroundModItems {
 		COOKING_PLATFORM = register("cooking_platform", properties -> new CookingPlatformBlock.Item(properties.rarity(Rarity.EPIC)));
 		BURNT_FOOD = register("burnt_food", BurntFoodItem::new);
 		COPPER_SKILLET = register("copper_skillet", CopperSkilletBlock.Item::new);
+		SKEWERED_PORK = register("skewered_pork", SkeweredPorkItem::new);
+		SKEWERED_BEEF = register("skewered_beef", SkeweredBeefItem::new);
+		SKEWERED_CHICKEN = register("skewered_chicken", SkeweredChickenItem::new);
+		SKEWERED_COD = register("skewered_cod", SkeweredCodItem::new);
+		SKEWERED_MUTTON = register("skewered_mutton", SkeweredMuttonItem::new);
+		SKEWERED_POTATO = register("skewered_potato", SkeweredPotatoItem::new);
+		SKEWERED_RABBIT = register("skewered_rabbit", SkeweredRabbitItem::new);
+		SKEWERED_SALMON = register("skewered_salmon", SkeweredSalmonItem::new);
 	}
 
 	// Start of user code block custom items

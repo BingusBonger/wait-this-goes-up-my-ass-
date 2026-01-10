@@ -63,6 +63,9 @@
     ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "PointyStickSkewer"
+    },
     "onCrafted": {
       "name": "PrimToolsCrafted"
     }
