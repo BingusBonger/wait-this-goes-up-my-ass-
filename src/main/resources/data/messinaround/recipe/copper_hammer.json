@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ba"
+  ],
+  "key": {
+    "a": "messinaround:copper_nugget",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "messinaround:copper_hammer",
+    "count": 1
+  }
+}

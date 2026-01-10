@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "saw_planks",
+  "category": "building",
+  "ingredients": [
+    "#minecraft:pale_oak_logs",
+    "messinaround:copper_saw"
+  ],
+  "result": {
+    "id": "minecraft:pale_oak_planks",
+    "count": 2
+  }
+}

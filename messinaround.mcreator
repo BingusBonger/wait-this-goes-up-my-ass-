@@ -4119,6 +4119,250 @@
         ]
       },
       "path": "~/Tools/Primitive"
+    },
+    {
+      "name": "CopperHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/models/item/copper_hammer.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperHammerItem.java",
+          "src/main/resources/assets/messinaround/items/copper_hammer.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "CopperSaw",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/messinaround/items/copper_saw.json",
+          "src/main/java/net/mcreator/messinaround/item/CopperSawItem.java",
+          "src/main/resources/assets/messinaround/models/item/copper_saw.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "CopperHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/copper_hammer.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "CopperSawRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_saw_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/copper_saw_recipe.json",
+          "src/main/resources/data/messinaround/advancement/recipes/copper_saw_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Copper"
+    },
+    {
+      "name": "OakPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/oak_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/oak_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "BirchPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/birch_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/birch_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "SprucePlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/spruce_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/spruce_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "JunglePlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/jungle_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/recipe/jungle_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "AcaciaPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/acacia_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/acacia_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "DarkOakPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/dark_oak_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/dark_oak_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "MangrovePlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/recipe/mangrove_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/advancement/recipes/mangrove_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "CherryPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/cherry_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/recipe/cherry_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "PaleOakPlanksFromCopperSaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_oak_planks_from_copper_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/recipes/pale_oak_planks_from_copper_saw.json",
+          "src/main/resources/data/messinaround/recipe/pale_oak_planks_from_copper_saw.json"
+        ]
+      },
+      "path": "~/MiscRecipes"
+    },
+    {
+      "name": "MakeCraftingTable",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_crafting_table",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/messinaround/procedures/MakeCraftingTableProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftingTableAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_table_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/messinaround/advancement/crafting_table_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "CoalOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/coal_ore.json"
+        ]
+      },
+      "path": "~/OreBreaking"
     }
   ],
   "variable_elements": [],
@@ -4162,6 +4406,7 @@
       "~CUSTOM:Axle"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:CopperHammer",
       "~CUSTOM:DiamondPickaxe",
       "~CUSTOM:GaydonPickaxe",
       "~CUSTOM:IronPickaxe",
@@ -4182,6 +4427,7 @@
       "~CUSTOM:SharpRock"
     ],
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:CopperSaw",
       "~CUSTOM:SkeweredSalmon",
       "~CUSTOM:SkeweredRabbit",
       "~CUSTOM:SkeweredPotato",
@@ -4480,11 +4726,6 @@
       "TAG:minecraft:planks",
       "Items.STICK"
     ],
-    "BLOCKS:minecraft:dirt": [],
-    "BLOCKS:minecraft:sand": [],
-    "BLOCKS:minecraft:logs": [],
-    "ITEMS:minecraft:planks": [],
-    "BIOMES:minecraft:is_overworld": [],
     "ITEMS:mod:can_ignite_things": [
       "CUSTOM:MakeshiftMatchLit",
       "Items.FLINT_AND_STEEL"
@@ -4726,7 +4967,12 @@
       "item.messinaround.skewered_mutton": "Skewered Mutton",
       "item.messinaround.skewered_potato": "Skewered Potato",
       "item.messinaround.skewered_rabbit": "Skewered Rabbit",
-      "item.messinaround.skewered_salmon": "Skewered Salmon"
+      "item.messinaround.skewered_salmon": "Skewered Salmon",
+      "item.messinaround.copper_hammer": "Copper Hammer",
+      "item.messinaround.copper_saw": "Copper Saw",
+      "advancements.crafting_table_advancement.descr": "Use a copper hammer and saw on planks to convert them into a Crafting Table",
+      "advancements.crafting_table_advancement.title": "Benchmarking",
+      "item.messinaround.copper_hammer.description_0": "Use on Planks with a saw in your other hand to make a Crafting Table"
     }
   },
   "metadata": {

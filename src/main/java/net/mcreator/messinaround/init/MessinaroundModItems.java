@@ -135,6 +135,8 @@ public class MessinaroundModItems {
 	public static final DeferredItem<Item> SKEWERED_POTATO;
 	public static final DeferredItem<Item> SKEWERED_RABBIT;
 	public static final DeferredItem<Item> SKEWERED_SALMON;
+	public static final DeferredItem<Item> COPPER_HAMMER;
+	public static final DeferredItem<Item> COPPER_SAW;
 	static {
 		LOOSE_DIRT_SLAB = block(MessinaroundModBlocks.LOOSE_DIRT_SLAB);
 		LOOSE_DIRT_BLOCK = block(MessinaroundModBlocks.LOOSE_DIRT_BLOCK);
@@ -247,6 +249,8 @@ public class MessinaroundModItems {
 		SKEWERED_POTATO = register("skewered_potato", SkeweredPotatoItem::new);
 		SKEWERED_RABBIT = register("skewered_rabbit", SkeweredRabbitItem::new);
 		SKEWERED_SALMON = register("skewered_salmon", SkeweredSalmonItem::new);
+		COPPER_HAMMER = register("copper_hammer", CopperHammerItem::new);
+		COPPER_SAW = register("copper_saw", CopperSawItem::new);
 	}
 
 	// Start of user code block custom items

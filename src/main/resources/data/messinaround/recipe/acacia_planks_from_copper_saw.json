@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "saw_planks",
+  "category": "building",
+  "ingredients": [
+    "#minecraft:acacia_logs",
+    "messinaround:copper_saw"
+  ],
+  "result": {
+    "id": "minecraft:acacia_planks",
+    "count": 2
+  }
+}

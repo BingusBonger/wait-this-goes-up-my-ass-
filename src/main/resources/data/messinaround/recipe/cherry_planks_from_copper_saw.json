@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "saw_planks",
+  "category": "building",
+  "ingredients": [
+    "#minecraft:cherry_logs",
+    "messinaround:copper_saw"
+  ],
+  "result": {
+    "id": "minecraft:cherry_planks",
+    "count": 2
+  }
+}

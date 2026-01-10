@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "advancements.crafting_table_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.crafting_table_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafting_table_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "messinaround:primitive_tool_advancement"
+}
